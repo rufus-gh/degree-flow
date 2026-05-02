@@ -41,18 +41,18 @@ export default function HomeLanding({ app, navigate }) {
     <div className="home-page">
       <section className="home-hero">
         <div className="home-copy">
-          <div className="eyebrow"><Sparkles size={16} /> The future of academic planning is here</div>
-          <h1>Degree planning, elevated.</h1>
+          <div className="eyebrow"><Sparkles size={16} /> ANU degree planning, live and rule-aware</div>
+          <h1>DegreeFlow</h1>
           <p className="intro-message">
-            Map your entire academic journey with rule-aware AI. Prerequisite checks, 
-            workload balancing, and smart elective discovery in one high-fidelity flow.
+            Build a semester-by-semester map that reacts as you plan: prerequisites, workload,
+            assessment style, compulsory courses, progress, and AI-guided electives all in one flow.
           </p>
           <div className="hero-actions">
-            <button className="btn btn-primary btn-hero" onClick={() => navigate('/setup')}>
-              <GraduationCap size={20} /> Begin <ArrowRight size={20} />
+            <button className="btn btn-primary" onClick={() => navigate('/setup')}>
+              <GraduationCap size={18} /> Start onboarding <ArrowRight size={18} />
             </button>
-            <button className="btn btn-outline btn-hero" onClick={() => navigate('/planner')}>
-              <Route size={20} /> Open planner
+            <button className="btn btn-outline" onClick={() => navigate('/planner')}>
+              <Route size={18} /> Open planner
             </button>
           </div>
         </div>
