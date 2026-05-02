@@ -1,1 +1,4515 @@
-{}
+{
+  "ACCT-SPEC": {
+    "code": "ACCT-SPEC",
+    "name": "Accounting",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "BUSN7005",
+      "BUSN7006",
+      "BUSN7008",
+      "BUSN7017",
+      "BUSN7021",
+      "BUSN7031",
+      "BUSN7036",
+      "BUSN7045",
+      "BUSN7049",
+      "BUSN7050",
+      "BUSN7052",
+      "BUSN7054",
+      "BUSN7057",
+      "BUSN8102"
+    ],
+    "elective_courses": [],
+    "programs": [],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/ACCT-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units from completion of courses from the following list: BUSN7005 Contemporary Issues in Accounting BUSN7006 Public Sector Accounting and Reporting BUSN7008 Financial Statements and Reporting BUSN7017 Sustainability and Corporate Social Responsibility, Accountability and Reporting BUSN7021 Taxation Law BUSN7031 Management Accounting and Cost Analysis BUSN7036 Financial Statement Analysis BUSN7045 Corporate Governance BUSN7049 Corporate Financial Reporting BUSN7050 Corporate Accounting BUSN70",
+        "courses": [
+          "BUSN7005",
+          "BUSN7006",
+          "BUSN7008",
+          "BUSN7017",
+          "BUSN7021",
+          "BUSN7031",
+          "BUSN7036",
+          "BUSN7045",
+          "BUSN7049",
+          "BUSN7050",
+          "BUSN7052",
+          "BUSN7054",
+          "BUSN7057",
+          "BUSN8102"
+        ]
+      }
+    ]
+  },
+  "ACST-SPEC": {
+    "code": "ACST-SPEC",
+    "name": "Actuarial Studies",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "ACST6500",
+      "ACST8032",
+      "ACST8040",
+      "ACST8041",
+      "ACST8050",
+      "FINM8006",
+      "BUSN7008",
+      "ECON8069",
+      "FINM6006",
+      "FINM6041",
+      "FINM7006",
+      "FINM7007",
+      "FINM7008",
+      "STAT6013",
+      "STAT6014",
+      "STAT6042",
+      "STAT6043",
+      "STAT6045",
+      "STAT6046",
+      "STAT6057",
+      "STAT6058",
+      "STAT7004"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "CFAS"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/ACST-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units from the completion of the following: ACST6500 Extension Topics in Actuarial Studies ACST8032 Actuarial Data Analysis ACST8040 Actuarial Control Cycle 1 ACST8041 Actuarial Control Cycle 2 ACST8050 Research Essay in Actuarial Studies FINM8006 Advanced Investments",
+        "courses": [
+          "ACST6500",
+          "ACST8032",
+          "ACST8040",
+          "ACST8041",
+          "ACST8050",
+          "FINM8006"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "A maximum of 12 units from the completion of the following: BUSN7008 Financial Statements and Reporting ECON8069 Business Economics FINM6006 Continuous Time Finance FINM6041 Applied Derivatives FINM7006 Applied Foundations of Finance FINM7007 Applied Corporate Finance FINM7008 Applied Investments STAT6013 Principles of Mathematical Statistics for Actuarial Studies STAT6014 Regression Modelling for Actuaries STAT6042 Survival Models STAT6043 Life Contingencies STAT6045 Actuarial Techniques STAT60",
+        "courses": [
+          "BUSN7008",
+          "ECON8069",
+          "FINM6006",
+          "FINM6041",
+          "FINM7006",
+          "FINM7007",
+          "FINM7008",
+          "STAT6013",
+          "STAT6014",
+          "STAT6042",
+          "STAT6043",
+          "STAT6045",
+          "STAT6046",
+          "STAT6057",
+          "STAT6058",
+          "STAT7004"
+        ]
+      }
+    ]
+  },
+  "ADMA-SPEC": {
+    "code": "ADMA-SPEC",
+    "name": "Advanced Mathematics",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "MATH1115",
+      "MATH1116",
+      "MATH2320",
+      "MATH2322"
+    ],
+    "elective_courses": [],
+    "programs": [],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/ADMA-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from the completion of the following compulsory courses: MATH2320 Advanced Analysis 1: Metric Spaces and Applications (",
+        "courses": [
+          "MATH2320"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from the completion of 3000- level Mathematics (MATH) courses Back to the top",
+        "courses": []
+      }
+    ]
+  },
+  "ADPH-SPEC": {
+    "code": "ADPH-SPEC",
+    "name": "Advanced Physics",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "MATH1013",
+      "MATH1115",
+      "MATH1014",
+      "MATH1116",
+      "PHYS1101",
+      "PHYS1201",
+      "MATH2305",
+      "MATH2306",
+      "PHYS2013",
+      "PHYS2020",
+      "MATH3511"
+    ],
+    "elective_courses": [],
+    "programs": [],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/ADPH-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "A maximum of 12 units from the completion of 2000- level courses from the subject area PHYS- Physics",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units from the completion of 3000- level courses which may come from: The following subject areas: PHYS - Physics ASTR - Astronomy and Astrophysics The following course list: MATH3511 - Scientific Computing (",
+        "courses": [
+          "MATH3511"
+        ]
+      }
+    ]
+  },
+  "AGIN-SPEC": {
+    "code": "AGIN-SPEC",
+    "name": "Agricultural Innovation",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "ENGN2300",
+      "ENGN1211",
+      "ENVS2023",
+      "ENVS2024",
+      "ENVS3042",
+      "ENGN3410",
+      "ENVS2007",
+      "ENVS2011",
+      "ENVS3004",
+      "ENVS3040",
+      "ENVS3100",
+      "MGMT2001",
+      "MGMT2009",
+      "MGMT3021",
+      "SCNC3000"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "BENSU"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/AGIN-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "a minimum of 12 units must come from completion of 3000- level courses The",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units must come from completion of courses from the following list:",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from the completion of courses from the following list: ENVS2023 Sustainable Agricultural Systems (",
+        "courses": [
+          "ENVS2023"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from the completion of courses from the following list: ENGN2300 Engineering Design 2: Systems Approaches for Design (",
+        "courses": [
+          "ENGN2300"
+        ]
+      }
+    ]
+  },
+  "ANAC-SPEC": {
+    "code": "ANAC-SPEC",
+    "name": "Analytics for Accounting",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "BUSN7066",
+      "BUSN8066",
+      "BUSN8051",
+      "BUSN6051",
+      "BUSN7036",
+      "BUSN8067"
+    ],
+    "elective_courses": [],
+    "programs": [],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/ANAC-SPEC",
+    "rules": []
+  },
+  "APFN-SPEC": {
+    "code": "APFN-SPEC",
+    "name": "Applied Finance",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "BUSN7008",
+      "FINM6041",
+      "FINM7006",
+      "FINM7007",
+      "FINM7008",
+      "FINM7044",
+      "STAT7055"
+    ],
+    "elective_courses": [],
+    "programs": [],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/APFN-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units from the completion of the following course(s): BUSN7008 - Financial Statements and Reporting FINM6041 - Applied Derivatives FINM7006 - Applied Foundations of Finance FINM7007 - Applied Corporate Finance FINM7008 - Applied Investments FINM7044 - Applied Valuation STAT7055 - Introductory Statistics for Business and Finance Back to the top",
+        "courses": [
+          "BUSN7008",
+          "FINM6041",
+          "FINM7006",
+          "FINM7007",
+          "FINM7008",
+          "FINM7044",
+          "STAT7055"
+        ]
+      }
+    ]
+  },
+  "ARIN-SPEC": {
+    "code": "ARIN-SPEC",
+    "name": "Artificial Intelligence",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "COMP2620",
+      "COMP3620",
+      "COMP4620",
+      "COMP4691"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "AACOM",
+      "AACRD"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/ARIN-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "a minimum of 12 units of 4000 level courses.",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units from completion of the following compulsory courses: COMP2620 Logic COMP3620 Artificial Intelligence COMP4620 Advanced Topics in Artificial Intelligence COMP4691 Optimisation This Specialisation is incompatible with the Computing and Mathematical Foundations minor, the Intelligent Systems major, and the Advanced Intelligent Systems major. This specialisation is only available to students studying BAC (AACOM) and BACR&D (AACRD). Back to the top",
+        "courses": [
+          "COMP2620",
+          "COMP3620",
+          "COMP4620",
+          "COMP4691"
+        ]
+      }
+    ]
+  },
+  "ARTIF-SPEC": {
+    "code": "ARTIF-SPEC",
+    "name": "Artificial Intelligence",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "COMP6262",
+      "COMP6320",
+      "COMP8620",
+      "COMP8691"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "7706XMCOMP",
+      "7722XVCOMP"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/ARTIF-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "a minimum of 12 units of 8000 level courses. The",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units must consist of: COMP6262 Logic COMP6320 Artificial Intelligence COMP8620 Advanced Topics in Artificial Intelligence COMP8691 Optimisation Back to the top",
+        "courses": [
+          "COMP6262",
+          "COMP6320",
+          "COMP8620",
+          "COMP8691"
+        ]
+      }
+    ]
+  },
+  "ASAP-SPEC": {
+    "code": "ASAP-SPEC",
+    "name": "Astronomy and Astrophysics",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "MATH1013",
+      "MATH1115",
+      "MATH1014",
+      "MATH1116",
+      "PHYS1101",
+      "PHYS1201",
+      "PHYS2013",
+      "MATH2305",
+      "PHYS2020",
+      "MATH2306",
+      "STAT1003",
+      "STAT3008",
+      "COMP1730",
+      "MATH3511",
+      "ASTR2013",
+      "ASTR3002",
+      "ASTR3007",
+      "ASTR3013",
+      "ASTR3005",
+      "EMSC3022",
+      "PHYS3203"
+    ],
+    "elective_courses": [],
+    "programs": [],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/ASAP-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units from the completion of compulsory course: ASTR2013 Foundations of Astrophysics (",
+        "courses": [
+          "ASTR2013"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 6,
+        "description": "A minimum of 6 units from the completion of courses from the following list: ASTR3002 Galaxies and Cosmology (",
+        "courses": [
+          "ASTR3002"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 6,
+        "description": "A minimum of 6 units from the completion of courses from the following list: ASTR3005 Astrophysics Research Topic (",
+        "courses": [
+          "ASTR3005"
+        ]
+      }
+    ]
+  },
+  "ASIA-SPEC": {
+    "code": "ASIA-SPEC",
+    "name": "Asian Studies",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "ASIA8008",
+      "ASIA8020",
+      "ASIA8022",
+      "ASIA8038",
+      "ASIA8042",
+      "ASIA8044",
+      "ASIA8048",
+      "ASIA8050",
+      "ASIA8051",
+      "ASIA8512",
+      "DEMO8090",
+      "LAWS8276",
+      "LAWS8549",
+      "INTR8022",
+      "INTR8060",
+      "INTR8063",
+      "INTR8082"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MINTR"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/ASIA-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units must come from completion of 8000-level courses",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units must come from completion of courses from the following list: ASIA8008 Debates in Asian Studies: Culture, History, and Language ASIA8020 National and Transnational Histories in Asia and the Pacific ASIA8022 Approaching Asia and the Pacific Today: Concepts, Tools and Methods ASIA8038 Cultural Creativity and Research in Asia and the Pacific ASIA8042 Contemporary Taiwan and its Histories ASIA8044 Research Methods in Chinese Studies ASIA8048 Disasters and Epidemics in Asia and the Pacific A",
+        "courses": [
+          "ASIA8008",
+          "ASIA8020",
+          "ASIA8022",
+          "ASIA8038",
+          "ASIA8042",
+          "ASIA8044",
+          "ASIA8048",
+          "ASIA8050",
+          "ASIA8051",
+          "ASIA8512",
+          "DEMO8090",
+          "LAWS8276",
+          "LAWS8549",
+          "INTR8022",
+          "INTR8060",
+          "INTR8063",
+          "INTR8082"
+        ]
+      }
+    ]
+  },
+  "ASPA-SPEC": {
+    "code": "ASPA-SPEC",
+    "name": "Asian and Pacific Studies",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "ASIA8008",
+      "ASIA8020",
+      "ASIA8042",
+      "ASIA8048",
+      "ASIA8050",
+      "ASIA8051",
+      "DIPL8016",
+      "INTR8022",
+      "INTR8060",
+      "INTR8063",
+      "INTR8082",
+      "STST8068",
+      "DIPL8013",
+      "INTR8043",
+      "PASI8002",
+      "PASI8004",
+      "PASI8005",
+      "PASI8011"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MINTR"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/ASPA-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units must come from completion of 8000-level courses The",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units must include:",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from completion of Asian Studies courses from the following list: ASIA8008 Debate, Inquiry and Collaboration in Asian Studies ASIA8020 National and Transnational Histories in Asia and the Pacific ASIA8042 Contemporary Taiwan and its Histories ASIA8048 Disasters and Epidemics in Asia and the Pacific ASIA8050 Social Conflict and Environmental Challenges in Asia and the Pacific ASIA8051 Language and Power in Asia and the Pacific DIPL8016 The Role of Non-State Actors in East Asian Diplomacy",
+        "courses": [
+          "ASIA8008",
+          "ASIA8020",
+          "ASIA8042",
+          "ASIA8048",
+          "ASIA8050",
+          "ASIA8051",
+          "DIPL8016",
+          "INTR8022",
+          "INTR8060",
+          "INTR8063",
+          "INTR8082",
+          "STST8068"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from completion of Pacific Studies courses from the following list: DIPL8013 Pacific Diplomacy INTR8043 Changing Geopolitics and International Relations in the Pacific PASI8002 Pacific Foundations PASI8004 Human Security and Wellbeing in the Pacific PASI8005 Politics of Aid and Development PASI8011 Critical approaches to the Pacific and Inclusive Research Back to the top",
+        "courses": [
+          "DIPL8013",
+          "INTR8043",
+          "PASI8002",
+          "PASI8004",
+          "PASI8005",
+          "PASI8011"
+        ]
+      }
+    ]
+  },
+  "ASTA-SPEC": {
+    "code": "ASTA-SPEC",
+    "name": "Actuarial Statistics",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "ACST6500",
+      "STAT6013",
+      "STAT6014",
+      "STAT6042",
+      "STAT6043",
+      "STAT6045",
+      "STAT6046",
+      "STAT6057",
+      "STAT6058",
+      "STAT7004",
+      "BUSN7008",
+      "ECON8069",
+      "FINM6006",
+      "FINM6041",
+      "FINM7006",
+      "FINM7007",
+      "FINM7008"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "CFAS"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/ASTA-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units from the completion of the following: ACST6500 Extension Topics in Actuarial Studies STAT6013 Principles of Mathematical Statistics for Actuarial Studies STAT6014 Regression Modelling for Actuarial Studies STAT6042 Survival Models STAT6043 Life Contingencies STAT6045 Actuarial Techniques STAT6046 Financial Mathematics STAT6057 Risk Modelling 1 STAT6058 Risk Modelling 2 STAT7004 Introduction to Stochastic Processes",
+        "courses": [
+          "ACST6500",
+          "STAT6013",
+          "STAT6014",
+          "STAT6042",
+          "STAT6043",
+          "STAT6045",
+          "STAT6046",
+          "STAT6057",
+          "STAT6058",
+          "STAT7004"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "A maximum of 12 units from the completion of the following: BUSN7008 Financial Statements and Reporting ECON8069 Business Economics FINM6006 Continuous Time Finance FINM6041 Applied Derivatives FINM7006 Applied Foundations of Finance FINM7007 Applied Corporate Finance FINM7008 Applied Investments Back to the top",
+        "courses": [
+          "BUSN7008",
+          "ECON8069",
+          "FINM6006",
+          "FINM6041",
+          "FINM7006",
+          "FINM7007",
+          "FINM7008"
+        ]
+      }
+    ]
+  },
+  "BAFA-SPEC": {
+    "code": "BAFA-SPEC",
+    "name": "Bioarchaeology and Forensic Anthropology",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "ARCH8030",
+      "ARCH8037",
+      "ARCH8044",
+      "BIAN8005",
+      "BIAN8010",
+      "ARCH6042",
+      "BIAN6512",
+      "BIAN6515",
+      "BIAN6517"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "VAESC"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/BAFA-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "of 24 units from the following list, which must include:",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units from completion of the courses: ARCH8030 Archaeological and Evolutionary Science Research Project 1 ARCH8037 Masterclass in Archaeological and Evolutionary Science ARCH8044 Ancient Biomolecules and Our Past BIAN8005 Theory Seminar in Biological Anthropology BIAN8010 Advanced Topics in Biological Anthropology",
+        "courses": [
+          "ARCH8030",
+          "ARCH8037",
+          "ARCH8044",
+          "BIAN8005",
+          "BIAN8010"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "A maximum of 12 units from completion of the courses: ARCH6042 Scientific Dating in Archaeology and Palaeoenvironmental Studies BIAN6512 Ancient Health and Disease BIAN6515 Forensic Anthropology and Archaeology BIAN6517 Human Skeletal Analysis Back to the top",
+        "courses": [
+          "ARCH6042",
+          "BIAN6512",
+          "BIAN6515",
+          "BIAN6517"
+        ]
+      }
+    ]
+  },
+  "BCHM-SPEC": {
+    "code": "BCHM-SPEC",
+    "name": "Biochemistry",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "CHEM1101",
+      "CHEM1201",
+      "BIOL1020",
+      "BIOL1030",
+      "BIOL1003",
+      "BIOL1004",
+      "BIOL3023",
+      "BIOL3208",
+      "BIOL3209",
+      "CHEM3060",
+      "CHEM3201",
+      "CHEM2202",
+      "CHEM2210",
+      "BIOL2171",
+      "CHEM2208",
+      "BIOL3107",
+      "BIOL3108",
+      "BIOL3188",
+      "CHEM3204",
+      "CHEM3207"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "BSC"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/BCHM-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from the completion of the following compulsory courses: BIOL2171 Biochemistry and Nutrition (",
+        "courses": [
+          "BIOL2171"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from the completion of courses from the following course list.",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "A maximum of 12 units total across major and specialisation may come from completion of research project/special topic courses ( BIOL3023 , BIOL3208 , BIOL3209 , CHEM3060 ). For the course to contribute towards the specialisation, the topic must be in the field of Biochemistry. BIOL3023 Special Topics in Biology (",
+        "courses": [
+          "BIOL3023",
+          "BIOL3208",
+          "BIOL3209",
+          "CHEM3060"
+        ]
+      }
+    ]
+  },
+  "BDFS-SPEC": {
+    "code": "BDFS-SPEC",
+    "name": "Biodiversity and Forest: Science, Management and Policy",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "BIOL2151",
+      "BIOL1003",
+      "BIOL3178",
+      "ENVS2001",
+      "ENVS3033",
+      "ENVS3039",
+      "ENVS3041",
+      "BIOL3130",
+      "ENVS2002",
+      "ENVS2004",
+      "ENVS2015",
+      "ENVS3008",
+      "ENVS3045"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "BENSU"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/BDFS-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "a minimum of 12 units must come from completion of 3000- level courses The",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units must come from completion of courses from the following list:",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 18,
+        "description": "18 units from completion of Conservation and Forest Science, Management and Policy courses from the list below: BIOL3178 Recovering Threatened Species and Ecosystems (",
+        "courses": [
+          "BIOL3178"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units from completion of enabling courses from the following list: BIOL2151 Genetics (",
+        "courses": [
+          "BIOL2151"
+        ]
+      }
+    ]
+  },
+  "BISY-SPEC": {
+    "code": "BISY-SPEC",
+    "name": "Business Information Systems",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "INFS7004",
+      "INFS7040",
+      "INFS8004",
+      "INFS8008",
+      "INFS8205",
+      "INFS8210"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MBINS",
+      "MPROM"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/BISY-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from completion of the following compulsory courses: INFS7004 - Accounting Information Systems (",
+        "courses": [
+          "INFS7004"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from the completion of courses from the following list: INFS8004 - Enterprise Systems and Strategy (",
+        "courses": [
+          "INFS8004"
+        ]
+      }
+    ]
+  },
+  "BMSC-SPEC": {
+    "code": "BMSC-SPEC",
+    "name": "Biomedical Science",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "BIOL1020",
+      "BIOL1030",
+      "BIOL1003",
+      "BIOL1004",
+      "CHEM1101",
+      "CHEM1201",
+      "BIOL3023",
+      "BIOL3208",
+      "BIOL3209",
+      "BIOL2117",
+      "BIOL2142",
+      "BIOL2151",
+      "BIOL2171",
+      "BIOL2174",
+      "MEDN2001",
+      "MEDN2222",
+      "BIOL3108",
+      "BIOL3141",
+      "BIOL3142",
+      "BIOL3144",
+      "BIOL3203",
+      "BIOL3204",
+      "BIOL3205",
+      "BIOL3210",
+      "MEDN3186",
+      "MEDN3820",
+      "NEUR3101",
+      "NEUR3112"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "BSC"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/BMSC-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units must come from the completion of a course from the following list: BIOL2117 Cell Biology (",
+        "courses": [
+          "BIOL2117"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 18,
+        "description": "18 units must come from the completion of courses from the following course list.",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "A maximum of 12 units total across major and specialisation may come from completion of research project/special topic courses ( BIOL3023 , BIOL3208 , BIOL3209 ). For the course to contribute towards the specialisation, the topic must be in the field of Biomedical Science BIOL3023 Special Topics in Biology (",
+        "courses": [
+          "BIOL3023",
+          "BIOL3208",
+          "BIOL3209"
+        ]
+      }
+    ]
+  },
+  "BUSI-SPEC": {
+    "code": "BUSI-SPEC",
+    "name": "International Business",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "BUSI7001",
+      "BUSI7033",
+      "BUSI7055",
+      "MGMT8207",
+      "MKTG8035"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MBINS",
+      "MMGNT",
+      "MPROM"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/BUSI-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from the completion of courses from the following list: BUSI7001 - Managing the Global Supply Chain (",
+        "courses": [
+          "BUSI7001"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from completion of the following compulsory courses: MGMT8207 - Managing Across Cultures (",
+        "courses": [
+          "MGMT8207"
+        ]
+      }
+    ]
+  },
+  "CHEM-SPEC": {
+    "code": "CHEM-SPEC",
+    "name": "Advanced Chemistry",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "CHEM1101",
+      "CHEM1201",
+      "CHEM2211",
+      "CHEM2208",
+      "CHEM3204",
+      "CHEM3207",
+      "CHEM3060",
+      "CHEM2214",
+      "CHEM3208",
+      "CHEM2202",
+      "CHEM3201",
+      "CHEM2213",
+      "CHEM3202",
+      "CHEM3203",
+      "CHEM3206",
+      "CHEM2203"
+    ],
+    "elective_courses": [],
+    "programs": [],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/CHEM-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units must come from the completion of the following compulsory course: CHEM3060 Research Project in Chemistry (",
+        "courses": [
+          "CHEM3060"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 6,
+        "description": "A minimum of 6 units and",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "a maximum of 12 units must come from completion of 2000- level courses from the discipline area CHEM- Chemistry not previously taken.",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 6,
+        "description": "A minimum of 6 units must come from completion of 3000- level courses from the discipline area CHEM- Chemistry not previously taken. Back to the top",
+        "courses": []
+      }
+    ]
+  },
+  "CLSC-SPEC": {
+    "code": "CLSC-SPEC",
+    "name": "Climate Science Specialisation",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "EMSC1008",
+      "CHEM1101",
+      "MATH1003",
+      "MATH1013",
+      "MATH1115",
+      "EMSC3050",
+      "EMSC2021",
+      "EMSC3019",
+      "EMSC3027",
+      "EMSC3032",
+      "EMSC3039",
+      "ENVS3013"
+    ],
+    "elective_courses": [],
+    "programs": [],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/CLSC-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units must come from completion of the following compulsory course: EMSC2021 Fundamentals of Climate Science (",
+        "courses": [
+          "EMSC2021"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 18,
+        "description": "18 units must come from completion of 3000- level courses from the following list: EMSC3019 Coral Reef Field Studies (",
+        "courses": [
+          "EMSC3019"
+        ]
+      }
+    ]
+  },
+  "CMSY-SPEC": {
+    "code": "CMSY-SPEC",
+    "name": "Computer Systems",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "COMP8405",
+      "COMP8300",
+      "COMP8045",
+      "COMP8712",
+      "COMP6300",
+      "COMP6310",
+      "COMP6330",
+      "COMP6331",
+      "COMP6361",
+      "COMP6464",
+      "ENGN6213"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "7706XMCOMP",
+      "7722XVCOMP"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/CMSY-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "a minimum of 12 units of 8000-level courses. The",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units must consist of:",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units from completion of courses from the following list: COMP8300 Parallel Systems COMP8045 Advanced Topics in Computer Systems and Architecture COMP8712 Compiler Construction",
+        "courses": [
+          "COMP8300",
+          "COMP8045",
+          "COMP8712"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "A maximum of 12 units from completion of courses from the following list: COMP6300 Computer Architecture COMP6310 Systems Networks and Concurrency COMP6330 Operating Systems Implementation COMP6331 Computer Networks COMP6361 Principles of Programming Languages COMP6464 High Performance Scientific Computing ENGN6213 Digital Systems and Microprocessors Back to the top",
+        "courses": [
+          "COMP6300",
+          "COMP6310",
+          "COMP6330",
+          "COMP6331",
+          "COMP6361",
+          "COMP6464",
+          "ENGN6213"
+        ]
+      }
+    ]
+  },
+  "COCOM-SPEC": {
+    "code": "COCOM-SPEC",
+    "name": "Corporate and Commercial Law",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "LAWS4202",
+      "LAWS4210",
+      "LAWS4212",
+      "LAWS4221",
+      "LAWS4222",
+      "LAWS4228",
+      "LAWS4233",
+      "LAWS4237",
+      "LAWS4245",
+      "LAWS4251",
+      "LAWS4254",
+      "LAWS4255",
+      "LAWS4259",
+      "LAWS4306",
+      "LAWS4312",
+      "LAWS4341",
+      "LAWS4350",
+      "LAWS4597"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "ALLB",
+      "MJD"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/COCOM-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units from completion of the following course(s): LAWS4202 Media Law LAWS4210 Commercial Law LAWS4212 Conflict of Laws LAWS4221 Income Tax LAWS4222 Intellectual Property LAWS4228 Labour Law LAWS4233 Tort Liability and Public Authorities LAWS4237 Financial Markets and Takeovers LAWS4245 Information Technology Law LAWS4251 Artificial Intelligence and the Law LAWS4254 Restitution LAWS4255 Competition Law LAWS4259 Consumer Protection and Product Liability Law LAWS4306 International Investment Tre",
+        "courses": [
+          "LAWS4202",
+          "LAWS4210",
+          "LAWS4212",
+          "LAWS4221",
+          "LAWS4222",
+          "LAWS4228",
+          "LAWS4233",
+          "LAWS4237",
+          "LAWS4245",
+          "LAWS4251",
+          "LAWS4254",
+          "LAWS4255",
+          "LAWS4259",
+          "LAWS4306",
+          "LAWS4312",
+          "LAWS4341",
+          "LAWS4350",
+          "LAWS4597"
+        ]
+      }
+    ]
+  },
+  "COMP-SPEC": {
+    "code": "COMP-SPEC",
+    "name": "Computational Foundations",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "MATH8343",
+      "COMP8011",
+      "COMP6361",
+      "COMP6363",
+      "COMP8460",
+      "MATH6114",
+      "COMP6261",
+      "COMP6262",
+      "COMP6466",
+      "COMP8712"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "7706XMCOMP",
+      "7722XVCOMP"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/COMP-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units must come from the completion of 8000-level courses.",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units from completion of courses from the following list: COMP6361 Principles of Programming Languages COMP6363 Theory of Computation COMP8011 Advanced Topics in Formal Methods and Programming Languages COMP8460 Advanced Algorithms MATH6114 Number Theory and Cryptography MATH8343 Foundations of Mathematics",
+        "courses": [
+          "COMP6361",
+          "COMP6363",
+          "COMP8011",
+          "COMP8460",
+          "MATH6114",
+          "MATH8343"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "A maximum of 12 units from completion of courses from the following list: COMP6261 Information Theory COMP6262 Logic COMP6466 Algorithms COMP8712 Compiler Construction Back to the top",
+        "courses": [
+          "COMP6261",
+          "COMP6262",
+          "COMP6466",
+          "COMP8712"
+        ]
+      }
+    ]
+  },
+  "CREG-SPEC": {
+    "code": "CREG-SPEC",
+    "name": "Contemporary Regulation",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "REGN8050",
+      "REGN8052",
+      "NSPO8012",
+      "POGO8076",
+      "POGO8403",
+      "REGN8005",
+      "REGN8018",
+      "REGN8019",
+      "REGN8022",
+      "REGN8023",
+      "REGN8024",
+      "REGN8049",
+      "REGN8051",
+      "REGN8054",
+      "REGN8055",
+      "REGN8056"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MPUPP",
+      "MPUPPO"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/CREG-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units from completion of: REGN8050 The Policy and Practice of Regulation units); OR REGN8052 Regulation and Governance (",
+        "courses": [
+          "REGN8050",
+          "REGN8052"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 18,
+        "description": "18 units from completion of courses from the following list: NSPO8012 Leadership, Risk and National Security Crisis Management (",
+        "courses": [
+          "NSPO8012"
+        ]
+      }
+    ]
+  },
+  "CSEC-SPEC": {
+    "code": "CSEC-SPEC",
+    "name": "Cyber Security",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "COMP8703",
+      "COMP8131",
+      "COMP6034",
+      "COMP6800",
+      "COMP8011",
+      "COMP8045",
+      "COMP8712"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "7722XVCOMP"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/CSEC-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units must come from completion of 8000-level courses",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from the completion of the following compulsory courses: COMP6034 Network Security COMP6800 Cyber Security Foundations",
+        "courses": [
+          "COMP6034",
+          "COMP6800"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 6,
+        "description": "A minimum of 6 units from completion of courses from the following list: COMP8131 Managing Software Quality and Process COMP8703 Vulnerability Research and Exploit Mitigation",
+        "courses": [
+          "COMP8131",
+          "COMP8703"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 6,
+        "description": "A maximum of 6 units from completion of courses from the following list: COMP8011 Advanced Topics in Formal Methods and Programming Languages COMP8045 Advanced Topics in Computer Systems & Architecture COMP8712 Compiler Construction Back to the top",
+        "courses": [
+          "COMP8011",
+          "COMP8045",
+          "COMP8712"
+        ]
+      }
+    ]
+  },
+  "DIPL-SPEC": {
+    "code": "DIPL-SPEC",
+    "name": "Diplomacy",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "DIPL8001",
+      "DIPL8002",
+      "DIPL8010",
+      "DIPL8013",
+      "DIPL8016",
+      "DIPL8019",
+      "DIPL8020",
+      "DIPL8044",
+      "INTR8018",
+      "INTR8068",
+      "POGO8098",
+      "POLS8049"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MINTR"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/DIPL-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units must come from completion of 8000-level courses",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units must come from completion of courses from the following diplomatic studies list: DIPL8001 Transnational Diplomacy DIPL8002 Contemporary Challenges in Diplomacy DIPL8010 Harnessing Diplomacy for International Development DIPL8013 Pacific Diplomacy DIPL8016 The Role of Non-State Actors in East Asian Diplomacy DIPL8019 Indigenous Diplomacy and Sovereignty DIPL8020 A Sociology of Diplomacy DIPL8044 Negotiation and Conflict Resolution INTR8018 Special Topics in Diplomacy/International Relati",
+        "courses": [
+          "DIPL8001",
+          "DIPL8002",
+          "DIPL8010",
+          "DIPL8013",
+          "DIPL8016",
+          "DIPL8019",
+          "DIPL8020",
+          "DIPL8044",
+          "INTR8018",
+          "INTR8068",
+          "POGO8098",
+          "POLS8049"
+        ]
+      }
+    ]
+  },
+  "DITR-SPEC": {
+    "code": "DITR-SPEC",
+    "name": "Digital Transformation",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "INFS7040",
+      "INFS8008",
+      "INFS8205",
+      "INFS8210"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MBINS",
+      "MMGNT"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/DITR-SPEC",
+    "rules": []
+  },
+  "DTSC-SPEC": {
+    "code": "DTSC-SPEC",
+    "name": "Data Science",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "COMP6240",
+      "COMP8410",
+      "COMP8430",
+      "COMP6490",
+      "COMP6670",
+      "COMP8600",
+      "COMP8650",
+      "COMP8880"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "7706XMCOMP",
+      "7722XVCOMP"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/DTSC-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "of 12 units of 8000-level courses",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 18,
+        "description": "18 units from completion of the following compulsory courses: COMP6240 Relational Databases COMP8410 Data Mining COMP8430 Data Wrangling",
+        "courses": [
+          "COMP6240",
+          "COMP8410",
+          "COMP8430"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units from completion of courses from the following list: COMP6490 Document Analysis COMP6670 Introduction to Machine Learning COMP8600 Statistical Machine Learning COMP8650 Advanced Topics in Machine Learning COMP8880 Computational Methods for Network Science Back to the top",
+        "courses": [
+          "COMP6490",
+          "COMP6670",
+          "COMP8600",
+          "COMP8650",
+          "COMP8880"
+        ]
+      }
+    ]
+  },
+  "EACC-SPEC": {
+    "code": "EACC-SPEC",
+    "name": "Environmental Archaeology and Climate Change",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "ARCH8030",
+      "ARCH8033",
+      "ARCH8037",
+      "ARCH8042",
+      "ARCH8044",
+      "ARCH6041",
+      "ARCH6042",
+      "ARCH6043",
+      "ARCH6108",
+      "ASIA6220",
+      "ENVS6015",
+      "ENVS6529"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "VAESC"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/EACC-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units of courses at 8000-level from the following list: ARCH8030 Archaeological and Evolutionary Science Research Project 1 (",
+        "courses": [
+          "ARCH8030"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "A maximum of 12 units from the following list: ARCH6041 Introduction to Environmental Archaeology (",
+        "courses": [
+          "ARCH6041"
+        ]
+      }
+    ]
+  },
+  "ECPL-SPEC": {
+    "code": "ECPL-SPEC",
+    "name": "Economic Policy",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "IDEC8000",
+      "IDEC8003",
+      "IDEC8037",
+      "IDEC8081",
+      "IDEC8089",
+      "INTR8013",
+      "LAWS8405",
+      "POGO8057",
+      "POGO8072",
+      "POGO8084"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MPUPP",
+      "MPUPPO"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/ECPL-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units from completion of courses from the following list: IDEC8000 Government, Markets and Global Change IDEC8003 Issues in Development Policy IDEC8037 Pacific Economies and Politics IDEC8081 The Economics of Incentives and Institutions IDEC8089 Energy Economics INTR8013 International Political Economy LAWS8405 Artificial Intelligence, Law, and Society POGO8057 Managing Government Finances POGO8072 Development Theories and Themes POGO8084 Principles of Social Policy Back to the top",
+        "courses": [
+          "IDEC8000",
+          "IDEC8003",
+          "IDEC8037",
+          "IDEC8081",
+          "IDEC8089",
+          "INTR8013",
+          "LAWS8405",
+          "POGO8057",
+          "POGO8072",
+          "POGO8084"
+        ]
+      }
+    ]
+  },
+  "ENIN-SPEC": {
+    "code": "ENIN-SPEC",
+    "name": "Entrepreneurship and Innovation",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "MGMT8015",
+      "MKTG8035",
+      "MMIB8001",
+      "ENVS6342",
+      "ENVS6223",
+      "ENVS6224",
+      "MGMT7161",
+      "MGMT7165"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MBINS",
+      "MEINV",
+      "MPROM"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/ENIN-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units from the completion of courses from the following list: ENVS6342 - Agricultural Innovation (",
+        "courses": [
+          "ENVS6342"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from the completion of courses from the following list: MGMT8015 - Entrepreneurship and Innovation (",
+        "courses": [
+          "MGMT8015"
+        ]
+      }
+    ]
+  },
+  "ENPP-SPEC": {
+    "code": "ENPP-SPEC",
+    "name": "Environment and Public Policy",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "EMDV8007",
+      "EMDV8009",
+      "EMDV8079",
+      "EMDV8080",
+      "EMDV8081",
+      "EMDV8101",
+      "EMDV8103",
+      "EMDV8104",
+      "ENVS8003",
+      "ENVS8016",
+      "LAWS8474",
+      "POGO8212"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MPUPP",
+      "MPUPPO"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/ENPP-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units from completion of courses from the following list: EMDV8007 Communicating for Environment and Climate Policy EMDV8009 Asia-Pacific Environmental Conflicts EMDV8079 Water Justice, Management and Governance EMDV8080 International Climate Change Policy and Economics EMDV8081 Domestic Climate Change Policy and Economics EMDV8101 Transformative Approaches to Sustainability EMDV8103 Impact Assessment and Evaluation for Environmental and Development Projects EMDV8104 Environmental Governance ",
+        "courses": [
+          "EMDV8007",
+          "EMDV8009",
+          "EMDV8079",
+          "EMDV8080",
+          "EMDV8081",
+          "EMDV8101",
+          "EMDV8103",
+          "EMDV8104",
+          "ENVS8003",
+          "ENVS8016",
+          "LAWS8474",
+          "POGO8212"
+        ]
+      }
+    ]
+  },
+  "EVEC-SPEC": {
+    "code": "EVEC-SPEC",
+    "name": "Evolution and Ecology",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "BIOL1020",
+      "BIOL1030",
+      "CHEM1101",
+      "CHEM1201",
+      "BIOL3023",
+      "BIOL3208",
+      "BIOL3209",
+      "BIOL3109",
+      "BIOL3130",
+      "BIOL3131",
+      "BIOL3142",
+      "BIOL3178",
+      "BIOL3206",
+      "BIOL3210",
+      "BIOL3213",
+      "BIOL3303"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "BSC"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/EVEC-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "of 24 units of courses from the following list.",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "A maximum of 12 units total across major and specialisation may come from completion of research project/special topic courses ( BIOL3023 , BIOL3208 , BIOL3209 ). For the course to contribute towards the specialisation, the topic must be in the field of Evolution and Ecology BIOL3023 Special Topics in Biology (",
+        "courses": [
+          "BIOL3023",
+          "BIOL3208",
+          "BIOL3209"
+        ]
+      }
+    ]
+  },
+  "FINM-SPEC": {
+    "code": "FINM-SPEC",
+    "name": "Finance",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "BUSN7008",
+      "ECON8069",
+      "FINM6016",
+      "FINM6041",
+      "FINM7006",
+      "FINM7007",
+      "FINM7008",
+      "FINM7044",
+      "FINM8004",
+      "FINM8006",
+      "FINM8007",
+      "FINM8014",
+      "FINM8017",
+      "FINM8100",
+      "STAT6046",
+      "STAT7055"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "CFAS"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/FINM-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units from the completion of the following course(s): BUSN7008 - Financial Statements and Reporting ECON8069 - Business Economics FINM6016 - Applied Portfolio Construction FINM6041 - Applied Derivatives FINM7006 - Applied Foundations of Finance FINM7007 - Applied Corporate Finance FINM7008 - Applied Investments FINM7044 - Applied Valuation FINM8004 - Advanced Corporate Finance FINM8006 - Advanced Investments FINM8007 - Topics in International Finance FINM8014 - Applied Financial Intermediatio",
+        "courses": [
+          "BUSN7008",
+          "ECON8069",
+          "FINM6016",
+          "FINM6041",
+          "FINM7006",
+          "FINM7007",
+          "FINM7008",
+          "FINM7044",
+          "FINM8004",
+          "FINM8006",
+          "FINM8007",
+          "FINM8014",
+          "FINM8017",
+          "FINM8100",
+          "STAT6046",
+          "STAT7055"
+        ]
+      }
+    ]
+  },
+  "FODF-SPEC": {
+    "code": "FODF-SPEC",
+    "name": "Foreign and Defence Policy",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "DIPL8002",
+      "INTR8068",
+      "NSPO8006",
+      "NSPO8007",
+      "NSPO8009",
+      "NSPO8030",
+      "NSPO8032",
+      "NSPO8033",
+      "NSPO8034",
+      "NSPO8040",
+      "NSPO8041",
+      "NSPO8043",
+      "NSPO8044",
+      "NSPO8047",
+      "POGO8045",
+      "POGO8235",
+      "STST8001",
+      "STST8026",
+      "STST8053",
+      "STST8066"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MPUPP",
+      "MPUPPO"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/FODF-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "of 24 units from the following list: DIPL8002 Contemporary Challenges in Diplomacy INTR8068 Making Foreign Policy NSPO8006 National Security Policymaking NSPO8007 National Security: Concepts and Methods NSPO8009 Cyber and Emerging Technologies in National Security NSPO8030 Coercion and National Security NSPO8032 Geoeconomics and National Security NSPO8033 Climate, the Environment and National Security NSPO8034 China, America and National Security NSPO8040 Gender and Security (",
+        "courses": [
+          "DIPL8002",
+          "INTR8068",
+          "NSPO8006",
+          "NSPO8007",
+          "NSPO8009",
+          "NSPO8030",
+          "NSPO8032",
+          "NSPO8033",
+          "NSPO8034",
+          "NSPO8040"
+        ]
+      }
+    ]
+  },
+  "GENE-SPEC": {
+    "code": "GENE-SPEC",
+    "name": "Genetics",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "BIOL1020",
+      "BIOL1030",
+      "BIOL1003",
+      "BIOL1004",
+      "CHEM1101",
+      "CHEM1201",
+      "BIOL1009",
+      "BIOL3023",
+      "BIOL3208",
+      "BIOL3209",
+      "BIOL2151",
+      "BIOL2161",
+      "BIOL3108",
+      "BIOL3109",
+      "BIOL3157",
+      "BIOL3161",
+      "BIOL3178",
+      "BIOL3188",
+      "BIOL3204",
+      "BIOL3205",
+      "BIOL3206"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "BSC"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/GENE-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units must come from the completion of a course from the following list: BIOL2151 Genetics (",
+        "courses": [
+          "BIOL2151"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 18,
+        "description": "18 units must come from the completion of courses from the following course list.",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "A maximum of 12 units total across major and specialisation may come from completion of research project/special topic courses ( BIOL3023 , BIOL3208 , BIOL3209 ). For the course to contribute towards the specialisation, the topic must be in the field of Genetics BIOL3023 Special Topics in Biology (",
+        "courses": [
+          "BIOL3023",
+          "BIOL3208",
+          "BIOL3209"
+        ]
+      }
+    ]
+  },
+  "GLDV-SPEC": {
+    "code": "GLDV-SPEC",
+    "name": "Global Development Policy",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "POGO8072",
+      "LAWS8329",
+      "NSPO8040",
+      "PASI8005",
+      "POGO8004",
+      "POGO8044",
+      "POGO8076",
+      "POGO8098",
+      "POGO8242"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MPUPP",
+      "MPUPPO"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/GLDV-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units from the following courses: LAWS8329 Gender, Law and Development NSPO8040 Gender and Security (",
+        "courses": [
+          "LAWS8329",
+          "NSPO8040"
+        ]
+      }
+    ]
+  },
+  "GOPT-SPEC": {
+    "code": "GOPT-SPEC",
+    "name": "Geochemistry and Petrology",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "EMSC1006",
+      "EMSC1008",
+      "CHEM1101",
+      "EMSC2024",
+      "EMSC3002",
+      "EMSC3007",
+      "EMSC3024",
+      "EMSC3050"
+    ],
+    "elective_courses": [],
+    "programs": [],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/GOPT-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units must come from completion of the following compulsory course: EMSC2024 Geochemical Cycles (",
+        "courses": [
+          "EMSC2024"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 18,
+        "description": "18 units must come from completion of 3000-level EMSC courses from the following list: EMSC3002 Structure and Tectonic Evolution of the Australian Plate (",
+        "courses": [
+          "EMSC3002"
+        ]
+      }
+    ]
+  },
+  "HCCC-SPEC": {
+    "code": "HCCC-SPEC",
+    "name": "Human-Centred and Creative Computing",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "COMP3900",
+      "COMP4350",
+      "COMP4528",
+      "COMP4610",
+      "COMP3540",
+      "COMP3670"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "AACOM",
+      "AACRD"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/HCCC-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "a minimum of 12 units of 4000-level courses: This specialisation is only available to students studying BAC (AACOM) and BACR&D (AACRD). The",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units must consist of: COMP3900 Human-Computer Interaction AND",
+        "courses": [
+          "COMP3900"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units from completion of courses from the following list: COMP4350 Sound and Music Computing COMP4528 Computer Vision COMP4610 Computer Graphics AND",
+        "courses": [
+          "COMP4350",
+          "COMP4528",
+          "COMP4610"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 6,
+        "description": "A maximum of 6 units from completion of courses from the following list: COMP3540 Game Development COMP3670 Introduction to Machine Learning Back to the top",
+        "courses": [
+          "COMP3540",
+          "COMP3670"
+        ]
+      }
+    ]
+  },
+  "HCCM-SPEC": {
+    "code": "HCCM-SPEC",
+    "name": "Human-Centred and Creative Computing",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "COMP6390",
+      "COMP8350",
+      "COMP8539",
+      "COMP8610",
+      "COMP6528",
+      "COMP6540",
+      "COMP6720",
+      "COMP6780"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "7706XMCOMP",
+      "7722XVCOMP"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/HCCM-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "a minimum of 12 units of 8000-level courses: The",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units must consist of: COMP6390 Human-Computer Interaction AND",
+        "courses": [
+          "COMP6390"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units from the following list: COMP8350 Sound and Music Computing COMP8539 Advanced Topics in Computer Vision COMP8610 Computer Graphics AND",
+        "courses": [
+          "COMP8350",
+          "COMP8539",
+          "COMP8610"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 6,
+        "description": "A maximum of 6 units from completion of courses from the following list: COMP6528 Computer Vision COMP6540 Game Development COMP6720 Art and Interaction Computing COMP6780 Web Programming and Design Back to the top",
+        "courses": [
+          "COMP6528",
+          "COMP6540",
+          "COMP6720",
+          "COMP6780"
+        ]
+      }
+    ]
+  },
+  "HUEV-SPEC": {
+    "code": "HUEV-SPEC",
+    "name": "Human Evolution",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "BIAN6013",
+      "ARCH8037",
+      "ARCH8044",
+      "BIAN8003",
+      "ARCH6042",
+      "BIAN6124",
+      "BIOL6109",
+      "BIOL6114",
+      "BIOL6206",
+      "ENVS6529"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "VAESC"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/HUEV-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units from completion of the course: BIAN6013 Human Evolution",
+        "courses": [
+          "BIAN6013"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units from completion of the courses: ARCH8037 Masterclass in Archaeological and Evolutionary Science (",
+        "courses": [
+          "ARCH8037"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "A maximum of 12 units from completion of the courses: ARCH6042 Scientific Dating in Archaeology and Palaeoenvironmental Studies (",
+        "courses": [
+          "ARCH6042"
+        ]
+      }
+    ]
+  },
+  "INAC-SPEC": {
+    "code": "INAC-SPEC",
+    "name": "Integrity and Anti-Corruption",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "POGO8076",
+      "POGO8021",
+      "POGO8062",
+      "POGO8137",
+      "POGO8402",
+      "LAWS8009",
+      "REGN8002",
+      "REGN8052"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MPUPP",
+      "MPUPPO"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/INAC-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units from completion of the following course: POGO8076 Corruption and Anti-Corruption",
+        "courses": [
+          "POGO8076"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 18,
+        "description": "18 units from completion of the following courses: POGO8021 Public Sector Ethics POGO8062 Public Sector Management POGO8137 Public Administration Foundations POGO8402 The Political and Institutional Architecture of Public Policy LAWS8009 Transnational Anti-Corruption Laws REGN8002 Governance and Social Theory REGN8052 Regulation and Governance Back to the top",
+        "courses": [
+          "POGO8021",
+          "POGO8062",
+          "POGO8137",
+          "POGO8402",
+          "LAWS8009",
+          "REGN8002",
+          "REGN8052"
+        ]
+      }
+    ]
+  },
+  "INPL-SPEC": {
+    "code": "INPL-SPEC",
+    "name": "International Policy",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "DIPL8002",
+      "DIPL8013",
+      "DIPL8016",
+      "EMDV8080",
+      "INTR8022",
+      "INTR8043",
+      "INTR8045",
+      "INTR8066",
+      "INTR8082",
+      "LAWS8182",
+      "POGO8045",
+      "POGO8098",
+      "POGO8212",
+      "POGO8213",
+      "POGO8220"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MPUPP",
+      "MPUPPO"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/INPL-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "of 24 units from the following courses: DIPL8002 Contemporary Challenges in Diplomacy DIPL8013 Pacific Diplomacy DIPL8016 The Role of Non-State Actors in East Asian Diplomacy EMDV8080 International Climate Change Policy and Economics INTR8022 International Relations in the Asia-Pacific INTR8043 Changing Geopolitics and International Relations in the Pacific INTR8045 Global Governance INTR8066 International Relations in the Information Age INTR8082 Regionalism and Southeast Asia LAWS8182 Principl",
+        "courses": [
+          "DIPL8002",
+          "DIPL8013",
+          "DIPL8016",
+          "EMDV8080",
+          "INTR8022",
+          "INTR8043",
+          "INTR8045",
+          "INTR8066",
+          "INTR8082",
+          "LAWS8182",
+          "POGO8045",
+          "POGO8098",
+          "POGO8212",
+          "POGO8213",
+          "POGO8220"
+        ]
+      }
+    ]
+  },
+  "INTC-SPEC": {
+    "code": "INTC-SPEC",
+    "name": "International and Comparative Law",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "LAWS4010",
+      "LAWS4212",
+      "LAWS4219",
+      "LAWS4223",
+      "LAWS4224",
+      "LAWS4225",
+      "LAWS4226",
+      "LAWS4227",
+      "LAWS4229",
+      "LAWS4264",
+      "LAWS4266",
+      "LAWS4271",
+      "LAWS4274",
+      "LAWS4276",
+      "LAWS4279",
+      "LAWS4301",
+      "LAWS4302",
+      "LAWS4306",
+      "LAWS4315",
+      "LAWS4339",
+      "LAWS4341",
+      "LAWS4358",
+      "LAWS4364",
+      "LAWS4395",
+      "LAWS4601"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "ALLB",
+      "MJD"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/INTC-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units from completion of the following course(s): LAWS4010 Jessup Moot LAWS4212 Conflict of Laws LAWS4219 Health Law, Bioethics and Human Rights LAWS4223 International Dispute Resolution LAWS4224 International Law of the Sea LAWS4225 International Law of Human Rights LAWS4226 International Trade Law LAWS4227 Japanese Law and Society LAWS4229 Law and Society in South East Asia LAWS4264 Advanced International Law LAWS4266 International Arbitration and Negotiation Moot Competition in Japan LAWS4",
+        "courses": [
+          "LAWS4010",
+          "LAWS4212",
+          "LAWS4219",
+          "LAWS4223",
+          "LAWS4224",
+          "LAWS4225",
+          "LAWS4226",
+          "LAWS4227",
+          "LAWS4229",
+          "LAWS4264",
+          "LAWS4266",
+          "LAWS4271",
+          "LAWS4274",
+          "LAWS4276",
+          "LAWS4279",
+          "LAWS4301",
+          "LAWS4302",
+          "LAWS4306",
+          "LAWS4315",
+          "LAWS4339",
+          "LAWS4341",
+          "LAWS4358",
+          "LAWS4364",
+          "LAWS4395",
+          "LAWS4601"
+        ]
+      }
+    ]
+  },
+  "INTL-SPEC": {
+    "code": "INTL-SPEC",
+    "name": "International Law",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "LAWS8006",
+      "LAWS8009",
+      "LAWS8013",
+      "LAWS8035",
+      "LAWS8077",
+      "LAWS8144",
+      "LAWS8158",
+      "LAWS8178",
+      "LAWS8182",
+      "LAWS8183",
+      "LAWS8228",
+      "LAWS8229",
+      "LAWS8234",
+      "LAWS8237",
+      "LAWS8243",
+      "LAWS8252",
+      "LAWS8253",
+      "LAWS8254",
+      "LAWS8264",
+      "LAWS8268",
+      "LAWS8276",
+      "LAWS8297",
+      "LAWS8314",
+      "LAWS8316",
+      "LAWS8336",
+      "LAWS8339",
+      "LAWS8340",
+      "LAWS8401",
+      "LAWS8409",
+      "LAWS8418",
+      "LAWS8471",
+      "LAWS8474",
+      "LAWS8566",
+      "LAWS8567",
+      "LAWS8582",
+      "LAWS8585",
+      "LAWS8594",
+      "LAWS8595"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MJD",
+      "MINLD",
+      "MLLM"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/INTL-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units from completion of the following course(s): LAWS8006 Law and Development in the Contemporary South Pacific LAWS8009 Transnational Anti-Corruption Laws LAWS8013 Nuclear Weapons Law LAWS8035 Cyber Warfare Law LAWS8077 Cyber Law LAWS8144 Conflict of Laws LAWS8158 International Law, Science and Technology LAWS8178 International Law and Use of Force LAWS8182 Principles of International Law LAWS8183 Advanced Principles of International Law LAWS8228 Law and Economics LAWS8229 International Tra",
+        "courses": [
+          "LAWS8006",
+          "LAWS8009",
+          "LAWS8013",
+          "LAWS8035",
+          "LAWS8077",
+          "LAWS8144",
+          "LAWS8158",
+          "LAWS8178",
+          "LAWS8182",
+          "LAWS8183",
+          "LAWS8228",
+          "LAWS8229",
+          "LAWS8234",
+          "LAWS8237",
+          "LAWS8243",
+          "LAWS8252",
+          "LAWS8253",
+          "LAWS8254",
+          "LAWS8264",
+          "LAWS8268",
+          "LAWS8276",
+          "LAWS8297",
+          "LAWS8314",
+          "LAWS8316",
+          "LAWS8336",
+          "LAWS8339",
+          "LAWS8340",
+          "LAWS8401",
+          "LAWS8409",
+          "LAWS8418",
+          "LAWS8471",
+          "LAWS8474",
+          "LAWS8566",
+          "LAWS8567",
+          "LAWS8582",
+          "LAWS8585",
+          "LAWS8594",
+          "LAWS8595"
+        ]
+      }
+    ]
+  },
+  "INTR-SPEC": {
+    "code": "INTR-SPEC",
+    "name": "International Relations",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "INTR8013",
+      "INTR8018",
+      "INTR8020",
+      "INTR8032",
+      "INTR8053",
+      "INTR8060",
+      "INTR8063",
+      "INTR8066",
+      "INTR8077",
+      "INTR8082",
+      "INTR8083",
+      "INTR8084",
+      "POLS8049"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "VPLSC"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/INTR-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units must come from completion of 8000-level courses",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units must come from completion of courses from the following list: INTR8013 International Political Economy INTR8018 Special Topics in Diplomacy/International Relations INTR8020 Atrocity Prevention in the 21st Century INTR8032 Global Security INTR8053 Ethics of War and Peace INTR8060 China's Global Engagement INTR8063 Japan and the World: Politics, Diplomacy, Security INTR8066 International Relations in the Information Age INTR8077 Women, Peace and Security: Defining and Addressing Complex S",
+        "courses": [
+          "INTR8013",
+          "INTR8018",
+          "INTR8020",
+          "INTR8032",
+          "INTR8053",
+          "INTR8060",
+          "INTR8063",
+          "INTR8066",
+          "INTR8077",
+          "INTR8082",
+          "INTR8083",
+          "INTR8084",
+          "POLS8049"
+        ]
+      }
+    ]
+  },
+  "IPDV-SPEC": {
+    "code": "IPDV-SPEC",
+    "name": "Indigenous Policy and Development",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "INDG8001",
+      "INDG8002",
+      "INDG8004",
+      "INDG8005",
+      "HIST8016",
+      "MUSC8019"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "VAAAD",
+      "MPUPP",
+      "MPUPPO"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/IPDV-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 6,
+        "description": "A minimum of 6 units from completion of courses from the following list: INDG8001 Australian Indigenous Development INDG8002 Australian Indigenous Development (Advanced)",
+        "courses": [
+          "INDG8001",
+          "INDG8002"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 6,
+        "description": "A minimum of 6 units from completion of courses from the following list: INDG8004 First Nations Peoples and Public Policy in Australia INDG8005 First Nations Peoples and Public Policy in Australia (Advanced) A minimum of 6 from completion of courses from the following list: HIST8016 Colonial Encounters MUSC8019 Repatriation: Principles, Policy and Practice Back to the top",
+        "courses": [
+          "INDG8004",
+          "INDG8005",
+          "HIST8016",
+          "MUSC8019"
+        ]
+      }
+    ]
+  },
+  "LDWT-SPEC": {
+    "code": "LDWT-SPEC",
+    "name": "Land and Water: Science, Management and Policy",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "EMSC3025",
+      "ENVS2020",
+      "ENVS3004",
+      "ENVS3005",
+      "ENVS2007",
+      "ENVS2011",
+      "ENVS2013",
+      "ENVS2023",
+      "ENVS2025",
+      "ENVS3007",
+      "ENVS3015",
+      "ENVS3028",
+      "ENVS3033",
+      "ENVS3039",
+      "ENVS3041",
+      "ENVS2001",
+      "ENVS2004",
+      "ENVS2015",
+      "ENVS3008",
+      "ENVS3020",
+      "ENVS3045",
+      "ENVS3902",
+      "ENVS3903"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "BENSU"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/LDWT-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "a minimum of 12 units must come from completion of 3000- level courses The",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units must come from completion of courses from the following list:",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from the completion of courses from the following list: EMSC3025 Remote Sensing of Water Resources (",
+        "courses": [
+          "EMSC3025"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units from the completion of a course from the following discipline list: ENVS2007 Economics for the Environment (",
+        "courses": [
+          "ENVS2007"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units from the completion of a course from the following data interpretation list: ENVS2001 Biodiversity Science: Wildlife, Vegetation and Landscape Ecology (",
+        "courses": [
+          "ENVS2001"
+        ]
+      }
+    ]
+  },
+  "LEAD-SPEC": {
+    "code": "LEAD-SPEC",
+    "name": "Leadership",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "MGMT8270",
+      "MGMT7060",
+      "MGMT8061",
+      "MGMT8063",
+      "MGMT7153"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MBINS",
+      "MPROM"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/LEAD-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 18,
+        "description": "18 units from completion of the following compulsory courses: MGMT7060 - Thought Leadership in Organisations (",
+        "courses": [
+          "MGMT7060"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units from the completion of a course from the following list: MGMT7153 - Core Leadership (",
+        "courses": [
+          "MGMT7153"
+        ]
+      }
+    ]
+  },
+  "LPDP-SPEC": {
+    "code": "LPDP-SPEC",
+    "name": "LPDP Blue, Green, Digital",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "EMDV8007",
+      "EMDV8079",
+      "EMDV8082",
+      "EMDV8101",
+      "EMDV8104",
+      "INFS7040",
+      "POGO8212",
+      "REGN8014"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MPUPP",
+      "MPUPPO"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/LPDP-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "of 24 units from the following courses: EMDV8007 Communicating for Environment and Climate Policy EMDV8079 Water Justice, Management and Governance EMDV8082 Food Wars: Food Security and Agricultural Policy EMDV8101 Transformative Approaches to Sustainability EMDV8104 Environmental Governance INFS7040 Digital Transformation POGO8212 Governing the Energy Transition REGN8014 Contemporary Issues in Technology Governance Back to the top",
+        "courses": [
+          "EMDV8007",
+          "EMDV8079",
+          "EMDV8082",
+          "EMDV8101",
+          "EMDV8104",
+          "INFS7040",
+          "POGO8212",
+          "REGN8014"
+        ]
+      }
+    ]
+  },
+  "LRES-SPEC": {
+    "code": "LRES-SPEC",
+    "name": "Law Reform, Environmental and Social Justice",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "LAWS4215",
+      "LAWS4218",
+      "LAWS4219",
+      "LAWS4222",
+      "LAWS4225",
+      "LAWS4238",
+      "LAWS4251",
+      "LAWS4256",
+      "LAWS4260",
+      "LAWS4267",
+      "LAWS4268",
+      "LAWS4271",
+      "LAWS4274",
+      "LAWS4278",
+      "LAWS4281",
+      "LAWS4286",
+      "LAWS4299",
+      "LAWS4301",
+      "LAWS4304",
+      "LAWS4307",
+      "LAWS4309",
+      "LAWS4314",
+      "LAWS4315",
+      "LAWS4321",
+      "LAWS4344",
+      "LAWS4350",
+      "LAWS4358",
+      "LAWS4359",
+      "LAWS4364",
+      "LAWS4395",
+      "LAWS4597",
+      "LAWS4601"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "ALLB",
+      "MJD"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/LRES-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units from completion of the following course(s): LAWS4215 Environmental Law LAWS4218 Feminist and Critical Legal Theory LAWS4219 Health Law, Bioethics and Human Rights LAWS4222 Intellectual Property LAWS4225 International Law of Human Rights LAWS4238 Indigenous Peoples and the Law LAWS4251 Artificial Intelligence and the Law LAWS4256 Law, Gender Identities and Sexualities LAWS4260 Law and Psychology LAWS4267 Youth Law Clinic LAWS4268 Community Law Clinic LAWS4271 Refugee Law LAWS4274 Climate",
+        "courses": [
+          "LAWS4215",
+          "LAWS4218",
+          "LAWS4219",
+          "LAWS4222",
+          "LAWS4225",
+          "LAWS4238",
+          "LAWS4251",
+          "LAWS4256",
+          "LAWS4260",
+          "LAWS4267",
+          "LAWS4268",
+          "LAWS4271",
+          "LAWS4274",
+          "LAWS4278",
+          "LAWS4281",
+          "LAWS4286",
+          "LAWS4299",
+          "LAWS4301",
+          "LAWS4304",
+          "LAWS4307",
+          "LAWS4309",
+          "LAWS4314",
+          "LAWS4315",
+          "LAWS4321",
+          "LAWS4344",
+          "LAWS4350",
+          "LAWS4358",
+          "LAWS4359",
+          "LAWS4364",
+          "LAWS4395",
+          "LAWS4597",
+          "LAWS4601"
+        ]
+      }
+    ]
+  },
+  "LRSH-SPEC": {
+    "code": "LRSH-SPEC",
+    "name": "Law Research",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "LAWS8301",
+      "LAWS8800",
+      "LAWS6230",
+      "LAWS8016",
+      "LAWS8128",
+      "LAWS8141",
+      "LAWS8316",
+      "LAWS8341",
+      "LAWS8462",
+      "LAWS8582",
+      "LAWS8598"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MLLM"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/LRSH-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 18,
+        "description": "18 units from the completion of the following course(s): LAWS8301 Postgraduate Law Dissertation (",
+        "courses": [
+          "LAWS8301"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units from the completion of: LAWS6230 Law Internship (Capstone) LAWS8016 Comparative Constitutional Law LAWS8128 Contemporary Issues in Constitutional Law LAWS8141 Judicial Review of Government Action LAWS8316 International Nuclear Energy Law LAWS8341 Work and the Gig Economy LAWS8462 Advanced Administrative Law LAWS8582 Global Health Law LAWS8598 Electoral Law in a Digital Age Back to the top",
+        "courses": [
+          "LAWS6230",
+          "LAWS8016",
+          "LAWS8128",
+          "LAWS8141",
+          "LAWS8316",
+          "LAWS8341",
+          "LAWS8462",
+          "LAWS8582",
+          "LAWS8598"
+        ]
+      }
+    ]
+  },
+  "MACL-SPEC": {
+    "code": "MACL-SPEC",
+    "name": "Machine Learning",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "COMP3670",
+      "COMP4528",
+      "COMP4650",
+      "COMP4670",
+      "COMP4680"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "AACOM",
+      "AACRD"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/MACL-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "a minimum of 12 units of 4000-level courses.",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units from completion of courses from the list: COMP3670 Introduction to Machine Learning COMP4528 Computer Vision COMP4650 Document Analysis COMP4670 Statistical Machine Learning COMP4680 Advanced Topics in Machine Learning This Specialisation is incompatible with the Intelligent Systems major, and the Advanced Intelligent Systems major. This specialisation is only available to students studying BAC (AACOM) and BACR&D (AACRD). Back to the top",
+        "courses": [
+          "COMP3670",
+          "COMP4528",
+          "COMP4650",
+          "COMP4670",
+          "COMP4680"
+        ]
+      }
+    ]
+  },
+  "MARS-SPEC": {
+    "code": "MARS-SPEC",
+    "name": "Marine Science Specialisation",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "EMSC1006",
+      "EMSC1008",
+      "CHEM1101",
+      "EMSC3023",
+      "EMSC3019",
+      "EMSC3020",
+      "EMSC3027",
+      "EMSC3025",
+      "EMSC3050",
+      "ENVS3013"
+    ],
+    "elective_courses": [],
+    "programs": [],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/MARS-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units must come from completion of the following compulsory course: EMSC3023 Marine Biogeochemistry (",
+        "courses": [
+          "EMSC3023"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 18,
+        "description": "18 units must come from completion of 3000-level courses from the following list: EMSC3019 Coral Reef Studies (",
+        "courses": [
+          "EMSC3019"
+        ]
+      }
+    ]
+  },
+  "MBIM-SPEC": {
+    "code": "MBIM-SPEC",
+    "name": "Microbiology and Immunology",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "BIOL1003",
+      "BIOL1004",
+      "CHEM1101",
+      "CHEM1201",
+      "BIOL1009",
+      "BIOL3023",
+      "BIOL3208",
+      "BIOL3209",
+      "BIOL2142",
+      "BIOL3141",
+      "BIOL3106",
+      "BIOL3142",
+      "BIOL3144",
+      "BIOL3188",
+      "BIOL3210"
+    ],
+    "elective_courses": [],
+    "programs": [],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/MBIM-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from completion of the following compulsory courses: BIOL2142 General Microbiology (",
+        "courses": [
+          "BIOL2142"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from the completion of courses from the following list.",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "A maximum of 12 units total across major and specialisation may come from completion of research project/special topic courses ( BIOL3023 , BIOL3208 or BIOL3209 ). For the course to contribute towards the specialisation, the topic must be in the field of Microbiology and Immunology BIOL3023 Special Topics in Biology (",
+        "courses": [
+          "BIOL3023",
+          "BIOL3208",
+          "BIOL3209"
+        ]
+      }
+    ]
+  },
+  "MCHL-SPEC": {
+    "code": "MCHL-SPEC",
+    "name": "Machine Learning",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "COMP6261",
+      "COMP6490",
+      "COMP6528",
+      "COMP6670",
+      "COMP8600",
+      "COMP8650",
+      "COMP8880"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "7706XMCOMP",
+      "7722XVCOMP"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/MCHL-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "of 24 units from the following list which must include:",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units of 8000-level courses. COMP6261 Information Theory COMP6490 Document Analysis COMP6528 Computer Vision COMP6670 Introduction to Machine Learning COMP8600 Statistical Machine Learning COMP8650 Advanced Topics in Machine Learning COMP8880 Computational Methods for Network Science Back to the top",
+        "courses": [
+          "COMP6261",
+          "COMP6490",
+          "COMP6528",
+          "COMP6670",
+          "COMP8600",
+          "COMP8650",
+          "COMP8880"
+        ]
+      }
+    ]
+  },
+  "MEAS-SPEC": {
+    "code": "MEAS-SPEC",
+    "name": "Middle Eastern and Central Asian Studies",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "MEAS8001",
+      "MEAS8111",
+      "MEAS8112",
+      "MEAS8113",
+      "MEAS8114",
+      "MEAS8115",
+      "MEAS8116"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MPOLS"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/MEAS-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units must come from completion of 8000-level courses",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units must come from completion of courses from the following list: MEAS8001 Critical Approaches and Methods in the Study of the Middle East and Central Asia (",
+        "courses": [
+          "MEAS8001"
+        ]
+      }
+    ]
+  },
+  "MGME-SPEC": {
+    "code": "MGME-SPEC",
+    "name": "Management Essentials",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "MGMT8003",
+      "MGMT8015",
+      "MGMT8022",
+      "MGMT8270"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MBINS"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/MGME-SPEC",
+    "rules": []
+  },
+  "MKTG-SPEC": {
+    "code": "MKTG-SPEC",
+    "name": "Marketing",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "MKTG7260",
+      "MKTG7023",
+      "MKTG7028",
+      "MKTG7030",
+      "MKTG7050",
+      "MKTG8060",
+      "MKTG8027",
+      "MKTG8035"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MBINS",
+      "MMGNT",
+      "MPROM"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/MKTG-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units from completion of a course from the following list: MKTG7023 - Services Marketing (",
+        "courses": [
+          "MKTG7023"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from completion of courses from the following list: MKTG8060 - Applied Market Research (",
+        "courses": [
+          "MKTG8060"
+        ]
+      }
+    ]
+  },
+  "NEUR-SPEC": {
+    "code": "NEUR-SPEC",
+    "name": "Neuroscience and Physiology",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "CHEM1101",
+      "CHEM1201",
+      "BIOL1004",
+      "BIOL1020",
+      "BIOL1030",
+      "BIOL1003",
+      "PSYC1003",
+      "PSYC1004",
+      "PSYC2007",
+      "MEDN2001",
+      "BIOL3208",
+      "BIOL2174",
+      "NEUR3101",
+      "NEUR3112",
+      "BIOL3203",
+      "MEDN3186",
+      "PSYC3016"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "BSC"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/NEUR-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units from the completion of the following course: BIOL2174 Cell Physiology in Health and Disease (",
+        "courses": [
+          "BIOL2174"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units from completion of courses from the following list: MEDN2001 Health and Medical Physiology (",
+        "courses": [
+          "MEDN2001"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 6,
+        "description": "A maximum of 6 units from the completion of a course from the following list: BIOL3203 Advanced Microscopy in Biosciences (",
+        "courses": [
+          "BIOL3203"
+        ]
+      }
+    ]
+  },
+  "PAST-SPEC": {
+    "code": "PAST-SPEC",
+    "name": "Pacific Studies",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "PASI8002",
+      "PASI8004",
+      "PASI8005",
+      "PASI8011"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MINTR"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/PAST-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units must come from completion of 8000-level courses",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units must come from completion of the following compulsory courses: PASI8002 Pacific Foundations PASI8004 Human Security and Wellbeing in the Pacific PASI8005 Politics of Aid and Development PASI8011 Critical approaches to the Pacific and Inclusive Research Back to the top",
+        "courses": [
+          "PASI8002",
+          "PASI8004",
+          "PASI8005",
+          "PASI8011"
+        ]
+      }
+    ]
+  },
+  "PLNT-SPEC": {
+    "code": "PLNT-SPEC",
+    "name": "Plant Science",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "CHEM1101",
+      "CHEM1201",
+      "BIOL1020",
+      "BIOL1030",
+      "BIOL1003",
+      "BIOL1004",
+      "ENVS1003",
+      "ENVS1004",
+      "BIOL1009",
+      "BIOL3023",
+      "BIOL3208",
+      "BIOL3209",
+      "BIOL2114",
+      "BIOL2115",
+      "BIOL2117",
+      "BIOL2131",
+      "BIOL2151",
+      "BIOL2161",
+      "BIOL2162",
+      "BIOL3002",
+      "BIOL3106",
+      "BIOL3107",
+      "BIOL3109",
+      "BIOL3125",
+      "BIOL3130",
+      "BIOL3177",
+      "BIOL3203",
+      "BIOL3303"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "BSC"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/PLNT-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units from the completion of a course from the following list: BIOL2114 Evolution (",
+        "courses": [
+          "BIOL2114"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 18,
+        "description": "18 units come from the completion of courses from the following list.",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "A maximum of 12 units total across major and specialisation may come from completion of research project/special topic courses ( BIOL3023 , BIOL3208 , BIOL3209 ). For the course to contribute towards the specialisation, the topic must be in the field of Plant Science BIOL3023 Special Topics in Biology (",
+        "courses": [
+          "BIOL3023",
+          "BIOL3208",
+          "BIOL3209"
+        ]
+      }
+    ]
+  },
+  "POAN-SPEC": {
+    "code": "POAN-SPEC",
+    "name": "Policy Analysis",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "IDEC8017",
+      "IDEC8026",
+      "IDEC8088",
+      "POGO8025",
+      "POGO8083",
+      "POGO8230",
+      "POGO8233",
+      "POGO8241",
+      "POPH8313",
+      "SOCR8202",
+      "SOCR8204"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MPUPP",
+      "MPUPPO"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/POAN-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "of 24 units from the following courses: IDEC8017 Econometric Techniques IDEC8026 Quantitative Policy Impact Evaluation IDEC8088 Cost-Benefit Analysis: Principles and Practice POGO8025 Social Policy Analysis POGO8083 Policy Advocacy POGO8230 Gender Analysis in Public Policy (",
+        "courses": [
+          "IDEC8017",
+          "IDEC8026",
+          "IDEC8088",
+          "POGO8025",
+          "POGO8083",
+          "POGO8230"
+        ]
+      }
+    ]
+  },
+  "POCM-SPEC": {
+    "code": "POCM-SPEC",
+    "name": "Policy Communication",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "POGO8083",
+      "POGO8136",
+      "EMDV8007",
+      "HUMN8028",
+      "MKTG7028",
+      "POGO8132",
+      "POGO8232",
+      "POGO8236",
+      "POGO8241",
+      "SCOM8014"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MPUPP",
+      "MPUPPO"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/POCM-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 6,
+        "description": "A minimum of 6 units from completion of courses from the following list: POGO8083 Policy Advocacy POGO8136 Participating in Public Policy: Citizen Engagement and Public Talk",
+        "courses": [
+          "POGO8083",
+          "POGO8136"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 18,
+        "description": "A minimum of 18 units from completion of courses from the following list: EMDV8007 Communicating for Environment and Climate Policy HUMN8028 Digital Humanities Methods and Projects MKTG7028 Strategic Marketing Communications POGO8132 Public Policy in Cities (",
+        "courses": [
+          "EMDV8007",
+          "HUMN8028",
+          "MKTG7028",
+          "POGO8132"
+        ]
+      }
+    ]
+  },
+  "POPC-SPEC": {
+    "code": "POPC-SPEC",
+    "name": "Population Change",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "DEMO8008",
+      "DEMO8024",
+      "DEMO8047",
+      "DEMO8048",
+      "DEMO8090",
+      "DEMO8091",
+      "DEMO8092"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MPUPP",
+      "MPUPPO"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/POPC-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from completion of the following compulsory courses: DEMO8008 Principles of Population Analysis DEMO8024 Population and Society: Theory and Empirical Perspectives",
+        "courses": [
+          "DEMO8008",
+          "DEMO8024"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from completion of courses from the following list: DEMO8047 International Migration DEMO8048 Sex, Gender and Population DEMO8090 Population Issues in Asia and their Implications for World Development DEMO8091 Special Topics in Population Change DEMO8092 Life Course Analytics Back to the top",
+        "courses": [
+          "DEMO8047",
+          "DEMO8048",
+          "DEMO8090",
+          "DEMO8091",
+          "DEMO8092"
+        ]
+      }
+    ]
+  },
+  "PRCO-SPEC": {
+    "code": "PRCO-SPEC",
+    "name": "Private Commercial Law",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "LAWS8009",
+      "LAWS8072",
+      "LAWS8077",
+      "LAWS8104",
+      "LAWS8125",
+      "LAWS8140",
+      "LAWS8142",
+      "LAWS8144",
+      "LAWS8154",
+      "LAWS8218",
+      "LAWS8220",
+      "LAWS8228",
+      "LAWS8229",
+      "LAWS8243",
+      "LAWS8254",
+      "LAWS8335",
+      "LAWS8336",
+      "LAWS8338",
+      "LAWS8341",
+      "LAWS8402",
+      "LAWS8405",
+      "LAWS8407",
+      "LAWS8418",
+      "LAWS8421",
+      "LAWS8422",
+      "LAWS8428",
+      "LAWS8436",
+      "LAWS8437",
+      "LAWS8445",
+      "LAWS8454",
+      "LAWS8459",
+      "LAWS8584",
+      "LAWS8587",
+      "LAWS8589",
+      "LAWS8596",
+      "LAWS8597",
+      "LAWS8661"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MJD",
+      "MFIML",
+      "MLLM"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/PRCO-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units from completion of the following course(s): LAWS8009 Transnational Anti-Corruption Laws LAWS8072 Statutory Interpretation LAWS8077 Cyber Law LAWS8104 Legislation and Legislative Drafting LAWS8125 The Law of Corporate Governance LAWS8140 Commercial Law LAWS8142 Tort Liability and Public Authorities LAWS8144 Conflict of Laws LAWS8154 Competition Law LAWS8218 Advanced Contracts LAWS8220 Government Contracts LAWS8228 Law and Economics LAWS8229 International Trade Law LAWS8243 Freedom of Inf",
+        "courses": [
+          "LAWS8009",
+          "LAWS8072",
+          "LAWS8077",
+          "LAWS8104",
+          "LAWS8125",
+          "LAWS8140",
+          "LAWS8142",
+          "LAWS8144",
+          "LAWS8154",
+          "LAWS8218",
+          "LAWS8220",
+          "LAWS8228",
+          "LAWS8229",
+          "LAWS8243",
+          "LAWS8254",
+          "LAWS8335",
+          "LAWS8336",
+          "LAWS8338",
+          "LAWS8341",
+          "LAWS8402",
+          "LAWS8405",
+          "LAWS8407",
+          "LAWS8418",
+          "LAWS8421",
+          "LAWS8422",
+          "LAWS8428",
+          "LAWS8436",
+          "LAWS8437",
+          "LAWS8445",
+          "LAWS8454",
+          "LAWS8459",
+          "LAWS8584",
+          "LAWS8587",
+          "LAWS8589",
+          "LAWS8596",
+          "LAWS8597",
+          "LAWS8661"
+        ]
+      }
+    ]
+  },
+  "PROM-SPEC": {
+    "code": "PROM-SPEC",
+    "name": "Project Management",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "MGMT7169",
+      "MGMT7170",
+      "MGMT8005",
+      "MGMT8062",
+      "MGMT8114"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MPROM",
+      "MBINS"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/PROM-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from completion of the following compulsory courses: MGMT7169 A Management Framework For Business Projects (",
+        "courses": [
+          "MGMT7169"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from the completion of courses from the following list: MGMT8005 Project Risk and Resiliency (",
+        "courses": [
+          "MGMT8005"
+        ]
+      }
+    ]
+  },
+  "PSYC-SPEC": {
+    "code": "PSYC-SPEC",
+    "name": "Psychology",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "PSYC1003",
+      "PSYC1004",
+      "PSYC2001",
+      "PSYC2002",
+      "PSYC2007",
+      "PSYC2008",
+      "PSYC2009",
+      "PSYC3018",
+      "PSYC3025",
+      "PSYC3026",
+      "PSYC2012",
+      "PSYC3020",
+      "PSYC3202",
+      "PSYC3002",
+      "PSYC3015",
+      "PSYC3016",
+      "PSYC3023",
+      "PSYC3028",
+      "PSYC3030"
+    ],
+    "elective_courses": [],
+    "programs": [],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/PSYC-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units must come from the completion of 2000- level PSYC courses from the following list: PSYC2001 Social Psychology (",
+        "courses": [
+          "PSYC2001"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units must come from the completion of 3000- level PSYC courses from the following list: PSYC3002 The Social Psychology of Group Processes and Social Change (",
+        "courses": [
+          "PSYC3002"
+        ]
+      }
+    ]
+  },
+  "PUBL-SPEC": {
+    "code": "PUBL-SPEC",
+    "name": "Public Law",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "LAWS8016",
+      "LAWS8072",
+      "LAWS8104",
+      "LAWS8128",
+      "LAWS8141",
+      "LAWS8142",
+      "LAWS8144",
+      "LAWS8158",
+      "LAWS8159",
+      "LAWS8189",
+      "LAWS8214",
+      "LAWS8228",
+      "LAWS8241",
+      "LAWS8243",
+      "LAWS8256",
+      "LAWS8271",
+      "LAWS8275",
+      "LAWS8297",
+      "LAWS8328",
+      "LAWS8338",
+      "LAWS8428",
+      "LAWS8437",
+      "LAWS8438",
+      "LAWS8445",
+      "LAWS8459",
+      "LAWS8462",
+      "LAWS8474",
+      "LAWS8589",
+      "LAWS8596",
+      "LAWS8598",
+      "LAWS8601",
+      "LAWS8660",
+      "LAWS8662"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MJD",
+      "MLLM"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/PUBL-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units from completion of the following course(s): LAWS8016 Comparative Constitutional Law LAWS8072 Statutory Interpretation LAWS8104 Legislation and Legislative Drafting LAWS8128 Contemporary Issues in Constitutional Law LAWS8141 Judicial Review of Government Action LAWS8142 Tort Liability and Public Authorities LAWS8144 Conflict of Laws LAWS8158 International Law, Science and Technology LAWS8159 Property in a Settler State LAWS8189 Environmental and Sustainability Law LAWS8214 Sentencing LAW",
+        "courses": [
+          "LAWS8016",
+          "LAWS8072",
+          "LAWS8104",
+          "LAWS8128",
+          "LAWS8141",
+          "LAWS8142",
+          "LAWS8144",
+          "LAWS8158",
+          "LAWS8159",
+          "LAWS8189",
+          "LAWS8214",
+          "LAWS8228",
+          "LAWS8241",
+          "LAWS8243",
+          "LAWS8256",
+          "LAWS8271",
+          "LAWS8275",
+          "LAWS8297",
+          "LAWS8328",
+          "LAWS8338",
+          "LAWS8428",
+          "LAWS8437",
+          "LAWS8438",
+          "LAWS8445",
+          "LAWS8459",
+          "LAWS8462",
+          "LAWS8474",
+          "LAWS8589",
+          "LAWS8596",
+          "LAWS8598",
+          "LAWS8601",
+          "LAWS8660",
+          "LAWS8662"
+        ]
+      }
+    ]
+  },
+  "PUFN-SPEC": {
+    "code": "PUFN-SPEC",
+    "name": "Public Finance and Policy",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "POGO8048",
+      "POGO8057",
+      "POGO8004",
+      "POGO8025",
+      "POGO8044",
+      "POGO8081",
+      "POGO8233",
+      "POGO8237",
+      "POGO8238",
+      "POGO8240",
+      "IDEC8025",
+      "IDEC8088"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MPUPP",
+      "MPUPPO"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/PUFN-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units of courses from the following list: POGO8048 Public Finance POGO8057 Managing Government Finances POGO8004 Poverty Reduction POGO8025 Social Policy Analysis POGO8044 Global Social Policy POGO8081 Economics for Government POGO8233 Policy Tools and Mixes (",
+        "courses": [
+          "POGO8048",
+          "POGO8057",
+          "POGO8004",
+          "POGO8025",
+          "POGO8044",
+          "POGO8081",
+          "POGO8233"
+        ]
+      }
+    ]
+  },
+  "PULA-SPEC": {
+    "code": "PULA-SPEC",
+    "name": "Public Law",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "LAWS4212",
+      "LAWS4213",
+      "LAWS4215",
+      "LAWS4219",
+      "LAWS4321",
+      "LAWS4228",
+      "LAWS4233",
+      "LAWS4238",
+      "LAWS4245",
+      "LAWS4256",
+      "LAWS4259",
+      "LAWS4262",
+      "LAWS4274",
+      "LAWS4275",
+      "LAWS4281",
+      "LAWS4285",
+      "LAWS4309",
+      "LAWS4312",
+      "LAWS4314",
+      "LAWS4341",
+      "LAWS4344",
+      "LAWS4358",
+      "LAWS4359",
+      "LAWS4601"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "ALLB",
+      "MJD"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/PULA-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units from completion of the following course(s): LAWS4212 Conflict of Laws LAWS4213 Contemporary Issues in Constitutional Law LAWS4215 Environmental Law LAWS4219 Health Law, Bioethics and Human Rights LAWS4321 Law and Social Movements LAWS4228 Labour Law LAWS4233 Tort Liability and Public Authorities LAWS4238 Indigenous People and the Law LAWS4245 Information Technology Law LAWS4256 Law, Gender Identities and Sexualities LAWS4259 Consumer Protection and Product Liability Law LAWS4262 Advance",
+        "courses": [
+          "LAWS4212",
+          "LAWS4213",
+          "LAWS4215",
+          "LAWS4219",
+          "LAWS4321",
+          "LAWS4228",
+          "LAWS4233",
+          "LAWS4238",
+          "LAWS4245",
+          "LAWS4256",
+          "LAWS4259",
+          "LAWS4262",
+          "LAWS4274",
+          "LAWS4275",
+          "LAWS4281",
+          "LAWS4285",
+          "LAWS4309",
+          "LAWS4312",
+          "LAWS4314",
+          "LAWS4341",
+          "LAWS4344",
+          "LAWS4358",
+          "LAWS4359",
+          "LAWS4601"
+        ]
+      }
+    ]
+  },
+  "SFCL-SPEC": {
+    "code": "SFCL-SPEC",
+    "name": "Sustainability and Future Climate: Science, Management and Policy",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "ENVS2013",
+      "ENVS3020",
+      "ENVS2004",
+      "ENVS3004",
+      "ENVS3005",
+      "ENVS3008",
+      "ENVS3013",
+      "ENVS3029",
+      "ENVS2005",
+      "ENVS2007",
+      "ENVS2017",
+      "ENVS3033",
+      "MGMT2001",
+      "POLS2011"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "BENSU"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/SFCL-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "a minimum of 12 units must come from completion of 3000- level courses The",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units must come from completion of courses from the following list:",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from completion of the following compulsory courses: ENVS2013 Society and Environmental Change (",
+        "courses": [
+          "ENVS2013"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 6,
+        "description": "A minimum of 6 units from the completion of courses from the following list: ENVS2004 Climate and It's Applications (",
+        "courses": [
+          "ENVS2004"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 6,
+        "description": "A maximum of 6 units from completion of courses from the following list: ENVS2005 Island Sustainable Development: Fiji Field School (6-",
+        "courses": [
+          "ENVS2005"
+        ]
+      }
+    ]
+  },
+  "SOEN-SPEC": {
+    "code": "SOEN-SPEC",
+    "name": "Society and Environment",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "ANTH8047",
+      "ANTH8060",
+      "ENVS8016",
+      "ENVS8048",
+      "EMDV8101",
+      "ENVS8003",
+      "EMDV8009",
+      "EMDV8079",
+      "EMDV8082",
+      "EMDV8124"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "VAAAD"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/SOEN-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from the completion of the following course(s): ANTH8047 - Land Rights and Resource Development (",
+        "courses": [
+          "ANTH8047"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from the completion of the following course(s): ENVS8016 - Contemporary Perspectives in Environment-Society Interaction (",
+        "courses": [
+          "ENVS8016"
+        ]
+      }
+    ]
+  },
+  "SOFT-SPEC": {
+    "code": "SOFT-SPEC",
+    "name": "Software Development",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "COMP6120",
+      "ENGN8100",
+      "COMP8715",
+      "COMP8800",
+      "COMP8830",
+      "COMP6240",
+      "COMP6331",
+      "COMP6390",
+      "INFS8004",
+      "INFS8205",
+      "LAWS8445",
+      "MGMT7020",
+      "REGN8014"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "7706XMCOMP",
+      "7722XVCOMP"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/SOFT-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "a minimum of 12 units of 8000-level courses. The",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units must consist of:",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 12,
+        "description": "12 units from completion of the following compulsory courses: COMP6120 Software Engineering (",
+        "courses": [
+          "COMP6120"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units from completion of an 8000-level course from the subject area COMP Computing, excluding the project courses ( COMP8715 , COMP8800 , COMP8830 ).",
+        "courses": [
+          "COMP8715",
+          "COMP8800",
+          "COMP8830"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "A maximum of 12 units from completion of courses from the following list: COMP6240 Relational Databases (",
+        "courses": [
+          "COMP6240"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units of 6000/8000 COMP. Back to the top",
+        "courses": []
+      }
+    ]
+  },
+  "SOPL-SPEC": {
+    "code": "SOPL-SPEC",
+    "name": "Social Policy",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "POGO8084",
+      "DEMO8024",
+      "LAWS8237",
+      "POGO8004",
+      "POGO8025",
+      "POGO8044",
+      "POGO8048",
+      "POGO8230",
+      "POGO8239",
+      "SOCR8202",
+      "SOCR8204"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MPUPP",
+      "MPUPPO"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/SOPL-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 6,
+        "description": "6 units from completion of the following course: POGO8084 Principles of Social Policy",
+        "courses": [
+          "POGO8084"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 18,
+        "description": "18 units from completion of courses from the following list: DEMO8024 Population and Society: Theory and Empirical Perspectives LAWS8237 Health Law, Bioethics and Human Rights POGO8004 Poverty Reduction POGO8025 Social Policy Analysis POGO8044 Global Social Policy POGO8048 Public Finance POGO8230 Gender Analysis in Public Policy (",
+        "courses": [
+          "DEMO8024",
+          "LAWS8237",
+          "POGO8004",
+          "POGO8025",
+          "POGO8044",
+          "POGO8048",
+          "POGO8230"
+        ]
+      }
+    ]
+  },
+  "SORM-SPEC": {
+    "code": "SORM-SPEC",
+    "name": "Social Research Methods",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "SOCR8002",
+      "SOCY8020",
+      "SOCR8201",
+      "SOCR8008",
+      "SOCR8203",
+      "SOCR8006",
+      "SOCR8010",
+      "SOCR8202",
+      "DEMO8008",
+      "DEMO8024",
+      "DEMO8047",
+      "DEMO8048",
+      "SOCR8004"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MPUPP",
+      "MPUPPO"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/SORM-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "a maximum of 12 units from the completion of the following: SOCR8002 - Survey Data Analysis (",
+        "courses": [
+          "SOCR8002"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "a maximum of 12 units from the completion of the following: SOCR8201 - Introduction to Social Science Methods and Types of Data (",
+        "courses": [
+          "SOCR8201"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "a maximum of 12 units from the completion of the following: SOCR8006 - Online Research Methods (",
+        "courses": [
+          "SOCR8006"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 6,
+        "description": "A maximum of 6 units from the completion of the following list: DEMO8008 - Principles of Population Analysis (",
+        "courses": [
+          "DEMO8008"
+        ]
+      }
+    ]
+  },
+  "STAT-SPEC": {
+    "code": "STAT-SPEC",
+    "name": "Statistics",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "EMET8005",
+      "EMET8012",
+      "FINM7006",
+      "STAT6018",
+      "STAT6026",
+      "STAT6027",
+      "STAT6029",
+      "STAT6042",
+      "STAT6043",
+      "STAT6045",
+      "STAT6046",
+      "STAT6056",
+      "STAT7038",
+      "STAT7039",
+      "STAT7055",
+      "STAT8002",
+      "STAT8053",
+      "STAT8130"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "CFAS"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/STAT-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units from the completion of the following course(s): EMET8005 - Econometric Methods and Modelling EMET8012 - Business and Economic Forecasting FINM7006 - Applied Foundations of Finance STAT6018 - Stochastic Processes STAT6026 - Graphical Data Analysis STAT6027 - Statistical Inference STAT6029 - Design of Experiments and Surveys STAT6042 - Survival Models STAT6043 - Life Contingencies STAT6045 - Actuarial Techniques STAT6046 - Financial Mathematics STAT6056 - Advanced Mathematical Statistics ",
+        "courses": [
+          "EMET8005",
+          "EMET8012",
+          "FINM7006",
+          "STAT6018",
+          "STAT6026",
+          "STAT6027",
+          "STAT6029",
+          "STAT6042",
+          "STAT6043",
+          "STAT6045",
+          "STAT6046",
+          "STAT6056",
+          "STAT7038",
+          "STAT7039",
+          "STAT7055",
+          "STAT8002",
+          "STAT8053",
+          "STAT8130"
+        ]
+      }
+    ]
+  },
+  "STRT-SPEC": {
+    "code": "STRT-SPEC",
+    "name": "Strategic Studies",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "STST8001",
+      "STST8004",
+      "STST8026",
+      "STST8052",
+      "STST8066",
+      "STST8068"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "MINTR"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/STRT-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units must come from completion of 8000-level courses",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "requirement",
+        "units": 24,
+        "description": "24 units must come from completion of the following list of Strategic Studies courses: STST8001 Strategy and Defence for the 21st Century: Concepts and Cases STST8004 Deterrence and Defence in Australian Strategic Policy STST8026 - Nuclear Strategy STST8052 Conflict and Command: Military Operations and the Future of War STST8066 - Strategy, Statecraft and Diplomacy for the 21st Century STST8068 Asian Strategy and Security: History, Theory and Practice Back to the top",
+        "courses": [
+          "STST8001",
+          "STST8004",
+          "STST8026",
+          "STST8052",
+          "STST8066",
+          "STST8068"
+        ]
+      }
+    ]
+  },
+  "SUAC-SPEC": {
+    "code": "SUAC-SPEC",
+    "name": "Sustainability and Accounting",
+    "units": 24,
+    "career": "Postgraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "BUSN7005",
+      "BUSN7017",
+      "BUSN8045",
+      "BUSN8068"
+    ],
+    "elective_courses": [],
+    "programs": [],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/SUAC-SPEC",
+    "rules": []
+  },
+  "SYAR-SPEC": {
+    "code": "SYAR-SPEC",
+    "name": "Systems and Architecture",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "COMP4045",
+      "COMP4300",
+      "COMP4712",
+      "COMP3300",
+      "COMP3310",
+      "COMP3320",
+      "COMP3610"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "AACOM",
+      "AACRD"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/SYAR-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "a minimum of 12 units of 4000 level courses.",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units from completion of courses from the following list: COMP4045 Advanced Topics in Computer Systems COMP4300 Parallel Systems COMP4712 Compiler Construction",
+        "courses": [
+          "COMP4045",
+          "COMP4300",
+          "COMP4712"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "A maximum of 12 units from completion of courses from the following list: COMP3300 Operating Systems Implementation COMP3310 Computer Networks COMP3320 High Performance Scientific Computation COMP3610 Principles of Programming Languages This specialisation is incompatible with the Computer Systems (COMS) Major. This specialisation is only available to students studying BAC (AACOM) and BACR&D (AACRD). Back to the top",
+        "courses": [
+          "COMP3300",
+          "COMP3310",
+          "COMP3320",
+          "COMP3610"
+        ]
+      }
+    ]
+  },
+  "THCS-SPEC": {
+    "code": "THCS-SPEC",
+    "name": "Theoretical Computer Science",
+    "units": 24,
+    "career": "Undergraduate",
+    "type": "Specialisation",
+    "description": "",
+    "required_courses": [
+      "MATH4343",
+      "COMP4011",
+      "COMP4600",
+      "COMP2620",
+      "COMP3610",
+      "COMP3630",
+      "COMP4712"
+    ],
+    "elective_courses": [],
+    "programs": [
+      "AACOM",
+      "AACRD"
+    ],
+    "url": "https://programsandcourses.anu.edu.au/2026/specialisation/THCS-SPEC",
+    "rules": [
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units must come from the completion of 4000-level courses.",
+        "courses": []
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "minimum",
+        "units": 12,
+        "description": "A minimum of 12 units from completion of the following courses: COMP4011 Advanced Topics in Formal Methods and Programming Languages COMP4600 Advanced Algorithms MATH4343 Foundations of Mathematics",
+        "courses": [
+          "COMP4011",
+          "COMP4600",
+          "MATH4343"
+        ]
+      },
+      {
+        "type": "unit_requirement",
+        "constraint": "maximum",
+        "units": 12,
+        "description": "A maximum of 12 units from completion of courses from the following list: COMP2620 Logic COMP3610 Principles of Programming Languages COMP3630 Theory of Computation COMP4712 Compiler Construction This specialisation is only available to students studying Bachelor of Advanced Computing (AACOM) and Bachelor of Advanced Computing Research & Development (AACRD). Back to the top",
+        "courses": [
+          "COMP2620",
+          "COMP3610",
+          "COMP3630",
+          "COMP4712"
+        ]
+      }
+    ]
+  }
+}
