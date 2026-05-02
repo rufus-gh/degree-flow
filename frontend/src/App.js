@@ -8,7 +8,6 @@ import {
   GraduationCap,
   Moon,
   Pencil,
-  Plus,
   Sparkles,
   Sun,
   Wand2,
@@ -107,6 +106,88 @@ function CoursePill({ code, course, onRemove }) {
         <X size={13} />
       </button>
     </span>
+  );
+}
+
+function SearchSelect({ options, value, onChange, placeholder }) {
+  const [query, setQuery] = useState('');
+  const [open, setOpen] = useState(false);
+  const [focused, setFocused] = useState(false);
+
+  const selected = options.find(o => o.code === value);
+  const inputValue = focused ? query : (selected?.name || '');
+
+  const filtered = useMemo(() => {
+    const q = query.toLowerCase();
+    if (!q) return options.slice(0, 8);
+    return options.filter(o =>
+      o.name.toLowerCase().includes(q) || o.code.toLowerCase().includes(q)
+    ).slice(0, 8);
+  }, [query, options]);
+
+  return (
+    <div className="search-select">
+      <input
+        className="input question-control"
+        placeholder={placeholder}
+        value={inputValue}
+        onChange={e => { setQuery(e.target.value); setOpen(true); if (!e.target.value) onChange(''); }}
+        onFocus={() => { setFocused(true); setOpen(true); setQuery(''); }}
+        onBlur={() => setTimeout(() => { setOpen(false); setFocused(false); }, 180)}
+      />
+      {open && filtered.length > 0 && (
+        <ul className="search-dropdown">
+          {filtered.map(o => (
+            <li key={o.code} onMouseDown={() => { onChange(o.code); setQuery(''); setOpen(false); setFocused(false); }}>
+              <strong>{o.code}</strong>
+              <span>{o.name}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
+
+function CourseSearch({ courses, onAdd }) {
+  const [query, setQuery] = useState('');
+  const [open, setOpen] = useState(false);
+
+  const filtered = useMemo(() => {
+    const q = query.toLowerCase().trim();
+    if (q.length < 2) return [];
+    return Object.values(courses)
+      .filter(c => c.code.toLowerCase().includes(q) || c.name.toLowerCase().includes(q))
+      .slice(0, 6);
+  }, [query, courses]);
+
+  function select(code) {
+    onAdd(code);
+    setQuery('');
+    setOpen(false);
+  }
+
+  return (
+    <div className="search-select">
+      <input
+        className="input question-control"
+        placeholder="Search by code or name, e.g. COMP1100"
+        value={query}
+        onChange={e => { setQuery(e.target.value); setOpen(true); }}
+        onBlur={() => setTimeout(() => setOpen(false), 180)}
+        onKeyDown={e => { if (e.key === 'Enter' && filtered.length) select(filtered[0].code); }}
+      />
+      {open && filtered.length > 0 && (
+        <ul className="search-dropdown">
+          {filtered.map(c => (
+            <li key={c.code} onMouseDown={() => select(c.code)}>
+              <strong>{c.code}</strong>
+              <span>{c.name}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
   );
 }
 
@@ -221,14 +302,13 @@ function OnboardingSetup({
   availableMinors,
   interestOptions,
   selectedCompleted,
-  courseInput,
-  setCourseInput,
   updateStudent,
   toggleInterest,
   addCompletedCourse,
   removeCompletedCourse,
   onComplete,
 }) {
+  const programOptions = useMemo(() => Object.values(programs).map(p => ({ code: p.code, name: p.name })), [programs]);
   const [stepIndex, setStepIndex] = useState(0);
   const steps = [
     { id: 'degree', eyebrow: 'Step 1 of 10', title: 'What degree are you planning?' },
@@ -265,17 +345,12 @@ function OnboardingSetup({
   const stepContent = {
     degree: (
       <Field label="Degree">
-        <select
-          className="select question-control"
+        <SearchSelect
+          options={programOptions}
           value={student.degree_code}
-          onChange={event => updateStudent({ degree_code: event.target.value, major_code: '', minor_code: '', planned_courses: [] })}
-          onKeyDown={handleEnter}
-        >
-          <option value="">Choose a degree</option>
-          {Object.values(programs).map(item => (
-            <option key={item.code} value={item.code}>{item.name}</option>
-          ))}
-        </select>
+          onChange={code => updateStudent({ degree_code: code, major_code: '', minor_code: '', planned_courses: [] })}
+          placeholder="Search by name or code…"
+        />
       </Field>
     ),
     major: (
@@ -361,18 +436,7 @@ function OnboardingSetup({
     ),
     completed: (
       <div className="question-stack">
-        <div className="simple-add-row">
-          <input
-            className="input question-control"
-            placeholder="Add a course code, e.g. COMP1100"
-            value={courseInput}
-            onChange={event => setCourseInput(event.target.value)}
-            onKeyDown={event => event.key === 'Enter' && addCompletedCourse()}
-          />
-          <button className="btn btn-primary" type="button" onClick={addCompletedCourse}>
-            <Plus size={16} /> Add
-          </button>
-        </div>
+        <CourseSearch courses={courses} onAdd={addCompletedCourse} />
         <div className="simple-course-list setup-course-list">
           {selectedCompleted.map(code => (
             <CoursePill key={code} code={code} course={courses[code]} onRemove={removeCompletedCourse} />
@@ -390,7 +454,7 @@ function OnboardingSetup({
           <GraduationCap size={28} />
           <span>DegreeFlow</span>
         </div>
-        <h1>Let’s set up your degree calendar.</h1>
+        <h1>Let’s build your degree plan.</h1>
         <p>
           One question at a time. We’ll use your answers to build a first-pass plan, then you can edit it from the calendar.
         </p>
@@ -424,6 +488,33 @@ function OnboardingSetup({
             </button>
           </div>
         </div>
+      </div>
+    </section>
+  );
+}
+
+function WelcomePage({ onStart }) {
+  return (
+    <section className="welcome-screen">
+      <div className="welcome-card">
+        <div className="welcome-brand">
+          <GraduationCap size={32} />
+          <span>DegreeFlow</span>
+        </div>
+        <h1>Plan your ANU degree with confidence.</h1>
+        <p>
+          Map your full degree from first year to graduation. Check prerequisites automatically,
+          balance your workload, and get AI-powered course recommendations — all in one place.
+        </p>
+        <div className="welcome-features">
+          <span>Visual degree timeline</span>
+          <span>Prerequisite checking</span>
+          <span>AI elective suggestions</span>
+          <span>Workload balancer</span>
+        </div>
+        <button className="btn btn-primary welcome-cta" type="button" onClick={onStart}>
+          Get started <ArrowRight size={18} />
+        </button>
       </div>
     </section>
   );
@@ -526,11 +617,10 @@ function CalendarView({
 
 export default function App() {
   const [student, setStudent] = useState(initialStudent);
-  const [courseInput, setCourseInput] = useState('');
   const [interestOptions, setInterestOptions] = useState(DEFAULT_INTERESTS.slice(0, 8));
   const [aiNote, setAiNote] = useState('');
   const [aiBusy, setAiBusy] = useState(false);
-  const [screen, setScreen] = useState('onboarding');
+  const [screen, setScreen] = useState('welcome');
   const [theme, setTheme] = useState('light');
 
   const courses = coursesData;
@@ -605,15 +695,14 @@ export default function App() {
     });
   }
 
-  function addCompletedCourse() {
-    const code = normaliseCode(courseInput);
+  function addCompletedCourse(codeRaw) {
+    const code = normaliseCode(codeRaw);
     if (!courses[code]) return;
     setStudent(current => ({
       ...current,
       completed_courses: uniqueCodes([...current.completed_courses, code]),
       current_courses: current.current_courses.filter(existing => existing !== code),
     }));
-    setCourseInput('');
   }
 
   function removeCompletedCourse(code) {
@@ -659,7 +748,9 @@ export default function App() {
   return (
     <main className={`simple-app ${theme}`}>
       <ThemeToggle theme={theme} onToggle={() => setTheme(current => (current === 'dark' ? 'light' : 'dark'))} />
-      {screen === 'onboarding' ? (
+      {screen === 'welcome' ? (
+        <WelcomePage onStart={() => setScreen('onboarding')} />
+      ) : screen === 'onboarding' ? (
         <OnboardingSetup
           student={student}
           programs={programs}
@@ -671,8 +762,6 @@ export default function App() {
           availableMinors={availableMinors}
           interestOptions={interestOptions}
           selectedCompleted={selectedCompleted}
-          courseInput={courseInput}
-          setCourseInput={setCourseInput}
           updateStudent={updateStudent}
           toggleInterest={toggleInterest}
           addCompletedCourse={addCompletedCourse}
