@@ -1,0 +1,184 @@
+{
+  "BCOMP": {
+    "code": "BCOMP",
+    "name": "Bachelor of Computing",
+    "total_units": 144,
+    "duration_years": 3,
+    "career": "Undergraduate",
+    "college": "ANU College of Systems and Society",
+    "description": "The Bachelor of Computing is a flexible degree that provides a strong foundation in computing principles and lets you tailor your studies to your interests through a choice of majors, minors, and specialisations.",
+    "requirements": [
+      "144 total units",
+      "A minimum of 48 units from a computing major",
+      "A minimum of 5 courses at 3000-level or above",
+      "Maximum 60 units at 1000-level",
+      "At least 1 transdisciplinary problem-solving course"
+    ],
+    "available_majors": [
+      {"code": "CSMAJ", "name": "Computer Science"},
+      {"code": "SEMAJ", "name": "Software Engineering"},
+      {"code": "ISMAJ", "name": "Information Systems"},
+      {"code": "CYMAJ", "name": "Cybersecurity"}
+    ],
+    "available_minors": [
+      {"code": "CSMIN", "name": "Computer Science"},
+      {"code": "CYMIN", "name": "Cybersecurity"},
+      {"code": "DSMIN", "name": "Data Science"},
+      {"code": "AIMIN", "name": "Artificial Intelligence"}
+    ],
+    "available_specialisations": [
+      {"code": "AISPEC", "name": "Artificial Intelligence"},
+      {"code": "CYSPEC", "name": "Cybersecurity"},
+      {"code": "SESPEC", "name": "Software Engineering"}
+    ],
+    "core_courses": ["COMP1100", "COMP1110", "COMP1600"],
+    "study_modes": ["Full-time", "Part-time"],
+    "admission_requirements": "Competitive ATAR entry. Prerequisites include assumed knowledge of mathematics.",
+    "url": "https://programsandcourses.anu.edu.au/program/bcomp",
+    "rules": [
+      {
+        "type": "total_units",
+        "units": 144,
+        "constraint": "minimum",
+        "description": "A minimum of 144 units total"
+      },
+      {
+        "type": "level_requirement",
+        "minimum_units": 30,
+        "level": 3000,
+        "description": "A minimum of 5 courses (30 units) at 3000-level or above"
+      },
+      {
+        "type": "level_cap",
+        "maximum_units": 60,
+        "level": 1000,
+        "description": "A maximum of 60 units (10 courses) at 1000-level"
+      },
+      {
+        "type": "major_requirement",
+        "minimum_units": 48,
+        "description": "At least one major of 48 units from the approved list"
+      },
+      {
+        "type": "course_requirement",
+        "courses": ["COMP1100", "COMP1110", "COMP1600"],
+        "description": "Compulsory foundation courses"
+      }
+    ]
+  },
+  "BAC": {
+    "code": "BAC",
+    "name": "Bachelor of Advanced Computing",
+    "total_units": 192,
+    "duration_years": 4,
+    "career": "Undergraduate",
+    "college": "ANU College of Systems and Society",
+    "description": "The Bachelor of Advanced Computing is an intensive four-year degree that provides deep expertise in computing with an integrated honours year, including a substantial research project.",
+    "requirements": [
+      "192 total units",
+      "A minimum of 48 units from a computing major",
+      "Honours research project (COMP4550)",
+      "A minimum of 8 courses at 3000-level or above",
+      "Maximum 60 units at 1000-level"
+    ],
+    "available_majors": [
+      {"code": "CSMAJ", "name": "Computer Science"},
+      {"code": "SEMAJ", "name": "Software Engineering"},
+      {"code": "ISMAJ", "name": "Information Systems"},
+      {"code": "CYMAJ", "name": "Cybersecurity"}
+    ],
+    "available_minors": [
+      {"code": "CSMIN", "name": "Computer Science"},
+      {"code": "CYMIN", "name": "Cybersecurity"},
+      {"code": "DSMIN", "name": "Data Science"}
+    ],
+    "available_specialisations": [
+      {"code": "AISPEC", "name": "Artificial Intelligence"},
+      {"code": "CYSPEC", "name": "Cybersecurity"}
+    ],
+    "core_courses": ["COMP1100", "COMP1110", "COMP1600", "COMP2550", "COMP2560", "COMP4550"],
+    "study_modes": ["Full-time"],
+    "admission_requirements": "Competitive ATAR entry with higher requirements than the Bachelor of Computing.",
+    "url": "https://programsandcourses.anu.edu.au/program/bac",
+    "rules": [
+      {
+        "type": "total_units",
+        "units": 192,
+        "constraint": "minimum",
+        "description": "A minimum of 192 units total"
+      },
+      {
+        "type": "level_requirement",
+        "minimum_units": 48,
+        "level": 3000,
+        "description": "A minimum of 8 courses (48 units) at 3000-level or above"
+      },
+      {
+        "type": "level_cap",
+        "maximum_units": 60,
+        "level": 1000,
+        "description": "A maximum of 60 units at 1000-level"
+      },
+      {
+        "type": "course_requirement",
+        "courses": ["COMP1100", "COMP1110", "COMP1600", "COMP2550", "COMP2560", "COMP4550"],
+        "description": "Compulsory core courses including honours research project"
+      }
+    ]
+  },
+  "BSC": {
+    "code": "BSC",
+    "name": "Bachelor of Science",
+    "total_units": 144,
+    "duration_years": 3,
+    "career": "Undergraduate",
+    "college": "ANU College of Science and Medicine",
+    "description": "The Bachelor of Science provides a broad scientific education with flexibility to specialise through majors, minors, and specialisations across the sciences.",
+    "requirements": [
+      "144 total units",
+      "A minimum of 48 units from a science major",
+      "A minimum of 5 courses at 3000-level or above",
+      "Maximum 60 units at 1000-level",
+      "6 units quantitative research skills",
+      "2 transdisciplinary problem-solving courses"
+    ],
+    "available_majors": [
+      {"code": "CSMAJ", "name": "Computer Science"},
+      {"code": "MATMAJ", "name": "Mathematics"},
+      {"code": "PHYMAJ", "name": "Physics"},
+      {"code": "BIOMAJ", "name": "Biology"},
+      {"code": "CHMMAJ", "name": "Chemistry"},
+      {"code": "STAMAJ", "name": "Statistics"}
+    ],
+    "available_minors": [
+      {"code": "CSMIN", "name": "Computer Science"},
+      {"code": "DSMIN", "name": "Data Science"},
+      {"code": "MATMIN", "name": "Mathematics"}
+    ],
+    "available_specialisations": [],
+    "core_courses": [],
+    "study_modes": ["Full-time", "Part-time"],
+    "admission_requirements": "Competitive ATAR entry.",
+    "url": "https://programsandcourses.anu.edu.au/program/bsc",
+    "rules": [
+      {
+        "type": "total_units",
+        "units": 144,
+        "constraint": "minimum",
+        "description": "A minimum of 144 units total"
+      },
+      {
+        "type": "level_requirement",
+        "minimum_units": 30,
+        "level": 3000,
+        "description": "A minimum of 5 courses at 3000-level or above"
+      },
+      {
+        "type": "level_cap",
+        "maximum_units": 60,
+        "level": 1000,
+        "description": "A maximum of 60 units at 1000-level"
+      }
+    ]
+  }
+}

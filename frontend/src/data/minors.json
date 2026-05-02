@@ -1,0 +1,26 @@
+{
+  "CSMIN": {
+    "code": "CSMIN", "name": "Computer Science", "units": 24, "career": "Undergraduate", "type": "Minor",
+    "description": "A minor in Computer Science introduces key computing concepts including programming, algorithms, and systems.",
+    "required_courses": ["COMP1100", "COMP1110"], "elective_courses": ["COMP1600", "COMP2100", "COMP2300"],
+    "programs": ["BSC", "BA", "BCOMM"], "url": "", "rules": []
+  },
+  "CYMIN": {
+    "code": "CYMIN", "name": "Cybersecurity", "units": 24, "career": "Undergraduate", "type": "Minor",
+    "description": "A minor in Cybersecurity provides foundational knowledge of computer security, networks, and systems security.",
+    "required_courses": ["COMP2300", "COMP2310"], "elective_courses": ["COMP3530", "CYBR3420"],
+    "programs": ["BCOMP", "BSC"], "url": "", "rules": []
+  },
+  "DSMIN": {
+    "code": "DSMIN", "name": "Data Science", "units": 24, "career": "Undergraduate", "type": "Minor",
+    "description": "A minor in Data Science introduces statistical and computational methods for working with data.",
+    "required_courses": ["STAT1003", "COMP1100"], "elective_courses": ["COMP2400", "COMP3670"],
+    "programs": ["BCOMP", "BSC"], "url": "", "rules": []
+  },
+  "AIMIN": {
+    "code": "AIMIN", "name": "Artificial Intelligence", "units": 24, "career": "Undergraduate", "type": "Minor",
+    "description": "A minor in Artificial Intelligence introduces core AI concepts including search, reasoning, and machine learning.",
+    "required_courses": ["COMP1100", "COMP1600"], "elective_courses": ["COMP3620", "COMP3670"],
+    "programs": ["BCOMP"], "url": "", "rules": []
+  }
+}

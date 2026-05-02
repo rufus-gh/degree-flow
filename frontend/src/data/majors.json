@@ -1,0 +1,65 @@
+{
+  "CSMAJ": {
+    "code": "CSMAJ",
+    "name": "Computer Science",
+    "units": 48,
+    "career": "Undergraduate",
+    "type": "Major",
+    "description": "The Computer Science major provides a strong foundation in the theory and practice of computing, covering algorithms, programming languages, systems, and artificial intelligence.",
+    "required_courses": ["COMP2100", "COMP2300", "COMP2310", "COMP1600", "COMP3600"],
+    "elective_courses": ["COMP3620", "COMP3670", "COMP3630", "COMP3310", "COMP3530", "COMP3120", "COMP3500", "COMP3900"],
+    "programs": ["BCOMP", "BAC", "BSC"],
+    "url": "https://programsandcourses.anu.edu.au/major/csmaj",
+    "rules": [
+      {"units": 48, "description": "Minimum 48 units total"},
+      {"units": 18, "description": "Minimum 18 units at 3000-level from the major list"}
+    ]
+  },
+  "SEMAJ": {
+    "code": "SEMAJ",
+    "name": "Software Engineering",
+    "units": 48,
+    "career": "Undergraduate",
+    "type": "Major",
+    "description": "The Software Engineering major focuses on the principles and practices of software development, covering design, construction, testing, and project management.",
+    "required_courses": ["COMP2100", "COMP2120", "COMP2310", "COMP3120", "COMP3700"],
+    "elective_courses": ["COMP3500", "COMP3600", "COMP2400", "COMP3310", "COMP3530"],
+    "programs": ["BCOMP", "BAC"],
+    "url": "https://programsandcourses.anu.edu.au/major/semaj",
+    "rules": [
+      {"units": 48, "description": "Minimum 48 units total"},
+      {"units": 18, "description": "Minimum 18 units at 3000-level from the major list"}
+    ]
+  },
+  "CYMAJ": {
+    "code": "CYMAJ",
+    "name": "Cybersecurity",
+    "units": 48,
+    "career": "Undergraduate",
+    "type": "Major",
+    "description": "The Cybersecurity major covers the principles and practice of securing computer systems, networks, and data against threats.",
+    "required_courses": ["COMP2300", "COMP2310", "COMP3530", "CYBR3420"],
+    "elective_courses": ["COMP3310", "COMP3600", "COMP2100", "COMP2400"],
+    "programs": ["BCOMP", "BAC"],
+    "url": "https://programsandcourses.anu.edu.au/major/cymaj",
+    "rules": [
+      {"units": 48, "description": "Minimum 48 units total"},
+      {"units": 18, "description": "Minimum 18 units at 3000-level from the major list"}
+    ]
+  },
+  "MATMAJ": {
+    "code": "MATMAJ",
+    "name": "Mathematics",
+    "units": 48,
+    "career": "Undergraduate",
+    "type": "Major",
+    "description": "The Mathematics major provides a comprehensive education in pure and applied mathematics.",
+    "required_courses": ["MATH1013", "MATH1014"],
+    "elective_courses": ["MATH1005", "STAT1003"],
+    "programs": ["BSC"],
+    "url": "https://programsandcourses.anu.edu.au/major/matmaj",
+    "rules": [
+      {"units": 48, "description": "Minimum 48 units total"}
+    ]
+  }
+}
