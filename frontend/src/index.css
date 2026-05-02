@@ -629,25 +629,73 @@ tr:hover td { background: var(--bg-card-hover); }
   color: var(--text-dim);
   pointer-events: none;
 }
-.search-input .input { padding-left: 2.2rem; }
-.picker-results {
-  display: grid;
-  gap: 0.4rem;
-  margin-top: 0.55rem;
-  max-height: 190px;
-  overflow: auto;
+.search-container {
+  position: relative;
+  width: 100%;
 }
-.picker-results button {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  text-align: left;
+.picker-results-dropdown {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  right: 0;
+  background: var(--bg-card);
   border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  padding: 0.55rem 0.65rem;
-  background: var(--bg-input);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+  z-index: 50;
+  max-height: 300px;
+  overflow-y: auto;
+  backdrop-filter: blur(8px);
+}
+.picker-results-dropdown button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border);
   color: var(--text);
   cursor: pointer;
+  text-align: left;
+  transition: background 0.2s;
+}
+.picker-results-dropdown button:last-child {
+  border-bottom: none;
+}
+.picker-results-dropdown button:hover {
+  background: var(--bg-card-hover);
+}
+.picker-results-dropdown .result-code {
+  font-weight: 700;
+  color: var(--accent);
+  min-width: 80px;
+}
+.picker-results-dropdown .result-name {
+  flex: 1;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--text-muted);
+}
+.btn-hero {
+  padding: 0.85rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 12px;
+}
+.intro-message {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: var(--text-muted);
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+.home-hero h1 {
+  font-size: 4rem;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
 }
 .selected-course-grid { display: grid; gap: 0.45rem; margin-top: 0.75rem; max-height: 240px; overflow: auto; }
 .selected-course {
