@@ -1,0 +1,8507 @@
+{
+  "AATD1001": {
+    "rating": null
+  },
+  "AATD2001": {
+    "rating": null
+  },
+  "AATD3001": {
+    "rating": null
+  },
+  "AATD6001": {
+    "rating": null
+  },
+  "ACST3032": {
+    "rating": null
+  },
+  "ACST4031": {
+    "rating": null
+  },
+  "ACST4032": {
+    "rating": null
+  },
+  "ACST4062": {
+    "rating": null
+  },
+  "ACST4500": {
+    "rating": null
+  },
+  "ACST6032": {
+    "rating": null
+  },
+  "ACST8040": {
+    "rating": null
+  },
+  "ACST8041": {
+    "rating": null
+  },
+  "ACST8050": {
+    "rating": null
+  },
+  "ACST8500": {
+    "rating": null
+  },
+  "ANIP3003": {
+    "rating": null
+  },
+  "ANIP3005": {
+    "rating": null
+  },
+  "ANIP3007": {
+    "rating": null
+  },
+  "ANIP6503": {
+    "rating": null
+  },
+  "ANIP6505": {
+    "rating": null
+  },
+  "ANIP6507": {
+    "rating": null
+  },
+  "ANTH1002": {
+    "rating": null
+  },
+  "ANTH1003": {
+    "rating": null
+  },
+  "ANTH2005": {
+    "rating": null
+  },
+  "ANTH2009": {
+    "rating": null
+  },
+  "ANTH2017": {
+    "rating": null
+  },
+  "ANTH2020": {
+    "rating": null
+  },
+  "ANTH2025": {
+    "rating": null
+  },
+  "ANTH2026": {
+    "rating": null
+  },
+  "ANTH2027": {
+    "rating": null
+  },
+  "ANTH2122": {
+    "rating": null
+  },
+  "ANTH2129": {
+    "rating": null
+  },
+  "ANTH2130": {
+    "rating": null
+  },
+  "ANTH3010": {
+    "rating": null
+  },
+  "ANTH3018": {
+    "rating": null
+  },
+  "ANTH3059": {
+    "rating": null
+  },
+  "ANTH4011": {
+    "rating": null
+  },
+  "ANTH6002": {
+    "rating": null
+  },
+  "ANTH6003": {
+    "rating": null
+  },
+  "ANTH6005": {
+    "rating": null
+  },
+  "ANTH6009": {
+    "rating": null
+  },
+  "ANTH6017": {
+    "rating": null
+  },
+  "ANTH6025": {
+    "rating": null
+  },
+  "ANTH6026": {
+    "rating": null
+  },
+  "ANTH6064": {
+    "rating": null
+  },
+  "ANTH6515": {
+    "rating": null
+  },
+  "ANTH6516": {
+    "rating": null
+  },
+  "ANTH8001": {
+    "rating": null
+  },
+  "ANTH8007": {
+    "rating": null
+  },
+  "ANTH8056": {
+    "rating": null
+  },
+  "ANTH8059": {
+    "rating": null
+  },
+  "ANTH8061": {
+    "rating": null
+  },
+  "ANTH8062": {
+    "rating": null
+  },
+  "ANTH8063": {
+    "rating": null
+  },
+  "ANTH8101": {
+    "rating": null
+  },
+  "ANTH8125": {
+    "rating": null
+  },
+  "ANTH9101": {
+    "rating": null
+  },
+  "ANTH9112": {
+    "rating": null
+  },
+  "ANTH9901": {
+    "rating": null
+  },
+  "ANTH9902": {
+    "rating": null
+  },
+  "ANTH9949": {
+    "rating": null
+  },
+  "ARAB1002": {
+    "rating": null
+  },
+  "ARAB1003": {
+    "rating": null
+  },
+  "ARAB2011": {
+    "rating": null
+  },
+  "ARAB2012": {
+    "rating": null
+  },
+  "ARAB3001": {
+    "rating": null
+  },
+  "ARAB3002": {
+    "rating": null
+  },
+  "ARAB3006": {
+    "rating": null
+  },
+  "ARAB3008": {
+    "rating": null
+  },
+  "ARAB3010": {
+    "rating": null
+  },
+  "ARAB3011": {
+    "rating": null
+  },
+  "ARAB3100": {
+    "rating": null
+  },
+  "ARCH1001": {
+    "rating": null
+  },
+  "ARCH2004": {
+    "rating": null
+  },
+  "ARCH2005": {
+    "rating": null
+  },
+  "ARCH2007": {
+    "rating": null
+  },
+  "ARCH2030": {
+    "rating": null
+  },
+  "ARCH2037": {
+    "rating": null
+  },
+  "ARCH2041": {
+    "rating": null
+  },
+  "ARCH2050": {
+    "rating": null
+  },
+  "ARCH2052": {
+    "rating": null
+  },
+  "ARCH2055": {
+    "rating": null
+  },
+  "ARCH2058": {
+    "rating": null
+  },
+  "ARCH2061": {
+    "rating": null
+  },
+  "ARCH2220": {
+    "rating": null
+  },
+  "ARCH3006": {
+    "rating": null
+  },
+  "ARCH3023": {
+    "rating": null
+  },
+  "ARCH3026": {
+    "rating": null
+  },
+  "ARCH3030": {
+    "rating": null
+  },
+  "ARCH3042": {
+    "rating": null
+  },
+  "ARCH3043": {
+    "rating": null
+  },
+  "ARCH3108": {
+    "rating": null
+  },
+  "ARCH4003": {
+    "rating": null
+  },
+  "ARCH6004": {
+    "rating": null
+  },
+  "ARCH6005": {
+    "rating": null
+  },
+  "ARCH6006": {
+    "rating": null
+  },
+  "ARCH6008": {
+    "rating": null
+  },
+  "ARCH6030": {
+    "rating": null
+  },
+  "ARCH6037": {
+    "rating": null
+  },
+  "ARCH6041": {
+    "rating": null
+  },
+  "ARCH6042": {
+    "rating": null
+  },
+  "ARCH6043": {
+    "rating": null
+  },
+  "ARCH6050": {
+    "rating": null
+  },
+  "ARCH6058": {
+    "rating": null
+  },
+  "ARCH6066": {
+    "rating": null
+  },
+  "ARCH6108": {
+    "rating": null
+  },
+  "ARCH8029": {
+    "rating": null
+  },
+  "ARCH8030": {
+    "rating": null
+  },
+  "ARCH8033": {
+    "rating": null
+  },
+  "ARCH8037": {
+    "rating": null
+  },
+  "ARCH8038": {
+    "rating": null
+  },
+  "ARCH8042": {
+    "rating": null
+  },
+  "ARCH8044": {
+    "rating": null
+  },
+  "ARCH8045": {
+    "rating": null
+  },
+  "ARCH8046": {
+    "rating": null
+  },
+  "ARCH8066": {
+    "rating": null
+  },
+  "ARCH9106": {
+    "rating": null
+  },
+  "ARTH1006": {
+    "rating": null
+  },
+  "ARTH1007": {
+    "rating": null
+  },
+  "ARTH2001": {
+    "rating": null
+  },
+  "ARTH2040": {
+    "rating": null
+  },
+  "ARTH2044": {
+    "rating": null
+  },
+  "ARTH2050": {
+    "rating": null
+  },
+  "ARTH2052": {
+    "rating": null
+  },
+  "ARTH2098": {
+    "rating": null
+  },
+  "ARTH2167": {
+    "rating": null
+  },
+  "ARTH2169": {
+    "rating": null
+  },
+  "ARTH2170": {
+    "rating": null
+  },
+  "ARTH2174": {
+    "rating": null
+  },
+  "ARTH2176": {
+    "rating": null
+  },
+  "ARTH2180": {
+    "rating": null
+  },
+  "ARTH2181": {
+    "rating": null
+  },
+  "ARTH3001": {
+    "rating": null
+  },
+  "ARTH3005": {
+    "rating": null
+  },
+  "ARTH3007": {
+    "rating": null
+  },
+  "ARTH3057": {
+    "rating": null
+  },
+  "ARTH4025": {
+    "rating": null
+  },
+  "ARTH4026": {
+    "rating": null
+  },
+  "ARTH4027": {
+    "rating": null
+  },
+  "ARTH4030": {
+    "rating": null
+  },
+  "ARTH6001": {
+    "rating": null
+  },
+  "ARTH8025": {
+    "rating": null
+  },
+  "ARTH8026": {
+    "rating": null
+  },
+  "ARTH8027": {
+    "rating": null
+  },
+  "ARTH8030": {
+    "rating": null
+  },
+  "ARTS5912": {
+    "rating": null
+  },
+  "ARTS5920": {
+    "rating": null
+  },
+  "ARTS5921": {
+    "rating": null
+  },
+  "ARTS5922": {
+    "rating": null
+  },
+  "ARTS5924": {
+    "rating": null
+  },
+  "ARTS8001": {
+    "rating": null
+  },
+  "ARTV1020": {
+    "rating": null
+  },
+  "ARTV1034": {
+    "rating": null
+  },
+  "ARTV1150": {
+    "rating": null
+  },
+  "ARTV1350": {
+    "rating": null
+  },
+  "ARTV1550": {
+    "rating": null
+  },
+  "ARTV1650": {
+    "rating": null
+  },
+  "ARTV1651": {
+    "rating": null
+  },
+  "ARTV1750": {
+    "rating": null
+  },
+  "ARTV1751": {
+    "rating": null
+  },
+  "ARTV1850": {
+    "rating": null
+  },
+  "ARTV1950": {
+    "rating": null
+  },
+  "ARTV2027": {
+    "rating": null
+  },
+  "ARTV2028": {
+    "rating": null
+  },
+  "ARTV2066": {
+    "rating": null
+  },
+  "ARTV2150": {
+    "rating": null
+  },
+  "ARTV2350": {
+    "rating": null
+  },
+  "ARTV2550": {
+    "rating": null
+  },
+  "ARTV2650": {
+    "rating": null
+  },
+  "ARTV2651": {
+    "rating": null
+  },
+  "ARTV2750": {
+    "rating": null
+  },
+  "ARTV2751": {
+    "rating": null
+  },
+  "ARTV2752": {
+    "rating": null
+  },
+  "ARTV2850": {
+    "rating": null
+  },
+  "ARTV2909": {
+    "rating": null
+  },
+  "ARTV2921": {
+    "rating": null
+  },
+  "ARTV2950": {
+    "rating": null
+  },
+  "ARTV3033": {
+    "rating": null
+  },
+  "ARTV3034": {
+    "rating": null
+  },
+  "ARTV3035": {
+    "rating": null
+  },
+  "ARTV4022": {
+    "rating": null
+  },
+  "ARTV4023": {
+    "rating": null
+  },
+  "ARTV8038": {
+    "rating": null
+  },
+  "ARTV8039": {
+    "rating": null
+  },
+  "ARTV9030": {
+    "rating": null
+  },
+  "ASIA1025": {
+    "rating": null
+  },
+  "ASIA1030": {
+    "rating": null
+  },
+  "ASIA1035": {
+    "rating": null
+  },
+  "ASIA1999": {
+    "rating": null
+  },
+  "ASIA2001": {
+    "rating": null
+  },
+  "ASIA2003": {
+    "rating": null
+  },
+  "ASIA2006": {
+    "rating": null
+  },
+  "ASIA2009": {
+    "rating": null
+  },
+  "ASIA2014": {
+    "rating": null
+  },
+  "ASIA2016": {
+    "rating": null
+  },
+  "ASIA2017": {
+    "rating": null
+  },
+  "ASIA2018": {
+    "rating": null
+  },
+  "ASIA2026": {
+    "rating": null
+  },
+  "ASIA2031": {
+    "rating": null
+  },
+  "ASIA2037": {
+    "rating": null
+  },
+  "ASIA2039": {
+    "rating": null
+  },
+  "ASIA2040": {
+    "rating": null
+  },
+  "ASIA2041": {
+    "rating": null
+  },
+  "ASIA2044": {
+    "rating": null
+  },
+  "ASIA2049": {
+    "rating": null
+  },
+  "ASIA2054": {
+    "rating": null
+  },
+  "ASIA2058": {
+    "rating": null
+  },
+  "ASIA2060": {
+    "rating": null
+  },
+  "ASIA2065": {
+    "rating": null
+  },
+  "ASIA2067": {
+    "rating": null
+  },
+  "ASIA2072": {
+    "rating": null
+  },
+  "ASIA2074": {
+    "rating": null
+  },
+  "ASIA2081": {
+    "rating": null
+  },
+  "ASIA2088": {
+    "rating": null
+  },
+  "ASIA2093": {
+    "rating": null
+  },
+  "ASIA2096": {
+    "rating": null
+  },
+  "ASIA2097": {
+    "rating": null
+  },
+  "ASIA2099": {
+    "rating": null
+  },
+  "ASIA2103": {
+    "rating": null
+  },
+  "ASIA2111": {
+    "rating": null
+  },
+  "ASIA2112": {
+    "rating": null
+  },
+  "ASIA2116": {
+    "rating": null
+  },
+  "ASIA2130": {
+    "rating": null
+  },
+  "ASIA2203": {
+    "rating": null
+  },
+  "ASIA2222": {
+    "rating": null
+  },
+  "ASIA2270": {
+    "rating": null
+  },
+  "ASIA2271": {
+    "rating": null
+  },
+  "ASIA2275": {
+    "rating": null
+  },
+  "ASIA2301": {
+    "rating": null
+  },
+  "ASIA2302": {
+    "rating": null
+  },
+  "ASIA2304": {
+    "rating": null
+  },
+  "ASIA2307": {
+    "rating": null
+  },
+  "ASIA2308": {
+    "rating": null
+  },
+  "ASIA2311": {
+    "rating": null
+  },
+  "ASIA2366": {
+    "rating": null
+  },
+  "ASIA2411": {
+    "rating": null
+  },
+  "ASIA2416": {
+    "rating": null
+  },
+  "ASIA2516": {
+    "rating": null
+  },
+  "ASIA2747": {
+    "rating": null
+  },
+  "ASIA3011": {
+    "rating": null
+  },
+  "ASIA3012": {
+    "rating": null
+  },
+  "ASIA3021": {
+    "rating": null
+  },
+  "ASIA3023": {
+    "rating": null
+  },
+  "ASIA3027": {
+    "rating": null
+  },
+  "ASIA3029": {
+    "rating": null
+  },
+  "ASIA3030": {
+    "rating": null
+  },
+  "ASIA3031": {
+    "rating": null
+  },
+  "ASIA3032": {
+    "rating": null
+  },
+  "ASIA3033": {
+    "rating": null
+  },
+  "ASIA3034": {
+    "rating": null
+  },
+  "ASIA3039": {
+    "rating": null
+  },
+  "ASIA3040": {
+    "rating": null
+  },
+  "ASIA3084": {
+    "rating": null
+  },
+  "ASIA3088": {
+    "rating": null
+  },
+  "ASIA3108": {
+    "rating": null
+  },
+  "ASIA3220": {
+    "rating": null
+  },
+  "ASIA3272": {
+    "rating": null
+  },
+  "ASIA3525": {
+    "rating": null
+  },
+  "ASIA3551": {
+    "rating": null
+  },
+  "ASIA4001": {
+    "rating": null
+  },
+  "ASIA4044": {
+    "rating": null
+  },
+  "ASIA5925": {
+    "rating": null
+  },
+  "ASIA6006": {
+    "rating": null
+  },
+  "ASIA6010": {
+    "rating": null
+  },
+  "ASIA6014": {
+    "rating": null
+  },
+  "ASIA6018": {
+    "rating": null
+  },
+  "ASIA6022": {
+    "rating": null
+  },
+  "ASIA6030": {
+    "rating": null
+  },
+  "ASIA6031": {
+    "rating": null
+  },
+  "ASIA6037": {
+    "rating": null
+  },
+  "ASIA6042": {
+    "rating": null
+  },
+  "ASIA6044": {
+    "rating": null
+  },
+  "ASIA6087": {
+    "rating": null
+  },
+  "ASIA6097": {
+    "rating": null
+  },
+  "ASIA6099": {
+    "rating": null
+  },
+  "ASIA6121": {
+    "rating": null
+  },
+  "ASIA6202": {
+    "rating": null
+  },
+  "ASIA6220": {
+    "rating": null
+  },
+  "ASIA6272": {
+    "rating": null
+  },
+  "ASIA6304": {
+    "rating": null
+  },
+  "ASIA8008": {
+    "rating": null
+  },
+  "ASIA8020": {
+    "rating": null
+  },
+  "ASIA8022": {
+    "rating": null
+  },
+  "ASIA8038": {
+    "rating": null
+  },
+  "ASIA8042": {
+    "rating": null
+  },
+  "ASIA8044": {
+    "rating": null
+  },
+  "ASIA8048": {
+    "rating": null
+  },
+  "ASIA8050": {
+    "rating": null
+  },
+  "ASIA8051": {
+    "rating": null
+  },
+  "ASIA8500": {
+    "rating": null
+  },
+  "ASIA8512": {
+    "rating": null
+  },
+  "ASIA9044": {
+    "rating": null
+  },
+  "ASIA9051": {
+    "rating": null
+  },
+  "ASIA9075": {
+    "rating": null
+  },
+  "ASTR1003": {
+    "rating": null
+  },
+  "ASTR2013": {
+    "rating": null
+  },
+  "ASTR3002": {
+    "rating": null
+  },
+  "ASTR3005": {
+    "rating": null
+  },
+  "ASTR3007": {
+    "rating": null
+  },
+  "ASTR3013": {
+    "rating": null
+  },
+  "ASTR4004": {
+    "rating": null
+  },
+  "ASTR4005": {
+    "rating": null
+  },
+  "ASTR4006": {
+    "rating": null
+  },
+  "ASTR4011": {
+    "rating": null
+  },
+  "ASTR4020": {
+    "rating": null
+  },
+  "ASTR4021": {
+    "rating": null
+  },
+  "ASTR4022": {
+    "rating": null
+  },
+  "ASTR6002": {
+    "rating": null
+  },
+  "ASTR6007": {
+    "rating": null
+  },
+  "ASTR6013": {
+    "rating": null
+  },
+  "ASTR8001": {
+    "rating": null
+  },
+  "ASTR8004": {
+    "rating": null
+  },
+  "ASTR8006": {
+    "rating": null
+  },
+  "ASTR8010": {
+    "rating": null
+  },
+  "ASTR8011": {
+    "rating": null
+  },
+  "ASTR8016": {
+    "rating": null
+  },
+  "ASTR8020": {
+    "rating": null
+  },
+  "ASTR8021": {
+    "rating": null
+  },
+  "ASTR8022": {
+    "rating": null
+  },
+  "ASTR8023": {
+    "rating": null
+  },
+  "ASTR8030": {
+    "rating": null
+  },
+  "ASTR8031": {
+    "rating": null
+  },
+  "BAPA1001": {
+    "rating": null
+  },
+  "BAPA1002": {
+    "rating": null
+  },
+  "BAPA1003": {
+    "rating": null
+  },
+  "BAPA1004": {
+    "rating": null
+  },
+  "BAPA3001": {
+    "rating": null
+  },
+  "BAPA3002": {
+    "rating": null
+  },
+  "BAPA3003": {
+    "rating": null
+  },
+  "BAPA3004": {
+    "rating": null
+  },
+  "BIAN1001": {
+    "rating": null
+  },
+  "BIAN2015": {
+    "rating": null
+  },
+  "BIAN2064": {
+    "rating": null
+  },
+  "BIAN2119": {
+    "rating": null
+  },
+  "BIAN2128": {
+    "rating": null
+  },
+  "BIAN3014": {
+    "rating": null
+  },
+  "BIAN3113": {
+    "rating": null
+  },
+  "BIAN3124": {
+    "rating": null
+  },
+  "BIAN3125": {
+    "rating": null
+  },
+  "BIAN3127": {
+    "rating": null
+  },
+  "BIAN3129": {
+    "rating": null
+  },
+  "BIAN4010": {
+    "rating": null
+  },
+  "BIAN4011": {
+    "rating": null
+  },
+  "BIAN6001": {
+    "rating": null
+  },
+  "BIAN6013": {
+    "rating": null
+  },
+  "BIAN6019": {
+    "rating": null
+  },
+  "BIAN6124": {
+    "rating": null
+  },
+  "BIAN6512": {
+    "rating": null
+  },
+  "BIAN6514": {
+    "rating": null
+  },
+  "BIAN6515": {
+    "rating": null
+  },
+  "BIAN6517": {
+    "rating": null
+  },
+  "BIAN8003": {
+    "rating": null
+  },
+  "BIAN8005": {
+    "rating": null
+  },
+  "BIAN8010": {
+    "rating": null
+  },
+  "BIOL1008": {
+    "rating": null
+  },
+  "BIOL1009": {
+    "rating": null
+  },
+  "BIOL1020": {
+    "rating": null
+  },
+  "BIOL1030": {
+    "rating": null
+  },
+  "BIOL2001": {
+    "rating": null
+  },
+  "BIOL2114": {
+    "rating": null
+  },
+  "BIOL2115": {
+    "rating": null
+  },
+  "BIOL2117": {
+    "rating": null
+  },
+  "BIOL2131": {
+    "rating": null
+  },
+  "BIOL2142": {
+    "rating": null
+  },
+  "BIOL2151": {
+    "rating": null
+  },
+  "BIOL2161": {
+    "rating": null
+  },
+  "BIOL2162": {
+    "rating": null
+  },
+  "BIOL2171": {
+    "rating": null
+  },
+  "BIOL2174": {
+    "rating": null
+  },
+  "BIOL2202": {
+    "rating": null
+  },
+  "BIOL2203": {
+    "rating": null
+  },
+  "BIOL3002": {
+    "rating": null
+  },
+  "BIOL3023": {
+    "rating": null
+  },
+  "BIOL3106": {
+    "rating": null
+  },
+  "BIOL3107": {
+    "rating": null
+  },
+  "BIOL3108": {
+    "rating": null
+  },
+  "BIOL3109": {
+    "rating": null
+  },
+  "BIOL3125": {
+    "rating": null
+  },
+  "BIOL3130": {
+    "rating": null
+  },
+  "BIOL3131": {
+    "rating": null
+  },
+  "BIOL3141": {
+    "rating": null
+  },
+  "BIOL3142": {
+    "rating": null
+  },
+  "BIOL3144": {
+    "rating": null
+  },
+  "BIOL3157": {
+    "rating": null
+  },
+  "BIOL3161": {
+    "rating": null
+  },
+  "BIOL3177": {
+    "rating": null
+  },
+  "BIOL3178": {
+    "rating": null
+  },
+  "BIOL3188": {
+    "rating": null
+  },
+  "BIOL3190": {
+    "rating": null
+  },
+  "BIOL3191": {
+    "rating": null
+  },
+  "BIOL3194": {
+    "rating": null
+  },
+  "BIOL3203": {
+    "rating": null
+  },
+  "BIOL3204": {
+    "rating": null
+  },
+  "BIOL3205": {
+    "rating": null
+  },
+  "BIOL3206": {
+    "rating": null
+  },
+  "BIOL3207": {
+    "rating": null
+  },
+  "BIOL3208": {
+    "rating": null
+  },
+  "BIOL3209": {
+    "rating": null
+  },
+  "BIOL3210": {
+    "rating": null
+  },
+  "BIOL3213": {
+    "rating": null
+  },
+  "BIOL3303": {
+    "rating": null
+  },
+  "BIOL4001": {
+    "rating": null
+  },
+  "BIOL6002": {
+    "rating": null
+  },
+  "BIOL6004": {
+    "rating": null
+  },
+  "BIOL6006": {
+    "rating": null
+  },
+  "BIOL6020": {
+    "rating": null
+  },
+  "BIOL6030": {
+    "rating": null
+  },
+  "BIOL6106": {
+    "rating": null
+  },
+  "BIOL6107": {
+    "rating": null
+  },
+  "BIOL6108": {
+    "rating": null
+  },
+  "BIOL6109": {
+    "rating": null
+  },
+  "BIOL6114": {
+    "rating": null
+  },
+  "BIOL6115": {
+    "rating": null
+  },
+  "BIOL6117": {
+    "rating": null
+  },
+  "BIOL6123": {
+    "rating": null
+  },
+  "BIOL6125": {
+    "rating": null
+  },
+  "BIOL6130": {
+    "rating": null
+  },
+  "BIOL6141": {
+    "rating": null
+  },
+  "BIOL6142": {
+    "rating": null
+  },
+  "BIOL6143": {
+    "rating": null
+  },
+  "BIOL6144": {
+    "rating": null
+  },
+  "BIOL6161": {
+    "rating": null
+  },
+  "BIOL6162": {
+    "rating": null
+  },
+  "BIOL6163": {
+    "rating": null
+  },
+  "BIOL6171": {
+    "rating": null
+  },
+  "BIOL6174": {
+    "rating": null
+  },
+  "BIOL6177": {
+    "rating": null
+  },
+  "BIOL6178": {
+    "rating": null
+  },
+  "BIOL6188": {
+    "rating": null
+  },
+  "BIOL6191": {
+    "rating": null
+  },
+  "BIOL6194": {
+    "rating": null
+  },
+  "BIOL6200": {
+    "rating": null
+  },
+  "BIOL6202": {
+    "rating": null
+  },
+  "BIOL6204": {
+    "rating": null
+  },
+  "BIOL6205": {
+    "rating": null
+  },
+  "BIOL6206": {
+    "rating": null
+  },
+  "BIOL6207": {
+    "rating": null
+  },
+  "BIOL6213": {
+    "rating": null
+  },
+  "BIOL6243": {
+    "rating": null
+  },
+  "BIOL6303": {
+    "rating": null
+  },
+  "BIOL6631": {
+    "rating": null
+  },
+  "BIOL8001": {
+    "rating": null
+  },
+  "BIOL8002": {
+    "rating": null
+  },
+  "BIOL8021": {
+    "rating": null
+  },
+  "BIOL8291": {
+    "rating": null
+  },
+  "BIOL8700": {
+    "rating": null
+  },
+  "BIOL8701": {
+    "rating": null
+  },
+  "BIOL8702": {
+    "rating": null
+  },
+  "BIOL8704": {
+    "rating": null
+  },
+  "BIOL8706": {
+    "rating": null
+  },
+  "BIOL8707": {
+    "rating": null
+  },
+  "BPHB1114": {
+    "rating": null
+  },
+  "BPHB2114": {
+    "rating": null
+  },
+  "BPHB3114": {
+    "rating": null
+  },
+  "BURM1002": {
+    "rating": null
+  },
+  "BURM1003": {
+    "rating": null
+  },
+  "BURM2001": {
+    "rating": null
+  },
+  "BURM2002": {
+    "rating": null
+  },
+  "BUSI2023": {
+    "rating": null
+  },
+  "BUSI2024": {
+    "rating": null
+  },
+  "BUSI2025": {
+    "rating": null
+  },
+  "BUSI2034": {
+    "rating": null
+  },
+  "BUSI3020": {
+    "rating": null
+  },
+  "BUSI3024": {
+    "rating": null
+  },
+  "BUSI3028": {
+    "rating": null
+  },
+  "BUSI3029": {
+    "rating": null
+  },
+  "BUSI3030": {
+    "rating": null
+  },
+  "BUSI4500": {
+    "rating": null
+  },
+  "BUSI7001": {
+    "rating": null
+  },
+  "BUSI7033": {
+    "rating": null
+  },
+  "BUSI7055": {
+    "rating": null
+  },
+  "BUSI7280": {
+    "rating": null
+  },
+  "BUSN1001": {
+    "rating": null
+  },
+  "BUSN1002": {
+    "rating": null
+  },
+  "BUSN1101": {
+    "rating": null
+  },
+  "BUSN2011": {
+    "rating": null
+  },
+  "BUSN2015": {
+    "rating": null
+  },
+  "BUSN2036": {
+    "rating": null
+  },
+  "BUSN2037": {
+    "rating": null
+  },
+  "BUSN2101": {
+    "rating": null
+  },
+  "BUSN3001": {
+    "rating": null
+  },
+  "BUSN3002": {
+    "rating": null
+  },
+  "BUSN3003": {
+    "rating": null
+  },
+  "BUSN3008": {
+    "rating": null
+  },
+  "BUSN3014": {
+    "rating": null
+  },
+  "BUSN3017": {
+    "rating": null
+  },
+  "BUSN3051": {
+    "rating": null
+  },
+  "BUSN3060": {
+    "rating": null
+  },
+  "BUSN4007": {
+    "rating": null
+  },
+  "BUSN4013": {
+    "rating": null
+  },
+  "BUSN4045": {
+    "rating": null
+  },
+  "BUSN4111": {
+    "rating": null
+  },
+  "BUSN4500": {
+    "rating": null
+  },
+  "BUSN6003": {
+    "rating": null
+  },
+  "BUSN6008": {
+    "rating": null
+  },
+  "BUSN6051": {
+    "rating": null
+  },
+  "BUSN6060": {
+    "rating": null
+  },
+  "BUSN7005": {
+    "rating": null
+  },
+  "BUSN7008": {
+    "rating": null
+  },
+  "BUSN7017": {
+    "rating": null
+  },
+  "BUSN7021": {
+    "rating": null
+  },
+  "BUSN7031": {
+    "rating": null
+  },
+  "BUSN7036": {
+    "rating": null
+  },
+  "BUSN7049": {
+    "rating": null
+  },
+  "BUSN7050": {
+    "rating": null
+  },
+  "BUSN7051": {
+    "rating": null
+  },
+  "BUSN7052": {
+    "rating": null
+  },
+  "BUSN7054": {
+    "rating": null
+  },
+  "BUSN7057": {
+    "rating": null
+  },
+  "BUSN7066": {
+    "rating": null
+  },
+  "BUSN8003": {
+    "rating": null
+  },
+  "BUSN8007": {
+    "rating": null
+  },
+  "BUSN8013": {
+    "rating": null
+  },
+  "BUSN8045": {
+    "rating": null
+  },
+  "BUSN8051": {
+    "rating": null
+  },
+  "BUSN8066": {
+    "rating": null
+  },
+  "BUSN8067": {
+    "rating": null
+  },
+  "BUSN8068": {
+    "rating": null
+  },
+  "BUSN8100": {
+    "rating": null
+  },
+  "BUSN8101": {
+    "rating": null
+  },
+  "BUSN8111": {
+    "rating": null
+  },
+  "BUSN8145": {
+    "rating": null
+  },
+  "BUSN8181": {
+    "rating": null
+  },
+  "BUSN8200": {
+    "rating": null
+  },
+  "BUSN8801": {
+    "rating": null
+  },
+  "BUSN8804": {
+    "rating": null
+  },
+  "CBEA2000": {
+    "rating": null
+  },
+  "CBEA2001": {
+    "rating": null
+  },
+  "CBEA3001": {
+    "rating": null
+  },
+  "CBEA3003": {
+    "rating": null
+  },
+  "CBEA3066": {
+    "rating": null
+  },
+  "CBEA3070": {
+    "rating": null
+  },
+  "CBEA5920": {
+    "rating": null
+  },
+  "CBEA5921": {
+    "rating": null
+  },
+  "CBEA6070": {
+    "rating": null
+  },
+  "CHEM1101": {
+    "rating": null
+  },
+  "CHEM1201": {
+    "rating": null
+  },
+  "CHEM2202": {
+    "rating": null
+  },
+  "CHEM2208": {
+    "rating": null
+  },
+  "CHEM2210": {
+    "rating": null
+  },
+  "CHEM2211": {
+    "rating": null
+  },
+  "CHEM2213": {
+    "rating": null
+  },
+  "CHEM2214": {
+    "rating": null
+  },
+  "CHEM3013": {
+    "rating": null
+  },
+  "CHEM3060": {
+    "rating": null
+  },
+  "CHEM3123": {
+    "rating": null
+  },
+  "CHEM3201": {
+    "rating": null
+  },
+  "CHEM3202": {
+    "rating": null
+  },
+  "CHEM3203": {
+    "rating": null
+  },
+  "CHEM3204": {
+    "rating": null
+  },
+  "CHEM3206": {
+    "rating": null
+  },
+  "CHEM3207": {
+    "rating": null
+  },
+  "CHEM3208": {
+    "rating": null
+  },
+  "CHEM4005": {
+    "rating": null
+  },
+  "CHEM6123": {
+    "rating": null
+  },
+  "CHEM6201": {
+    "rating": null
+  },
+  "CHEM6202": {
+    "rating": null
+  },
+  "CHEM6203": {
+    "rating": null
+  },
+  "CHEM6204": {
+    "rating": null
+  },
+  "CHEM6206": {
+    "rating": null
+  },
+  "CHEM6208": {
+    "rating": null
+  },
+  "CHEM6210": {
+    "rating": null
+  },
+  "CHEM6211": {
+    "rating": null
+  },
+  "CHEM6213": {
+    "rating": null
+  },
+  "CHEM6214": {
+    "rating": null
+  },
+  "CHEM6228": {
+    "rating": null
+  },
+  "CHEM6313": {
+    "rating": null
+  },
+  "CHEM6323": {
+    "rating": null
+  },
+  "CHEM6324": {
+    "rating": null
+  },
+  "CHEM6327": {
+    "rating": null
+  },
+  "CHEM8003": {
+    "rating": null
+  },
+  "CHEM8030": {
+    "rating": null
+  },
+  "CHEM8031": {
+    "rating": null
+  },
+  "CHEM8032": {
+    "rating": null
+  },
+  "CHEM8033": {
+    "rating": null
+  },
+  "CHEM8034": {
+    "rating": null
+  },
+  "CHEM8700": {
+    "rating": null
+  },
+  "CHIN1012": {
+    "rating": null
+  },
+  "CHIN1013": {
+    "rating": null
+  },
+  "CHIN2013": {
+    "rating": null
+  },
+  "CHIN2019": {
+    "rating": null
+  },
+  "CHIN2021": {
+    "rating": null
+  },
+  "CHIN2022": {
+    "rating": null
+  },
+  "CHIN2023": {
+    "rating": null
+  },
+  "CHIN2024": {
+    "rating": null
+  },
+  "CHIN2025": {
+    "rating": null
+  },
+  "CHIN3015": {
+    "rating": null
+  },
+  "CHIN3017": {
+    "rating": null
+  },
+  "CHIN3018": {
+    "rating": null
+  },
+  "CHIN3022": {
+    "rating": null
+  },
+  "CHIN3023": {
+    "rating": null
+  },
+  "CHIN3024": {
+    "rating": null
+  },
+  "CHIN3025": {
+    "rating": null
+  },
+  "CHIN3041": {
+    "rating": null
+  },
+  "CHIN3216": {
+    "rating": null
+  },
+  "CHMD2005": {
+    "rating": null
+  },
+  "CHMD6005": {
+    "rating": null
+  },
+  "CHMD8004": {
+    "rating": null
+  },
+  "CHMD8006": {
+    "rating": null
+  },
+  "CHMD8009": {
+    "rating": null
+  },
+  "CHMD8011": {
+    "rating": null
+  },
+  "CHMD8014": {
+    "rating": null
+  },
+  "CHMD8021": {
+    "rating": null
+  },
+  "CHST3211": {
+    "rating": null
+  },
+  "CHST3212": {
+    "rating": null
+  },
+  "CLAS1003": {
+    "rating": null
+  },
+  "CLAS1005": {
+    "rating": null
+  },
+  "CLAS1006": {
+    "rating": null
+  },
+  "CLAS2013": {
+    "rating": null
+  },
+  "CLAS2014": {
+    "rating": null
+  },
+  "CLAS2015": {
+    "rating": null
+  },
+  "CLAS3001": {
+    "rating": null
+  },
+  "CLAS3002": {
+    "rating": null
+  },
+  "CLAS3003": {
+    "rating": null
+  },
+  "CLAS3100": {
+    "rating": null
+  },
+  "CLAS4008": {
+    "rating": null
+  },
+  "CLAS4022": {
+    "rating": null
+  },
+  "CLAS8008": {
+    "rating": null
+  },
+  "CLAS8022": {
+    "rating": null
+  },
+  "COMP1100": {
+    "rating": null
+  },
+  "COMP1110": {
+    "rating": null
+  },
+  "COMP1130": {
+    "rating": null
+  },
+  "COMP1140": {
+    "rating": null
+  },
+  "COMP1600": {
+    "rating": null
+  },
+  "COMP1710": {
+    "rating": null
+  },
+  "COMP1720": {
+    "rating": null
+  },
+  "COMP1730": {
+    "rating": null
+  },
+  "COMP2100": {
+    "rating": null
+  },
+  "COMP2120": {
+    "rating": null
+  },
+  "COMP2310": {
+    "rating": null
+  },
+  "COMP2400": {
+    "rating": null
+  },
+  "COMP2550": {
+    "rating": null
+  },
+  "COMP2610": {
+    "rating": null
+  },
+  "COMP2620": {
+    "rating": null
+  },
+  "COMP2700": {
+    "rating": null
+  },
+  "COMP2710": {
+    "rating": null
+  },
+  "COMP3242": {
+    "rating": null
+  },
+  "COMP3300": {
+    "rating": null
+  },
+  "COMP3310": {
+    "rating": null
+  },
+  "COMP3320": {
+    "rating": null
+  },
+  "COMP3425": {
+    "rating": null
+  },
+  "COMP3430": {
+    "rating": null
+  },
+  "COMP3500": {
+    "rating": null
+  },
+  "COMP3540": {
+    "rating": null
+  },
+  "COMP3610": {
+    "rating": null
+  },
+  "COMP3620": {
+    "rating": null
+  },
+  "COMP3630": {
+    "rating": null
+  },
+  "COMP3703": {
+    "rating": null
+  },
+  "COMP3704": {
+    "rating": null
+  },
+  "COMP3710": {
+    "rating": null
+  },
+  "COMP3740": {
+    "rating": null
+  },
+  "COMP3770": {
+    "rating": null
+  },
+  "COMP3820": {
+    "rating": null
+  },
+  "COMP3900": {
+    "rating": null
+  },
+  "COMP4011": {
+    "rating": null
+  },
+  "COMP4020": {
+    "rating": null
+  },
+  "COMP4045": {
+    "rating": null
+  },
+  "COMP4130": {
+    "rating": null
+  },
+  "COMP4300": {
+    "rating": null
+  },
+  "COMP4350": {
+    "rating": null
+  },
+  "COMP4425": {
+    "rating": null
+  },
+  "COMP4450": {
+    "rating": null
+  },
+  "COMP4500": {
+    "rating": null
+  },
+  "COMP4528": {
+    "rating": null
+  },
+  "COMP4550": {
+    "rating": null
+  },
+  "COMP4600": {
+    "rating": null
+  },
+  "COMP4610": {
+    "rating": null
+  },
+  "COMP4620": {
+    "rating": null
+  },
+  "COMP4650": {
+    "rating": null
+  },
+  "COMP4670": {
+    "rating": null
+  },
+  "COMP4680": {
+    "rating": null
+  },
+  "COMP4691": {
+    "rating": null
+  },
+  "COMP4703": {
+    "rating": null
+  },
+  "COMP4712": {
+    "rating": null
+  },
+  "COMP4820": {
+    "rating": null
+  },
+  "COMP4880": {
+    "rating": null
+  },
+  "COMP5920": {
+    "rating": null
+  },
+  "COMP6034": {
+    "rating": null
+  },
+  "COMP6120": {
+    "rating": null
+  },
+  "COMP6240": {
+    "rating": null
+  },
+  "COMP6242": {
+    "rating": null
+  },
+  "COMP6250": {
+    "rating": null
+  },
+  "COMP6260": {
+    "rating": null
+  },
+  "COMP6261": {
+    "rating": null
+  },
+  "COMP6262": {
+    "rating": null
+  },
+  "COMP6300": {
+    "rating": null
+  },
+  "COMP6310": {
+    "rating": null
+  },
+  "COMP6320": {
+    "rating": null
+  },
+  "COMP6330": {
+    "rating": null
+  },
+  "COMP6331": {
+    "rating": null
+  },
+  "COMP6361": {
+    "rating": null
+  },
+  "COMP6363": {
+    "rating": null
+  },
+  "COMP6390": {
+    "rating": null
+  },
+  "COMP6434": {
+    "rating": null
+  },
+  "COMP6442": {
+    "rating": null
+  },
+  "COMP6445": {
+    "rating": null
+  },
+  "COMP6464": {
+    "rating": null
+  },
+  "COMP6466": {
+    "rating": null
+  },
+  "COMP6470": {
+    "rating": null
+  },
+  "COMP6490": {
+    "rating": null
+  },
+  "COMP6528": {
+    "rating": null
+  },
+  "COMP6540": {
+    "rating": null
+  },
+  "COMP6670": {
+    "rating": null
+  },
+  "COMP6710": {
+    "rating": null
+  },
+  "COMP6720": {
+    "rating": null
+  },
+  "COMP6730": {
+    "rating": null
+  },
+  "COMP6780": {
+    "rating": null
+  },
+  "COMP6800": {
+    "rating": null
+  },
+  "COMP7710": {
+    "rating": null
+  },
+  "COMP8011": {
+    "rating": null
+  },
+  "COMP8020": {
+    "rating": null
+  },
+  "COMP8045": {
+    "rating": null
+  },
+  "COMP8131": {
+    "rating": null
+  },
+  "COMP8260": {
+    "rating": null
+  },
+  "COMP8280": {
+    "rating": null
+  },
+  "COMP8300": {
+    "rating": null
+  },
+  "COMP8350": {
+    "rating": null
+  },
+  "COMP8410": {
+    "rating": null
+  },
+  "COMP8430": {
+    "rating": null
+  },
+  "COMP8460": {
+    "rating": null
+  },
+  "COMP8490": {
+    "rating": null
+  },
+  "COMP8500": {
+    "rating": null
+  },
+  "COMP8535": {
+    "rating": null
+  },
+  "COMP8536": {
+    "rating": null
+  },
+  "COMP8539": {
+    "rating": null
+  },
+  "COMP8600": {
+    "rating": null
+  },
+  "COMP8610": {
+    "rating": null
+  },
+  "COMP8620": {
+    "rating": null
+  },
+  "COMP8650": {
+    "rating": null
+  },
+  "COMP8691": {
+    "rating": null
+  },
+  "COMP8703": {
+    "rating": null
+  },
+  "COMP8712": {
+    "rating": null
+  },
+  "COMP8715": {
+    "rating": null
+  },
+  "COMP8800": {
+    "rating": null
+  },
+  "COMP8820": {
+    "rating": null
+  },
+  "COMP8830": {
+    "rating": null
+  },
+  "COMP8880": {
+    "rating": null
+  },
+  "COMP8980": {
+    "rating": null
+  },
+  "COMP8999": {
+    "rating": null
+  },
+  "CRIM1001": {
+    "rating": null
+  },
+  "CRIM1002": {
+    "rating": null
+  },
+  "CRIM2002": {
+    "rating": null
+  },
+  "CRIM2003": {
+    "rating": null
+  },
+  "CRIM2005": {
+    "rating": null
+  },
+  "CRIM2006": {
+    "rating": null
+  },
+  "CRIM2007": {
+    "rating": null
+  },
+  "CRIM2008": {
+    "rating": null
+  },
+  "CRIM2009": {
+    "rating": null
+  },
+  "CRIM2010": {
+    "rating": null
+  },
+  "CRIM2011": {
+    "rating": null
+  },
+  "CRIM2013": {
+    "rating": null
+  },
+  "CRIM2014": {
+    "rating": null
+  },
+  "CRIM2015": {
+    "rating": null
+  },
+  "CRIM3001": {
+    "rating": null
+  },
+  "CRIM3002": {
+    "rating": null
+  },
+  "CRIM3003": {
+    "rating": null
+  },
+  "CRIM3005": {
+    "rating": null
+  },
+  "CRIM3006": {
+    "rating": null
+  },
+  "CRIM3010": {
+    "rating": null
+  },
+  "CRIM4001": {
+    "rating": null
+  },
+  "CRIM8005": {
+    "rating": null
+  },
+  "CRIM8012": {
+    "rating": null
+  },
+  "CRWF7900": {
+    "rating": null
+  },
+  "CRWF7902": {
+    "rating": null
+  },
+  "CRWF8019": {
+    "rating": null
+  },
+  "CRWF8020": {
+    "rating": null
+  },
+  "CRWF8021": {
+    "rating": null
+  },
+  "CRWF9000": {
+    "rating": null
+  },
+  "CYBN6001": {
+    "rating": null
+  },
+  "CYBN6002": {
+    "rating": null
+  },
+  "CYBN8001": {
+    "rating": null
+  },
+  "CYBN8002": {
+    "rating": null
+  },
+  "CYBN8005": {
+    "rating": null
+  },
+  "CYBN8999": {
+    "rating": null
+  },
+  "DEMO1001": {
+    "rating": null
+  },
+  "DEMO2001": {
+    "rating": null
+  },
+  "DEMO2002": {
+    "rating": null
+  },
+  "DEMO2003": {
+    "rating": null
+  },
+  "DEMO2004": {
+    "rating": null
+  },
+  "DEMO3001": {
+    "rating": null
+  },
+  "DEMO3002": {
+    "rating": null
+  },
+  "DEMO3010": {
+    "rating": null
+  },
+  "DEMO4011": {
+    "rating": null
+  },
+  "DEMO4091": {
+    "rating": null
+  },
+  "DEMO4092": {
+    "rating": null
+  },
+  "DEMO8008": {
+    "rating": null
+  },
+  "DEMO8024": {
+    "rating": null
+  },
+  "DEMO8047": {
+    "rating": null
+  },
+  "DEMO8048": {
+    "rating": null
+  },
+  "DEMO8090": {
+    "rating": null
+  },
+  "DEMO8091": {
+    "rating": null
+  },
+  "DEMO8092": {
+    "rating": null
+  },
+  "DEMO9008": {
+    "rating": null
+  },
+  "DEMO9024": {
+    "rating": null
+  },
+  "DESN1002": {
+    "rating": null
+  },
+  "DESN1003": {
+    "rating": null
+  },
+  "DESN1004": {
+    "rating": null
+  },
+  "DESN1005": {
+    "rating": null
+  },
+  "DESN2001": {
+    "rating": null
+  },
+  "DESN2002": {
+    "rating": null
+  },
+  "DESN2003": {
+    "rating": null
+  },
+  "DESN2004": {
+    "rating": null
+  },
+  "DESN2006": {
+    "rating": null
+  },
+  "DESN2007": {
+    "rating": null
+  },
+  "DESN2008": {
+    "rating": null
+  },
+  "DESN2009": {
+    "rating": null
+  },
+  "DESN2010": {
+    "rating": null
+  },
+  "DESN2012": {
+    "rating": null
+  },
+  "DESN2015": {
+    "rating": null
+  },
+  "DESN3010": {
+    "rating": null
+  },
+  "DESN3011": {
+    "rating": null
+  },
+  "DESN3012": {
+    "rating": null
+  },
+  "DESN4011": {
+    "rating": null
+  },
+  "DESN4012": {
+    "rating": null
+  },
+  "DESN6001": {
+    "rating": null
+  },
+  "DESN6002": {
+    "rating": null
+  },
+  "DESN6003": {
+    "rating": null
+  },
+  "DESN6006": {
+    "rating": null
+  },
+  "DIPL8001": {
+    "rating": null
+  },
+  "DIPL8002": {
+    "rating": null
+  },
+  "DIPL8006": {
+    "rating": null
+  },
+  "DIPL8010": {
+    "rating": null
+  },
+  "DIPL8013": {
+    "rating": null
+  },
+  "DIPL8015": {
+    "rating": null
+  },
+  "DIPL8016": {
+    "rating": null
+  },
+  "DIPL8018": {
+    "rating": null
+  },
+  "DIPL8019": {
+    "rating": null
+  },
+  "DIPL8020": {
+    "rating": null
+  },
+  "DIPL8021": {
+    "rating": null
+  },
+  "DIPL8044": {
+    "rating": null
+  },
+  "ECHI1006": {
+    "rating": null
+  },
+  "ECHI3009": {
+    "rating": null
+  },
+  "ECHI6009": {
+    "rating": null
+  },
+  "ECON1100": {
+    "rating": null
+  },
+  "ECON1101": {
+    "rating": null
+  },
+  "ECON1102": {
+    "rating": null
+  },
+  "ECON2009": {
+    "rating": null
+  },
+  "ECON2013": {
+    "rating": null
+  },
+  "ECON2014": {
+    "rating": null
+  },
+  "ECON2016": {
+    "rating": null
+  },
+  "ECON2026": {
+    "rating": null
+  },
+  "ECON2101": {
+    "rating": null
+  },
+  "ECON2102": {
+    "rating": null
+  },
+  "ECON2108": {
+    "rating": null
+  },
+  "ECON2125": {
+    "rating": null
+  },
+  "ECON2131": {
+    "rating": null
+  },
+  "ECON2141": {
+    "rating": null
+  },
+  "ECON2900": {
+    "rating": null
+  },
+  "ECON3004": {
+    "rating": null
+  },
+  "ECON3006": {
+    "rating": null
+  },
+  "ECON3020": {
+    "rating": null
+  },
+  "ECON3021": {
+    "rating": null
+  },
+  "ECON3023": {
+    "rating": null
+  },
+  "ECON3056": {
+    "rating": null
+  },
+  "ECON3057": {
+    "rating": null
+  },
+  "ECON3100": {
+    "rating": null
+  },
+  "ECON3101": {
+    "rating": null
+  },
+  "ECON3102": {
+    "rating": null
+  },
+  "ECON3103": {
+    "rating": null
+  },
+  "ECON3127": {
+    "rating": null
+  },
+  "ECON3128": {
+    "rating": null
+  },
+  "ECON3152": {
+    "rating": null
+  },
+  "ECON3180": {
+    "rating": null
+  },
+  "ECON3181": {
+    "rating": null
+  },
+  "ECON4040": {
+    "rating": null
+  },
+  "ECON4403": {
+    "rating": null
+  },
+  "ECON4409": {
+    "rating": null
+  },
+  "ECON4411": {
+    "rating": null
+  },
+  "ECON4414": {
+    "rating": null
+  },
+  "ECON4415": {
+    "rating": null
+  },
+  "ECON4421": {
+    "rating": null
+  },
+  "ECON4422": {
+    "rating": null
+  },
+  "ECON4434": {
+    "rating": null
+  },
+  "ECON4437": {
+    "rating": null
+  },
+  "ECON4438": {
+    "rating": null
+  },
+  "ECON4441": {
+    "rating": null
+  },
+  "ECON4453": {
+    "rating": null
+  },
+  "ECON4480": {
+    "rating": null
+  },
+  "ECON4488": {
+    "rating": null
+  },
+  "ECON4491": {
+    "rating": null
+  },
+  "ECON4492": {
+    "rating": null
+  },
+  "ECON4493": {
+    "rating": null
+  },
+  "ECON4500": {
+    "rating": null
+  },
+  "ECON6003": {
+    "rating": null
+  },
+  "ECON6012": {
+    "rating": null
+  },
+  "ECON6014": {
+    "rating": null
+  },
+  "ECON6016": {
+    "rating": null
+  },
+  "ECON6034": {
+    "rating": null
+  },
+  "ECON6037": {
+    "rating": null
+  },
+  "ECON6038": {
+    "rating": null
+  },
+  "ECON6039": {
+    "rating": null
+  },
+  "ECON6040": {
+    "rating": null
+  },
+  "ECON6041": {
+    "rating": null
+  },
+  "ECON6053": {
+    "rating": null
+  },
+  "ECON6181": {
+    "rating": null
+  },
+  "ECON6901": {
+    "rating": null
+  },
+  "ECON7073": {
+    "rating": null
+  },
+  "ECON7074": {
+    "rating": null
+  },
+  "ECON8001": {
+    "rating": null
+  },
+  "ECON8003": {
+    "rating": null
+  },
+  "ECON8009": {
+    "rating": null
+  },
+  "ECON8011": {
+    "rating": null
+  },
+  "ECON8014": {
+    "rating": null
+  },
+  "ECON8015": {
+    "rating": null
+  },
+  "ECON8021": {
+    "rating": null
+  },
+  "ECON8022": {
+    "rating": null
+  },
+  "ECON8025": {
+    "rating": null
+  },
+  "ECON8026": {
+    "rating": null
+  },
+  "ECON8034": {
+    "rating": null
+  },
+  "ECON8037": {
+    "rating": null
+  },
+  "ECON8041": {
+    "rating": null
+  },
+  "ECON8050": {
+    "rating": null
+  },
+  "ECON8053": {
+    "rating": null
+  },
+  "ECON8069": {
+    "rating": null
+  },
+  "ECON8077": {
+    "rating": null
+  },
+  "ECON8078": {
+    "rating": null
+  },
+  "ECON8080": {
+    "rating": null
+  },
+  "ECON8091": {
+    "rating": null
+  },
+  "ECON8113": {
+    "rating": null
+  },
+  "ECON8180": {
+    "rating": null
+  },
+  "ECON8887": {
+    "rating": null
+  },
+  "ECON8901": {
+    "rating": null
+  },
+  "EMDV7901": {
+    "rating": null
+  },
+  "EMDV8007": {
+    "rating": null
+  },
+  "EMDV8008": {
+    "rating": null
+  },
+  "EMDV8009": {
+    "rating": null
+  },
+  "EMDV8011": {
+    "rating": null
+  },
+  "EMDV8013": {
+    "rating": null
+  },
+  "EMDV8014": {
+    "rating": null
+  },
+  "EMDV8016": {
+    "rating": null
+  },
+  "EMDV8017": {
+    "rating": null
+  },
+  "EMDV8018": {
+    "rating": null
+  },
+  "EMDV8038": {
+    "rating": null
+  },
+  "EMDV8047": {
+    "rating": null
+  },
+  "EMDV8066": {
+    "rating": null
+  },
+  "EMDV8078": {
+    "rating": null
+  },
+  "EMDV8079": {
+    "rating": null
+  },
+  "EMDV8080": {
+    "rating": null
+  },
+  "EMDV8081": {
+    "rating": null
+  },
+  "EMDV8082": {
+    "rating": null
+  },
+  "EMDV8101": {
+    "rating": null
+  },
+  "EMDV8102": {
+    "rating": null
+  },
+  "EMDV8103": {
+    "rating": null
+  },
+  "EMDV8104": {
+    "rating": null
+  },
+  "EMDV8124": {
+    "rating": null
+  },
+  "EMDV9008": {
+    "rating": null
+  },
+  "EMDV9066": {
+    "rating": null
+  },
+  "EMDV9102": {
+    "rating": null
+  },
+  "EMET1001": {
+    "rating": null
+  },
+  "EMET2007": {
+    "rating": null
+  },
+  "EMET3004": {
+    "rating": null
+  },
+  "EMET3006": {
+    "rating": null
+  },
+  "EMET3007": {
+    "rating": null
+  },
+  "EMET3008": {
+    "rating": null
+  },
+  "EMET4007": {
+    "rating": null
+  },
+  "EMET4301": {
+    "rating": null
+  },
+  "EMET4308": {
+    "rating": null
+  },
+  "EMET4310": {
+    "rating": null
+  },
+  "EMET4312": {
+    "rating": null
+  },
+  "EMET4314": {
+    "rating": null
+  },
+  "EMET6001": {
+    "rating": null
+  },
+  "EMET6007": {
+    "rating": null
+  },
+  "EMET6008": {
+    "rating": null
+  },
+  "EMET6010": {
+    "rating": null
+  },
+  "EMET6012": {
+    "rating": null
+  },
+  "EMET7001": {
+    "rating": null
+  },
+  "EMET8001": {
+    "rating": null
+  },
+  "EMET8002": {
+    "rating": null
+  },
+  "EMET8005": {
+    "rating": null
+  },
+  "EMET8008": {
+    "rating": null
+  },
+  "EMET8010": {
+    "rating": null
+  },
+  "EMET8012": {
+    "rating": null
+  },
+  "EMET8014": {
+    "rating": null
+  },
+  "EMSC1006": {
+    "rating": null
+  },
+  "EMSC1008": {
+    "rating": null
+  },
+  "EMSC1017": {
+    "rating": null
+  },
+  "EMSC2010": {
+    "rating": null
+  },
+  "EMSC2022": {
+    "rating": null
+  },
+  "EMSC2023": {
+    "rating": null
+  },
+  "EMSC3002": {
+    "rating": null
+  },
+  "EMSC3007": {
+    "rating": null
+  },
+  "EMSC3019": {
+    "rating": null
+  },
+  "EMSC3020": {
+    "rating": null
+  },
+  "EMSC3022": {
+    "rating": null
+  },
+  "EMSC3023": {
+    "rating": null
+  },
+  "EMSC3024": {
+    "rating": null
+  },
+  "EMSC3025": {
+    "rating": null
+  },
+  "EMSC3027": {
+    "rating": null
+  },
+  "EMSC3032": {
+    "rating": null
+  },
+  "EMSC3033": {
+    "rating": null
+  },
+  "EMSC3034": {
+    "rating": null
+  },
+  "EMSC3039": {
+    "rating": null
+  },
+  "EMSC3050": {
+    "rating": null
+  },
+  "EMSC4005": {
+    "rating": null
+  },
+  "EMSC4008": {
+    "rating": null
+  },
+  "EMSC4017": {
+    "rating": null
+  },
+  "EMSC4123": {
+    "rating": null
+  },
+  "EMSC4706": {
+    "rating": null
+  },
+  "EMSC6007": {
+    "rating": null
+  },
+  "EMSC6008": {
+    "rating": null
+  },
+  "EMSC6019": {
+    "rating": null
+  },
+  "EMSC6021": {
+    "rating": null
+  },
+  "EMSC6022": {
+    "rating": null
+  },
+  "EMSC6023": {
+    "rating": null
+  },
+  "EMSC6025": {
+    "rating": null
+  },
+  "EMSC6027": {
+    "rating": null
+  },
+  "EMSC6030": {
+    "rating": null
+  },
+  "EMSC6034": {
+    "rating": null
+  },
+  "EMSC6107": {
+    "rating": null
+  },
+  "EMSC6119": {
+    "rating": null
+  },
+  "EMSC6122": {
+    "rating": null
+  },
+  "EMSC6123": {
+    "rating": null
+  },
+  "EMSC6124": {
+    "rating": null
+  },
+  "EMSC8014": {
+    "rating": null
+  },
+  "EMSC8017": {
+    "rating": null
+  },
+  "EMSC8023": {
+    "rating": null
+  },
+  "EMSC8025": {
+    "rating": null
+  },
+  "EMSC8030": {
+    "rating": null
+  },
+  "EMSC8032": {
+    "rating": null
+  },
+  "EMSC8706": {
+    "rating": null
+  },
+  "EMSC8712": {
+    "rating": null
+  },
+  "ENGL1100": {
+    "rating": null
+  },
+  "ENGL1200": {
+    "rating": null
+  },
+  "ENGL2015": {
+    "rating": null
+  },
+  "ENGL2020": {
+    "rating": null
+  },
+  "ENGL2022": {
+    "rating": null
+  },
+  "ENGL2023": {
+    "rating": null
+  },
+  "ENGL2027": {
+    "rating": null
+  },
+  "ENGL2040": {
+    "rating": null
+  },
+  "ENGL2067": {
+    "rating": null
+  },
+  "ENGL2068": {
+    "rating": null
+  },
+  "ENGL2077": {
+    "rating": null
+  },
+  "ENGL2085": {
+    "rating": null
+  },
+  "ENGL2087": {
+    "rating": null
+  },
+  "ENGL2111": {
+    "rating": null
+  },
+  "ENGL2116": {
+    "rating": null
+  },
+  "ENGL2222": {
+    "rating": null
+  },
+  "ENGL2230": {
+    "rating": null
+  },
+  "ENGL2451": {
+    "rating": null
+  },
+  "ENGL2789": {
+    "rating": null
+  },
+  "ENGL3005": {
+    "rating": null
+  },
+  "ENGL3008": {
+    "rating": null
+  },
+  "ENGL3021": {
+    "rating": null
+  },
+  "ENGL3022": {
+    "rating": null
+  },
+  "ENGL3036": {
+    "rating": null
+  },
+  "ENGL3037": {
+    "rating": null
+  },
+  "ENGL3078": {
+    "rating": null
+  },
+  "ENGL3100": {
+    "rating": null
+  },
+  "ENGL4019": {
+    "rating": null
+  },
+  "ENGL4020": {
+    "rating": null
+  },
+  "ENGL4021": {
+    "rating": null
+  },
+  "ENGN1211": {
+    "rating": null
+  },
+  "ENGN1217": {
+    "rating": null
+  },
+  "ENGN1218": {
+    "rating": null
+  },
+  "ENGN2217": {
+    "rating": null
+  },
+  "ENGN2218": {
+    "rating": null
+  },
+  "ENGN2219": {
+    "rating": null
+  },
+  "ENGN2222": {
+    "rating": null
+  },
+  "ENGN2228": {
+    "rating": null
+  },
+  "ENGN2300": {
+    "rating": null
+  },
+  "ENGN2301": {
+    "rating": null
+  },
+  "ENGN2706": {
+    "rating": null
+  },
+  "ENGN2707": {
+    "rating": null
+  },
+  "ENGN3013": {
+    "rating": null
+  },
+  "ENGN3100": {
+    "rating": null
+  },
+  "ENGN3200": {
+    "rating": null
+  },
+  "ENGN3223": {
+    "rating": null
+  },
+  "ENGN3224": {
+    "rating": null
+  },
+  "ENGN3226": {
+    "rating": null
+  },
+  "ENGN3300": {
+    "rating": null
+  },
+  "ENGN3301": {
+    "rating": null
+  },
+  "ENGN3331": {
+    "rating": null
+  },
+  "ENGN3338": {
+    "rating": null
+  },
+  "ENGN3339": {
+    "rating": null
+  },
+  "ENGN3350": {
+    "rating": null
+  },
+  "ENGN3410": {
+    "rating": null
+  },
+  "ENGN3415": {
+    "rating": null
+  },
+  "ENGN3516": {
+    "rating": null
+  },
+  "ENGN3539": {
+    "rating": null
+  },
+  "ENGN3706": {
+    "rating": null
+  },
+  "ENGN3712": {
+    "rating": null
+  },
+  "ENGN3820": {
+    "rating": null
+  },
+  "ENGN3901": {
+    "rating": null
+  },
+  "ENGN3902": {
+    "rating": null
+  },
+  "ENGN3903": {
+    "rating": null
+  },
+  "ENGN4122": {
+    "rating": null
+  },
+  "ENGN4200": {
+    "rating": null
+  },
+  "ENGN4204": {
+    "rating": null
+  },
+  "ENGN4205": {
+    "rating": null
+  },
+  "ENGN4212": {
+    "rating": null
+  },
+  "ENGN4213": {
+    "rating": null
+  },
+  "ENGN4222": {
+    "rating": null
+  },
+  "ENGN4300": {
+    "rating": null
+  },
+  "ENGN4337": {
+    "rating": null
+  },
+  "ENGN4338": {
+    "rating": null
+  },
+  "ENGN4339": {
+    "rating": null
+  },
+  "ENGN4350": {
+    "rating": null
+  },
+  "ENGN4430": {
+    "rating": null
+  },
+  "ENGN4520": {
+    "rating": null
+  },
+  "ENGN4521": {
+    "rating": null
+  },
+  "ENGN4524": {
+    "rating": null
+  },
+  "ENGN4528": {
+    "rating": null
+  },
+  "ENGN4536": {
+    "rating": null
+  },
+  "ENGN4537": {
+    "rating": null
+  },
+  "ENGN4547": {
+    "rating": null
+  },
+  "ENGN4548": {
+    "rating": null
+  },
+  "ENGN4549": {
+    "rating": null
+  },
+  "ENGN4613": {
+    "rating": null
+  },
+  "ENGN4625": {
+    "rating": null
+  },
+  "ENGN4627": {
+    "rating": null
+  },
+  "ENGN4628": {
+    "rating": null
+  },
+  "ENGN4706": {
+    "rating": null
+  },
+  "ENGN4712": {
+    "rating": null
+  },
+  "ENGN4718": {
+    "rating": null
+  },
+  "ENGN4810": {
+    "rating": null
+  },
+  "ENGN4820": {
+    "rating": null
+  },
+  "ENGN4901": {
+    "rating": null
+  },
+  "ENGN4902": {
+    "rating": null
+  },
+  "ENGN4903": {
+    "rating": null
+  },
+  "ENGN5920": {
+    "rating": null
+  },
+  "ENGN6200": {
+    "rating": null
+  },
+  "ENGN6213": {
+    "rating": null
+  },
+  "ENGN6223": {
+    "rating": null
+  },
+  "ENGN6224": {
+    "rating": null
+  },
+  "ENGN6250": {
+    "rating": null
+  },
+  "ENGN6331": {
+    "rating": null
+  },
+  "ENGN6350": {
+    "rating": null
+  },
+  "ENGN6410": {
+    "rating": null
+  },
+  "ENGN6415": {
+    "rating": null
+  },
+  "ENGN6516": {
+    "rating": null
+  },
+  "ENGN6524": {
+    "rating": null
+  },
+  "ENGN6528": {
+    "rating": null
+  },
+  "ENGN6536": {
+    "rating": null
+  },
+  "ENGN6537": {
+    "rating": null
+  },
+  "ENGN6539": {
+    "rating": null
+  },
+  "ENGN6548": {
+    "rating": null
+  },
+  "ENGN6613": {
+    "rating": null
+  },
+  "ENGN6625": {
+    "rating": null
+  },
+  "ENGN6626": {
+    "rating": null
+  },
+  "ENGN6627": {
+    "rating": null
+  },
+  "ENGN6628": {
+    "rating": null
+  },
+  "ENGN8100": {
+    "rating": null
+  },
+  "ENGN8122": {
+    "rating": null
+  },
+  "ENGN8170": {
+    "rating": null
+  },
+  "ENGN8224": {
+    "rating": null
+  },
+  "ENGN8260": {
+    "rating": null
+  },
+  "ENGN8280": {
+    "rating": null
+  },
+  "ENGN8430": {
+    "rating": null
+  },
+  "ENGN8501": {
+    "rating": null
+  },
+  "ENGN8535": {
+    "rating": null
+  },
+  "ENGN8538": {
+    "rating": null
+  },
+  "ENGN8601": {
+    "rating": null
+  },
+  "ENGN8602": {
+    "rating": null
+  },
+  "ENGN8820": {
+    "rating": null
+  },
+  "ENGN8823": {
+    "rating": null
+  },
+  "ENGN8830": {
+    "rating": null
+  },
+  "ENGN8831": {
+    "rating": null
+  },
+  "ENGN8832": {
+    "rating": null
+  },
+  "ENGN8833": {
+    "rating": null
+  },
+  "ENGN8999": {
+    "rating": null
+  },
+  "ENGN9820": {
+    "rating": null
+  },
+  "ENVS1001": {
+    "rating": null
+  },
+  "ENVS1003": {
+    "rating": null
+  },
+  "ENVS1004": {
+    "rating": null
+  },
+  "ENVS1008": {
+    "rating": null
+  },
+  "ENVS2001": {
+    "rating": null
+  },
+  "ENVS2002": {
+    "rating": null
+  },
+  "ENVS2004": {
+    "rating": null
+  },
+  "ENVS2005": {
+    "rating": null
+  },
+  "ENVS2007": {
+    "rating": null
+  },
+  "ENVS2011": {
+    "rating": null
+  },
+  "ENVS2012": {
+    "rating": null
+  },
+  "ENVS2013": {
+    "rating": null
+  },
+  "ENVS2015": {
+    "rating": null
+  },
+  "ENVS2017": {
+    "rating": null
+  },
+  "ENVS2018": {
+    "rating": null
+  },
+  "ENVS2020": {
+    "rating": null
+  },
+  "ENVS2023": {
+    "rating": null
+  },
+  "ENVS2024": {
+    "rating": null
+  },
+  "ENVS2025": {
+    "rating": null
+  },
+  "ENVS3003": {
+    "rating": null
+  },
+  "ENVS3004": {
+    "rating": null
+  },
+  "ENVS3005": {
+    "rating": null
+  },
+  "ENVS3007": {
+    "rating": null
+  },
+  "ENVS3008": {
+    "rating": null
+  },
+  "ENVS3013": {
+    "rating": null
+  },
+  "ENVS3015": {
+    "rating": null
+  },
+  "ENVS3016": {
+    "rating": null
+  },
+  "ENVS3020": {
+    "rating": null
+  },
+  "ENVS3028": {
+    "rating": null
+  },
+  "ENVS3029": {
+    "rating": null
+  },
+  "ENVS3033": {
+    "rating": null
+  },
+  "ENVS3039": {
+    "rating": null
+  },
+  "ENVS3040": {
+    "rating": null
+  },
+  "ENVS3041": {
+    "rating": null
+  },
+  "ENVS3042": {
+    "rating": null
+  },
+  "ENVS3045": {
+    "rating": null
+  },
+  "ENVS3100": {
+    "rating": null
+  },
+  "ENVS3344": {
+    "rating": null
+  },
+  "ENVS3902": {
+    "rating": null
+  },
+  "ENVS3903": {
+    "rating": null
+  },
+  "ENVS4000": {
+    "rating": null
+  },
+  "ENVS4001": {
+    "rating": null
+  },
+  "ENVS6013": {
+    "rating": null
+  },
+  "ENVS6015": {
+    "rating": null
+  },
+  "ENVS6017": {
+    "rating": null
+  },
+  "ENVS6020": {
+    "rating": null
+  },
+  "ENVS6021": {
+    "rating": null
+  },
+  "ENVS6022": {
+    "rating": null
+  },
+  "ENVS6024": {
+    "rating": null
+  },
+  "ENVS6025": {
+    "rating": null
+  },
+  "ENVS6026": {
+    "rating": null
+  },
+  "ENVS6033": {
+    "rating": null
+  },
+  "ENVS6103": {
+    "rating": null
+  },
+  "ENVS6201": {
+    "rating": null
+  },
+  "ENVS6202": {
+    "rating": null
+  },
+  "ENVS6204": {
+    "rating": null
+  },
+  "ENVS6205": {
+    "rating": null
+  },
+  "ENVS6218": {
+    "rating": null
+  },
+  "ENVS6223": {
+    "rating": null
+  },
+  "ENVS6224": {
+    "rating": null
+  },
+  "ENVS6303": {
+    "rating": null
+  },
+  "ENVS6304": {
+    "rating": null
+  },
+  "ENVS6307": {
+    "rating": null
+  },
+  "ENVS6308": {
+    "rating": null
+  },
+  "ENVS6315": {
+    "rating": null
+  },
+  "ENVS6342": {
+    "rating": null
+  },
+  "ENVS6345": {
+    "rating": null
+  },
+  "ENVS6528": {
+    "rating": null
+  },
+  "ENVS6529": {
+    "rating": null
+  },
+  "ENVS6555": {
+    "rating": null
+  },
+  "ENVS8000": {
+    "rating": null
+  },
+  "ENVS8003": {
+    "rating": null
+  },
+  "ENVS8013": {
+    "rating": null
+  },
+  "ENVS8016": {
+    "rating": null
+  },
+  "ENVS8018": {
+    "rating": null
+  },
+  "ENVS8019": {
+    "rating": null
+  },
+  "ENVS8048": {
+    "rating": null
+  },
+  "ENVS8100": {
+    "rating": null
+  },
+  "ENVS8105": {
+    "rating": null
+  },
+  "ENVS8605": {
+    "rating": null
+  },
+  "EXCH5721": {
+    "rating": null
+  },
+  "EXCH5722": {
+    "rating": null
+  },
+  "FINM1001": {
+    "rating": null
+  },
+  "FINM2001": {
+    "rating": null
+  },
+  "FINM2002": {
+    "rating": null
+  },
+  "FINM3003": {
+    "rating": null
+  },
+  "FINM3005": {
+    "rating": null
+  },
+  "FINM3006": {
+    "rating": null
+  },
+  "FINM3007": {
+    "rating": null
+  },
+  "FINM3008": {
+    "rating": null
+  },
+  "FINM3009": {
+    "rating": null
+  },
+  "FINM3010": {
+    "rating": null
+  },
+  "FINM3011": {
+    "rating": null
+  },
+  "FINM3015": {
+    "rating": null
+  },
+  "FINM3045": {
+    "rating": null
+  },
+  "FINM4015": {
+    "rating": null
+  },
+  "FINM4017": {
+    "rating": null
+  },
+  "FINM4106": {
+    "rating": null
+  },
+  "FINM4500": {
+    "rating": null
+  },
+  "FINM4600": {
+    "rating": null
+  },
+  "FINM6005": {
+    "rating": null
+  },
+  "FINM6006": {
+    "rating": null
+  },
+  "FINM6007": {
+    "rating": null
+  },
+  "FINM6009": {
+    "rating": null
+  },
+  "FINM6010": {
+    "rating": null
+  },
+  "FINM6015": {
+    "rating": null
+  },
+  "FINM6016": {
+    "rating": null
+  },
+  "FINM6041": {
+    "rating": null
+  },
+  "FINM6045": {
+    "rating": null
+  },
+  "FINM7006": {
+    "rating": null
+  },
+  "FINM7007": {
+    "rating": null
+  },
+  "FINM7008": {
+    "rating": null
+  },
+  "FINM8004": {
+    "rating": null
+  },
+  "FINM8006": {
+    "rating": null
+  },
+  "FINM8007": {
+    "rating": null
+  },
+  "FINM8014": {
+    "rating": null
+  },
+  "FINM8017": {
+    "rating": null
+  },
+  "FINM8018": {
+    "rating": null
+  },
+  "FINM8019": {
+    "rating": null
+  },
+  "FINM8020": {
+    "rating": null
+  },
+  "FINM8021": {
+    "rating": null
+  },
+  "FINM8100": {
+    "rating": null
+  },
+  "FINM8500": {
+    "rating": null
+  },
+  "FREN1101": {
+    "rating": null
+  },
+  "FREN1102": {
+    "rating": null
+  },
+  "FREN2101": {
+    "rating": null
+  },
+  "FREN2102": {
+    "rating": null
+  },
+  "FREN3101": {
+    "rating": null
+  },
+  "FREN3102": {
+    "rating": null
+  },
+  "FREN3103": {
+    "rating": null
+  },
+  "FREN3104": {
+    "rating": null
+  },
+  "FREN3107": {
+    "rating": null
+  },
+  "FREN3108": {
+    "rating": null
+  },
+  "FREN3109": {
+    "rating": null
+  },
+  "FREN3110": {
+    "rating": null
+  },
+  "FREN3515": {
+    "rating": null
+  },
+  "GEND1001": {
+    "rating": null
+  },
+  "GEND1002": {
+    "rating": null
+  },
+  "GEND2001": {
+    "rating": null
+  },
+  "GEND2002": {
+    "rating": null
+  },
+  "GEND2022": {
+    "rating": null
+  },
+  "GEND2023": {
+    "rating": null
+  },
+  "GEND2034": {
+    "rating": null
+  },
+  "GEND2035": {
+    "rating": null
+  },
+  "GEND2036": {
+    "rating": null
+  },
+  "GEND2037": {
+    "rating": null
+  },
+  "GEND3001": {
+    "rating": null
+  },
+  "GEND3002": {
+    "rating": null
+  },
+  "GEND3016": {
+    "rating": null
+  },
+  "GEND3057": {
+    "rating": null
+  },
+  "GEND6034": {
+    "rating": null
+  },
+  "GEND6501": {
+    "rating": null
+  },
+  "GERM1101": {
+    "rating": null
+  },
+  "GERM1102": {
+    "rating": null
+  },
+  "GERM2101": {
+    "rating": null
+  },
+  "GERM2102": {
+    "rating": null
+  },
+  "GERM2114": {
+    "rating": null
+  },
+  "GERM3051": {
+    "rating": null
+  },
+  "GERM3101": {
+    "rating": null
+  },
+  "GERM3102": {
+    "rating": null
+  },
+  "GERM3103": {
+    "rating": null
+  },
+  "GERM3104": {
+    "rating": null
+  },
+  "GERM3114": {
+    "rating": null
+  },
+  "GREK1001": {
+    "rating": null
+  },
+  "GREK2119": {
+    "rating": null
+  },
+  "GREK2121": {
+    "rating": null
+  },
+  "GREK3125": {
+    "rating": null
+  },
+  "HCAI9002": {
+    "rating": null
+  },
+  "HCAI9010": {
+    "rating": null
+  },
+  "HCAI9104": {
+    "rating": null
+  },
+  "HIND1100": {
+    "rating": null
+  },
+  "HIND1200": {
+    "rating": null
+  },
+  "HIND2300": {
+    "rating": null
+  },
+  "HIND2400": {
+    "rating": null
+  },
+  "HIND3500": {
+    "rating": null
+  },
+  "HIND3600": {
+    "rating": null
+  },
+  "HIST1209": {
+    "rating": null
+  },
+  "HIST1214": {
+    "rating": null
+  },
+  "HIST2022": {
+    "rating": null
+  },
+  "HIST2070": {
+    "rating": null
+  },
+  "HIST2110": {
+    "rating": null
+  },
+  "HIST2136": {
+    "rating": null
+  },
+  "HIST2141": {
+    "rating": null
+  },
+  "HIST2196": {
+    "rating": null
+  },
+  "HIST2205": {
+    "rating": null
+  },
+  "HIST2206": {
+    "rating": null
+  },
+  "HIST2211": {
+    "rating": null
+  },
+  "HIST2214": {
+    "rating": null
+  },
+  "HIST2221": {
+    "rating": null
+  },
+  "HIST2226": {
+    "rating": null
+  },
+  "HIST2227": {
+    "rating": null
+  },
+  "HIST2231": {
+    "rating": null
+  },
+  "HIST2232": {
+    "rating": null
+  },
+  "HIST2240": {
+    "rating": null
+  },
+  "HIST2242": {
+    "rating": null
+  },
+  "HIST2252": {
+    "rating": null
+  },
+  "HIST3007": {
+    "rating": null
+  },
+  "HIST3012": {
+    "rating": null
+  },
+  "HIST3110": {
+    "rating": null
+  },
+  "HIST3142": {
+    "rating": null
+  },
+  "HIST4011": {
+    "rating": null
+  },
+  "HIST4013": {
+    "rating": null
+  },
+  "HIST8011": {
+    "rating": null
+  },
+  "HIST8015": {
+    "rating": null
+  },
+  "HIST8016": {
+    "rating": null
+  },
+  "HIST8021": {
+    "rating": null
+  },
+  "HIST8024": {
+    "rating": null
+  },
+  "HIST8026": {
+    "rating": null
+  },
+  "HIST8037": {
+    "rating": null
+  },
+  "HIST8234": {
+    "rating": null
+  },
+  "HIST8235": {
+    "rating": null
+  },
+  "HIST9102": {
+    "rating": null
+  },
+  "HLMD1002": {
+    "rating": null
+  },
+  "HLMD1022": {
+    "rating": null
+  },
+  "HLMD2000": {
+    "rating": null
+  },
+  "HLMD2021": {
+    "rating": null
+  },
+  "HLMD2022": {
+    "rating": null
+  },
+  "HLMD3000": {
+    "rating": null
+  },
+  "HLMD3021": {
+    "rating": null
+  },
+  "HLMD3022": {
+    "rating": null
+  },
+  "HLMD5920": {
+    "rating": null
+  },
+  "HLMD5921": {
+    "rating": null
+  },
+  "HLMD8000": {
+    "rating": null
+  },
+  "HLMD8021": {
+    "rating": null
+  },
+  "HLMD8022": {
+    "rating": null
+  },
+  "HLMD8820": {
+    "rating": null
+  },
+  "HLMD9001": {
+    "rating": null
+  },
+  "HLTH1002": {
+    "rating": null
+  },
+  "HLTH2001": {
+    "rating": null
+  },
+  "HLTH2002": {
+    "rating": null
+  },
+  "HLTH3001": {
+    "rating": null
+  },
+  "HLTH3002": {
+    "rating": null
+  },
+  "HLTH3004": {
+    "rating": null
+  },
+  "HLTH4001": {
+    "rating": null
+  },
+  "HLTH6004": {
+    "rating": null
+  },
+  "HONS4100": {
+    "rating": null
+  },
+  "HONS4300": {
+    "rating": null
+  },
+  "HONS4601": {
+    "rating": null
+  },
+  "HONS4602": {
+    "rating": null
+  },
+  "HUMN2000": {
+    "rating": null
+  },
+  "HUMN2004": {
+    "rating": null
+  },
+  "HUMN2051": {
+    "rating": null
+  },
+  "HUMN4005": {
+    "rating": null
+  },
+  "HUMN4028": {
+    "rating": null
+  },
+  "HUMN6004": {
+    "rating": null
+  },
+  "HUMN6051": {
+    "rating": null
+  },
+  "HUMN8019": {
+    "rating": null
+  },
+  "HUMN8027": {
+    "rating": null
+  },
+  "HUMN8028": {
+    "rating": null
+  },
+  "HUMN8029": {
+    "rating": null
+  },
+  "HUMN8031": {
+    "rating": null
+  },
+  "HUMN8033": {
+    "rating": null
+  },
+  "HUMN8034": {
+    "rating": null
+  },
+  "HUMN8035": {
+    "rating": null
+  },
+  "HUMN8036": {
+    "rating": null
+  },
+  "HUMN8038": {
+    "rating": null
+  },
+  "HUMN8039": {
+    "rating": null
+  },
+  "HUMN8040": {
+    "rating": null
+  },
+  "IDEC7902": {
+    "rating": null
+  },
+  "IDEC7904": {
+    "rating": null
+  },
+  "IDEC8000": {
+    "rating": null
+  },
+  "IDEC8002": {
+    "rating": null
+  },
+  "IDEC8003": {
+    "rating": null
+  },
+  "IDEC8008": {
+    "rating": null
+  },
+  "IDEC8010": {
+    "rating": null
+  },
+  "IDEC8011": {
+    "rating": null
+  },
+  "IDEC8012": {
+    "rating": null
+  },
+  "IDEC8015": {
+    "rating": null
+  },
+  "IDEC8016": {
+    "rating": null
+  },
+  "IDEC8017": {
+    "rating": null
+  },
+  "IDEC8018": {
+    "rating": null
+  },
+  "IDEC8020": {
+    "rating": null
+  },
+  "IDEC8021": {
+    "rating": null
+  },
+  "IDEC8022": {
+    "rating": null
+  },
+  "IDEC8023": {
+    "rating": null
+  },
+  "IDEC8025": {
+    "rating": null
+  },
+  "IDEC8026": {
+    "rating": null
+  },
+  "IDEC8028": {
+    "rating": null
+  },
+  "IDEC8029": {
+    "rating": null
+  },
+  "IDEC8030": {
+    "rating": null
+  },
+  "IDEC8033": {
+    "rating": null
+  },
+  "IDEC8034": {
+    "rating": null
+  },
+  "IDEC8035": {
+    "rating": null
+  },
+  "IDEC8037": {
+    "rating": null
+  },
+  "IDEC8053": {
+    "rating": null
+  },
+  "IDEC8064": {
+    "rating": null
+  },
+  "IDEC8067": {
+    "rating": null
+  },
+  "IDEC8081": {
+    "rating": null
+  },
+  "IDEC8088": {
+    "rating": null
+  },
+  "IDEC8089": {
+    "rating": null
+  },
+  "IDEC8127": {
+    "rating": null
+  },
+  "IDEC8924": {
+    "rating": null
+  },
+  "IDEC9024": {
+    "rating": null
+  },
+  "INDG1001": {
+    "rating": null
+  },
+  "INDG1002": {
+    "rating": null
+  },
+  "INDG2001": {
+    "rating": null
+  },
+  "INDG2002": {
+    "rating": null
+  },
+  "INDG2003": {
+    "rating": null
+  },
+  "INDG2004": {
+    "rating": null
+  },
+  "INDG2009": {
+    "rating": null
+  },
+  "INDG3001": {
+    "rating": null
+  },
+  "INDG3003": {
+    "rating": null
+  },
+  "INDG3004": {
+    "rating": null
+  },
+  "INDG3005": {
+    "rating": null
+  },
+  "INDG3006": {
+    "rating": null
+  },
+  "INDG3007": {
+    "rating": null
+  },
+  "INDG3008": {
+    "rating": null
+  },
+  "INDG4001": {
+    "rating": null
+  },
+  "INDG8001": {
+    "rating": null
+  },
+  "INDG8002": {
+    "rating": null
+  },
+  "INDG8004": {
+    "rating": null
+  },
+  "INDG8005": {
+    "rating": null
+  },
+  "INDG9002": {
+    "rating": null
+  },
+  "INDG9004": {
+    "rating": null
+  },
+  "INDN1002": {
+    "rating": null
+  },
+  "INDN1003": {
+    "rating": null
+  },
+  "INDN2002": {
+    "rating": null
+  },
+  "INDN2003": {
+    "rating": null
+  },
+  "INDN3002": {
+    "rating": null
+  },
+  "INDN3003": {
+    "rating": null
+  },
+  "INDN3015": {
+    "rating": null
+  },
+  "INFS1001": {
+    "rating": null
+  },
+  "INFS2005": {
+    "rating": null
+  },
+  "INFS2024": {
+    "rating": null
+  },
+  "INFS3002": {
+    "rating": null
+  },
+  "INFS3024": {
+    "rating": null
+  },
+  "INFS3059": {
+    "rating": null
+  },
+  "INFS4500": {
+    "rating": null
+  },
+  "INFS7004": {
+    "rating": null
+  },
+  "INFS7040": {
+    "rating": null
+  },
+  "INFS8004": {
+    "rating": null
+  },
+  "INFS8008": {
+    "rating": null
+  },
+  "INFS8202": {
+    "rating": null
+  },
+  "INFS8205": {
+    "rating": null
+  },
+  "INFS8210": {
+    "rating": null
+  },
+  "INFS8211": {
+    "rating": null
+  },
+  "INTR1021": {
+    "rating": null
+  },
+  "INTR1022": {
+    "rating": null
+  },
+  "INTR2010": {
+    "rating": null
+  },
+  "INTR2012": {
+    "rating": null
+  },
+  "INTR2024": {
+    "rating": null
+  },
+  "INTR3001": {
+    "rating": null
+  },
+  "INTR3002": {
+    "rating": null
+  },
+  "INTR3003": {
+    "rating": null
+  },
+  "INTR8011": {
+    "rating": null
+  },
+  "INTR8013": {
+    "rating": null
+  },
+  "INTR8018": {
+    "rating": null
+  },
+  "INTR8020": {
+    "rating": null
+  },
+  "INTR8022": {
+    "rating": null
+  },
+  "INTR8032": {
+    "rating": null
+  },
+  "INTR8038": {
+    "rating": null
+  },
+  "INTR8043": {
+    "rating": null
+  },
+  "INTR8046": {
+    "rating": null
+  },
+  "INTR8052": {
+    "rating": null
+  },
+  "INTR8053": {
+    "rating": null
+  },
+  "INTR8060": {
+    "rating": null
+  },
+  "INTR8063": {
+    "rating": null
+  },
+  "INTR8066": {
+    "rating": null
+  },
+  "INTR8068": {
+    "rating": null
+  },
+  "INTR8072": {
+    "rating": null
+  },
+  "INTR8077": {
+    "rating": null
+  },
+  "INTR8080": {
+    "rating": null
+  },
+  "INTR8082": {
+    "rating": null
+  },
+  "INTR8083": {
+    "rating": null
+  },
+  "INTR8084": {
+    "rating": null
+  },
+  "INTR8086": {
+    "rating": null
+  },
+  "INTR8088": {
+    "rating": null
+  },
+  "INTR9072": {
+    "rating": null
+  },
+  "ITAL1101": {
+    "rating": null
+  },
+  "ITAL1102": {
+    "rating": null
+  },
+  "ITAL2101": {
+    "rating": null
+  },
+  "ITAL2102": {
+    "rating": null
+  },
+  "ITAL3101": {
+    "rating": null
+  },
+  "ITAL3102": {
+    "rating": null
+  },
+  "ITAL3103": {
+    "rating": null
+  },
+  "ITAL3104": {
+    "rating": null
+  },
+  "JPNS1012": {
+    "rating": null
+  },
+  "JPNS1014": {
+    "rating": null
+  },
+  "JPNS2003": {
+    "rating": null
+  },
+  "JPNS2005": {
+    "rating": null
+  },
+  "JPNS2024": {
+    "rating": null
+  },
+  "JPNS3005": {
+    "rating": null
+  },
+  "JPNS3012": {
+    "rating": null
+  },
+  "JPNS3013": {
+    "rating": null
+  },
+  "JPNS3023": {
+    "rating": null
+  },
+  "JPNS3102": {
+    "rating": null
+  },
+  "JPNS3201": {
+    "rating": null
+  },
+  "JPNS3202": {
+    "rating": null
+  },
+  "JPNS3203": {
+    "rating": null
+  },
+  "JPNS3204": {
+    "rating": null
+  },
+  "KORE1020": {
+    "rating": null
+  },
+  "KORE1021": {
+    "rating": null
+  },
+  "KORE2521": {
+    "rating": null
+  },
+  "KORE2522": {
+    "rating": null
+  },
+  "KORE3012": {
+    "rating": null
+  },
+  "KORE3013": {
+    "rating": null
+  },
+  "KORE3015": {
+    "rating": null
+  },
+  "KORE3018": {
+    "rating": null
+  },
+  "LANG3007": {
+    "rating": null
+  },
+  "LANG4100": {
+    "rating": null
+  },
+  "LANG6002": {
+    "rating": null
+  },
+  "LANG8016": {
+    "rating": null
+  },
+  "LATN1001": {
+    "rating": null
+  },
+  "LATN2119": {
+    "rating": null
+  },
+  "LATN2121": {
+    "rating": null
+  },
+  "LATN3125": {
+    "rating": null
+  },
+  "LAWS1001": {
+    "rating": null
+  },
+  "LAWS1201": {
+    "rating": null
+  },
+  "LAWS1202": {
+    "rating": null
+  },
+  "LAWS1203": {
+    "rating": null
+  },
+  "LAWS1204": {
+    "rating": null
+  },
+  "LAWS1205": {
+    "rating": null
+  },
+  "LAWS1206": {
+    "rating": null
+  },
+  "LAWS2201": {
+    "rating": null
+  },
+  "LAWS2202": {
+    "rating": null
+  },
+  "LAWS2203": {
+    "rating": null
+  },
+  "LAWS2204": {
+    "rating": null
+  },
+  "LAWS2205": {
+    "rating": null
+  },
+  "LAWS2207": {
+    "rating": null
+  },
+  "LAWS2244": {
+    "rating": null
+  },
+  "LAWS2248": {
+    "rating": null
+  },
+  "LAWS2249": {
+    "rating": null
+  },
+  "LAWS2250": {
+    "rating": null
+  },
+  "LAWS4001": {
+    "rating": null
+  },
+  "LAWS4005": {
+    "rating": null
+  },
+  "LAWS4010": {
+    "rating": null
+  },
+  "LAWS4011": {
+    "rating": null
+  },
+  "LAWS4148": {
+    "rating": null
+  },
+  "LAWS4202": {
+    "rating": null
+  },
+  "LAWS4210": {
+    "rating": null
+  },
+  "LAWS4212": {
+    "rating": null
+  },
+  "LAWS4213": {
+    "rating": null
+  },
+  "LAWS4215": {
+    "rating": null
+  },
+  "LAWS4217": {
+    "rating": null
+  },
+  "LAWS4218": {
+    "rating": null
+  },
+  "LAWS4219": {
+    "rating": null
+  },
+  "LAWS4221": {
+    "rating": null
+  },
+  "LAWS4222": {
+    "rating": null
+  },
+  "LAWS4223": {
+    "rating": null
+  },
+  "LAWS4224": {
+    "rating": null
+  },
+  "LAWS4225": {
+    "rating": null
+  },
+  "LAWS4226": {
+    "rating": null
+  },
+  "LAWS4227": {
+    "rating": null
+  },
+  "LAWS4228": {
+    "rating": null
+  },
+  "LAWS4229": {
+    "rating": null
+  },
+  "LAWS4230": {
+    "rating": null
+  },
+  "LAWS4231": {
+    "rating": null
+  },
+  "LAWS4233": {
+    "rating": null
+  },
+  "LAWS4236": {
+    "rating": null
+  },
+  "LAWS4237": {
+    "rating": null
+  },
+  "LAWS4238": {
+    "rating": null
+  },
+  "LAWS4245": {
+    "rating": null
+  },
+  "LAWS4251": {
+    "rating": null
+  },
+  "LAWS4254": {
+    "rating": null
+  },
+  "LAWS4255": {
+    "rating": null
+  },
+  "LAWS4256": {
+    "rating": null
+  },
+  "LAWS4257": {
+    "rating": null
+  },
+  "LAWS4259": {
+    "rating": null
+  },
+  "LAWS4260": {
+    "rating": null
+  },
+  "LAWS4262": {
+    "rating": null
+  },
+  "LAWS4264": {
+    "rating": null
+  },
+  "LAWS4266": {
+    "rating": null
+  },
+  "LAWS4267": {
+    "rating": null
+  },
+  "LAWS4268": {
+    "rating": null
+  },
+  "LAWS4271": {
+    "rating": null
+  },
+  "LAWS4274": {
+    "rating": null
+  },
+  "LAWS4275": {
+    "rating": null
+  },
+  "LAWS4276": {
+    "rating": null
+  },
+  "LAWS4278": {
+    "rating": null
+  },
+  "LAWS4279": {
+    "rating": null
+  },
+  "LAWS4280": {
+    "rating": null
+  },
+  "LAWS4281": {
+    "rating": null
+  },
+  "LAWS4285": {
+    "rating": null
+  },
+  "LAWS4286": {
+    "rating": null
+  },
+  "LAWS4289": {
+    "rating": null
+  },
+  "LAWS4299": {
+    "rating": null
+  },
+  "LAWS4300": {
+    "rating": null
+  },
+  "LAWS4301": {
+    "rating": null
+  },
+  "LAWS4302": {
+    "rating": null
+  },
+  "LAWS4304": {
+    "rating": null
+  },
+  "LAWS4306": {
+    "rating": null
+  },
+  "LAWS4307": {
+    "rating": null
+  },
+  "LAWS4309": {
+    "rating": null
+  },
+  "LAWS4312": {
+    "rating": null
+  },
+  "LAWS4314": {
+    "rating": null
+  },
+  "LAWS4315": {
+    "rating": null
+  },
+  "LAWS4321": {
+    "rating": null
+  },
+  "LAWS4328": {
+    "rating": null
+  },
+  "LAWS4339": {
+    "rating": null
+  },
+  "LAWS4341": {
+    "rating": null
+  },
+  "LAWS4343": {
+    "rating": null
+  },
+  "LAWS4344": {
+    "rating": null
+  },
+  "LAWS4350": {
+    "rating": null
+  },
+  "LAWS4351": {
+    "rating": null
+  },
+  "LAWS4358": {
+    "rating": null
+  },
+  "LAWS4359": {
+    "rating": null
+  },
+  "LAWS4364": {
+    "rating": null
+  },
+  "LAWS4395": {
+    "rating": null
+  },
+  "LAWS4430": {
+    "rating": null
+  },
+  "LAWS4597": {
+    "rating": null
+  },
+  "LAWS4601": {
+    "rating": null
+  },
+  "LAWS4700": {
+    "rating": null
+  },
+  "LAWS5920": {
+    "rating": null
+  },
+  "LAWS6001": {
+    "rating": null
+  },
+  "LAWS6010": {
+    "rating": null
+  },
+  "LAWS6011": {
+    "rating": null
+  },
+  "LAWS6101": {
+    "rating": null
+  },
+  "LAWS6102": {
+    "rating": null
+  },
+  "LAWS6103": {
+    "rating": null
+  },
+  "LAWS6104": {
+    "rating": null
+  },
+  "LAWS6105": {
+    "rating": null
+  },
+  "LAWS6106": {
+    "rating": null
+  },
+  "LAWS6201": {
+    "rating": null
+  },
+  "LAWS6202": {
+    "rating": null
+  },
+  "LAWS6203": {
+    "rating": null
+  },
+  "LAWS6204": {
+    "rating": null
+  },
+  "LAWS6205": {
+    "rating": null
+  },
+  "LAWS6207": {
+    "rating": null
+  },
+  "LAWS6230": {
+    "rating": null
+  },
+  "LAWS6244": {
+    "rating": null
+  },
+  "LAWS6249": {
+    "rating": null
+  },
+  "LAWS6250": {
+    "rating": null
+  },
+  "LAWS6267": {
+    "rating": null
+  },
+  "LAWS6268": {
+    "rating": null
+  },
+  "LAWS6278": {
+    "rating": null
+  },
+  "LAWS6281": {
+    "rating": null
+  },
+  "LAWS6301": {
+    "rating": null
+  },
+  "LAWS6302": {
+    "rating": null
+  },
+  "LAWS6304": {
+    "rating": null
+  },
+  "LAWS6307": {
+    "rating": null
+  },
+  "LAWS6700": {
+    "rating": null
+  },
+  "LAWS8001": {
+    "rating": null
+  },
+  "LAWS8006": {
+    "rating": null
+  },
+  "LAWS8009": {
+    "rating": null
+  },
+  "LAWS8013": {
+    "rating": null
+  },
+  "LAWS8016": {
+    "rating": null
+  },
+  "LAWS8035": {
+    "rating": null
+  },
+  "LAWS8072": {
+    "rating": null
+  },
+  "LAWS8077": {
+    "rating": null
+  },
+  "LAWS8078": {
+    "rating": null
+  },
+  "LAWS8101": {
+    "rating": null
+  },
+  "LAWS8102": {
+    "rating": null
+  },
+  "LAWS8104": {
+    "rating": null
+  },
+  "LAWS8125": {
+    "rating": null
+  },
+  "LAWS8128": {
+    "rating": null
+  },
+  "LAWS8140": {
+    "rating": null
+  },
+  "LAWS8141": {
+    "rating": null
+  },
+  "LAWS8142": {
+    "rating": null
+  },
+  "LAWS8144": {
+    "rating": null
+  },
+  "LAWS8148": {
+    "rating": null
+  },
+  "LAWS8154": {
+    "rating": null
+  },
+  "LAWS8158": {
+    "rating": null
+  },
+  "LAWS8159": {
+    "rating": null
+  },
+  "LAWS8178": {
+    "rating": null
+  },
+  "LAWS8182": {
+    "rating": null
+  },
+  "LAWS8183": {
+    "rating": null
+  },
+  "LAWS8189": {
+    "rating": null
+  },
+  "LAWS8214": {
+    "rating": null
+  },
+  "LAWS8218": {
+    "rating": null
+  },
+  "LAWS8220": {
+    "rating": null
+  },
+  "LAWS8228": {
+    "rating": null
+  },
+  "LAWS8229": {
+    "rating": null
+  },
+  "LAWS8234": {
+    "rating": null
+  },
+  "LAWS8237": {
+    "rating": null
+  },
+  "LAWS8241": {
+    "rating": null
+  },
+  "LAWS8243": {
+    "rating": null
+  },
+  "LAWS8252": {
+    "rating": null
+  },
+  "LAWS8253": {
+    "rating": null
+  },
+  "LAWS8254": {
+    "rating": null
+  },
+  "LAWS8256": {
+    "rating": null
+  },
+  "LAWS8264": {
+    "rating": null
+  },
+  "LAWS8268": {
+    "rating": null
+  },
+  "LAWS8271": {
+    "rating": null
+  },
+  "LAWS8275": {
+    "rating": null
+  },
+  "LAWS8276": {
+    "rating": null
+  },
+  "LAWS8280": {
+    "rating": null
+  },
+  "LAWS8297": {
+    "rating": null
+  },
+  "LAWS8301": {
+    "rating": null
+  },
+  "LAWS8314": {
+    "rating": null
+  },
+  "LAWS8315": {
+    "rating": null
+  },
+  "LAWS8316": {
+    "rating": null
+  },
+  "LAWS8328": {
+    "rating": null
+  },
+  "LAWS8329": {
+    "rating": null
+  },
+  "LAWS8335": {
+    "rating": null
+  },
+  "LAWS8336": {
+    "rating": null
+  },
+  "LAWS8338": {
+    "rating": null
+  },
+  "LAWS8339": {
+    "rating": null
+  },
+  "LAWS8340": {
+    "rating": null
+  },
+  "LAWS8341": {
+    "rating": null
+  },
+  "LAWS8401": {
+    "rating": null
+  },
+  "LAWS8402": {
+    "rating": null
+  },
+  "LAWS8405": {
+    "rating": null
+  },
+  "LAWS8407": {
+    "rating": null
+  },
+  "LAWS8409": {
+    "rating": null
+  },
+  "LAWS8417": {
+    "rating": null
+  },
+  "LAWS8418": {
+    "rating": null
+  },
+  "LAWS8420": {
+    "rating": null
+  },
+  "LAWS8421": {
+    "rating": null
+  },
+  "LAWS8422": {
+    "rating": null
+  },
+  "LAWS8428": {
+    "rating": null
+  },
+  "LAWS8430": {
+    "rating": null
+  },
+  "LAWS8436": {
+    "rating": null
+  },
+  "LAWS8437": {
+    "rating": null
+  },
+  "LAWS8438": {
+    "rating": null
+  },
+  "LAWS8445": {
+    "rating": null
+  },
+  "LAWS8454": {
+    "rating": null
+  },
+  "LAWS8459": {
+    "rating": null
+  },
+  "LAWS8462": {
+    "rating": null
+  },
+  "LAWS8471": {
+    "rating": null
+  },
+  "LAWS8474": {
+    "rating": null
+  },
+  "LAWS8480": {
+    "rating": null
+  },
+  "LAWS8485": {
+    "rating": null
+  },
+  "LAWS8566": {
+    "rating": null
+  },
+  "LAWS8567": {
+    "rating": null
+  },
+  "LAWS8582": {
+    "rating": null
+  },
+  "LAWS8584": {
+    "rating": null
+  },
+  "LAWS8585": {
+    "rating": null
+  },
+  "LAWS8586": {
+    "rating": null
+  },
+  "LAWS8587": {
+    "rating": null
+  },
+  "LAWS8589": {
+    "rating": null
+  },
+  "LAWS8594": {
+    "rating": null
+  },
+  "LAWS8595": {
+    "rating": null
+  },
+  "LAWS8596": {
+    "rating": null
+  },
+  "LAWS8597": {
+    "rating": null
+  },
+  "LAWS8598": {
+    "rating": null
+  },
+  "LAWS8601": {
+    "rating": null
+  },
+  "LAWS8660": {
+    "rating": null
+  },
+  "LAWS8661": {
+    "rating": null
+  },
+  "LAWS8662": {
+    "rating": null
+  },
+  "LAWS8800": {
+    "rating": null
+  },
+  "LAWS9800": {
+    "rating": null
+  },
+  "LING1001": {
+    "rating": null
+  },
+  "LING1002": {
+    "rating": null
+  },
+  "LING2003": {
+    "rating": null
+  },
+  "LING2005": {
+    "rating": null
+  },
+  "LING2008": {
+    "rating": null
+  },
+  "LING2010": {
+    "rating": null
+  },
+  "LING2013": {
+    "rating": null
+  },
+  "LING2015": {
+    "rating": null
+  },
+  "LING2016": {
+    "rating": null
+  },
+  "LING2017": {
+    "rating": null
+  },
+  "LING2018": {
+    "rating": null
+  },
+  "LING2020": {
+    "rating": null
+  },
+  "LING2021": {
+    "rating": null
+  },
+  "LING2023": {
+    "rating": null
+  },
+  "LING2028": {
+    "rating": null
+  },
+  "LING2029": {
+    "rating": null
+  },
+  "LING2034": {
+    "rating": null
+  },
+  "LING2040": {
+    "rating": null
+  },
+  "LING2105": {
+    "rating": null
+  },
+  "LING2106": {
+    "rating": null
+  },
+  "LING2521": {
+    "rating": null
+  },
+  "LING3012": {
+    "rating": null
+  },
+  "LING3025": {
+    "rating": null
+  },
+  "LING3031": {
+    "rating": null
+  },
+  "LING3032": {
+    "rating": null
+  },
+  "LING3035": {
+    "rating": null
+  },
+  "LING3036": {
+    "rating": null
+  },
+  "LING3038": {
+    "rating": null
+  },
+  "LING3101": {
+    "rating": null
+  },
+  "LING3126": {
+    "rating": null
+  },
+  "LING4013": {
+    "rating": null
+  },
+  "LING4100": {
+    "rating": null
+  },
+  "LING4103": {
+    "rating": null
+  },
+  "LING4106": {
+    "rating": null
+  },
+  "LING6003": {
+    "rating": null
+  },
+  "LING6005": {
+    "rating": null
+  },
+  "LING6008": {
+    "rating": null
+  },
+  "LING6009": {
+    "rating": null
+  },
+  "LING6010": {
+    "rating": null
+  },
+  "LING6013": {
+    "rating": null
+  },
+  "LING6015": {
+    "rating": null
+  },
+  "LING6016": {
+    "rating": null
+  },
+  "LING6017": {
+    "rating": null
+  },
+  "LING6018": {
+    "rating": null
+  },
+  "LING6020": {
+    "rating": null
+  },
+  "LING6021": {
+    "rating": null
+  },
+  "LING6023": {
+    "rating": null
+  },
+  "LING6026": {
+    "rating": null
+  },
+  "LING6029": {
+    "rating": null
+  },
+  "LING6031": {
+    "rating": null
+  },
+  "LING6032": {
+    "rating": null
+  },
+  "LING6034": {
+    "rating": null
+  },
+  "LING6035": {
+    "rating": null
+  },
+  "LING6036": {
+    "rating": null
+  },
+  "LING6038": {
+    "rating": null
+  },
+  "LING6040": {
+    "rating": null
+  },
+  "LING6101": {
+    "rating": null
+  },
+  "LING6105": {
+    "rating": null
+  },
+  "LING6311": {
+    "rating": null
+  },
+  "LING6521": {
+    "rating": null
+  },
+  "LING6525": {
+    "rating": null
+  },
+  "LING8001": {
+    "rating": null
+  },
+  "LING8003": {
+    "rating": null
+  },
+  "LING8004": {
+    "rating": null
+  },
+  "LING8013": {
+    "rating": null
+  },
+  "LING8026": {
+    "rating": null
+  },
+  "LING8027": {
+    "rating": null
+  },
+  "LING8032": {
+    "rating": null
+  },
+  "LING9001": {
+    "rating": null
+  },
+  "LING9026": {
+    "rating": null
+  },
+  "LING9027": {
+    "rating": null
+  },
+  "LING9032": {
+    "rating": null
+  },
+  "MATH1003": {
+    "rating": null
+  },
+  "MATH1005": {
+    "rating": null
+  },
+  "MATH1013": {
+    "rating": null
+  },
+  "MATH1014": {
+    "rating": null
+  },
+  "MATH1113": {
+    "rating": null
+  },
+  "MATH1115": {
+    "rating": null
+  },
+  "MATH1116": {
+    "rating": null
+  },
+  "MATH2222": {
+    "rating": null
+  },
+  "MATH2301": {
+    "rating": null
+  },
+  "MATH2305": {
+    "rating": null
+  },
+  "MATH2306": {
+    "rating": null
+  },
+  "MATH2307": {
+    "rating": null
+  },
+  "MATH2320": {
+    "rating": null
+  },
+  "MATH2322": {
+    "rating": null
+  },
+  "MATH3015": {
+    "rating": null
+  },
+  "MATH3029": {
+    "rating": null
+  },
+  "MATH3062": {
+    "rating": null
+  },
+  "MATH3133": {
+    "rating": null
+  },
+  "MATH3228": {
+    "rating": null
+  },
+  "MATH3301": {
+    "rating": null
+  },
+  "MATH3320": {
+    "rating": null
+  },
+  "MATH3325": {
+    "rating": null
+  },
+  "MATH3342": {
+    "rating": null
+  },
+  "MATH3345": {
+    "rating": null
+  },
+  "MATH3349": {
+    "rating": null
+  },
+  "MATH3351": {
+    "rating": null
+  },
+  "MATH3353": {
+    "rating": null
+  },
+  "MATH3354": {
+    "rating": null
+  },
+  "MATH3501": {
+    "rating": null
+  },
+  "MATH3511": {
+    "rating": null
+  },
+  "MATH3512": {
+    "rating": null
+  },
+  "MATH3514": {
+    "rating": null
+  },
+  "MATH4005": {
+    "rating": null
+  },
+  "MATH4201": {
+    "rating": null
+  },
+  "MATH4202": {
+    "rating": null
+  },
+  "MATH4204": {
+    "rating": null
+  },
+  "MATH4343": {
+    "rating": null
+  },
+  "MATH4349": {
+    "rating": null
+  },
+  "MATH6005": {
+    "rating": null
+  },
+  "MATH6100": {
+    "rating": null
+  },
+  "MATH6102": {
+    "rating": null
+  },
+  "MATH6103": {
+    "rating": null
+  },
+  "MATH6109": {
+    "rating": null
+  },
+  "MATH6110": {
+    "rating": null
+  },
+  "MATH6111": {
+    "rating": null
+  },
+  "MATH6112": {
+    "rating": null
+  },
+  "MATH6114": {
+    "rating": null
+  },
+  "MATH6115": {
+    "rating": null
+  },
+  "MATH6116": {
+    "rating": null
+  },
+  "MATH6118": {
+    "rating": null
+  },
+  "MATH6119": {
+    "rating": null
+  },
+  "MATH6205": {
+    "rating": null
+  },
+  "MATH6208": {
+    "rating": null
+  },
+  "MATH6209": {
+    "rating": null
+  },
+  "MATH6211": {
+    "rating": null
+  },
+  "MATH6212": {
+    "rating": null
+  },
+  "MATH6213": {
+    "rating": null
+  },
+  "MATH6214": {
+    "rating": null
+  },
+  "MATH6215": {
+    "rating": null
+  },
+  "MATH6216": {
+    "rating": null
+  },
+  "MATH6222": {
+    "rating": null
+  },
+  "MATH6405": {
+    "rating": null
+  },
+  "MATH6406": {
+    "rating": null
+  },
+  "MATH8201": {
+    "rating": null
+  },
+  "MATH8202": {
+    "rating": null
+  },
+  "MATH8204": {
+    "rating": null
+  },
+  "MATH8343": {
+    "rating": null
+  },
+  "MATH8701": {
+    "rating": null
+  },
+  "MATH8702": {
+    "rating": null
+  },
+  "MATH8705": {
+    "rating": null
+  },
+  "MEAS1001": {
+    "rating": null
+  },
+  "MEAS1002": {
+    "rating": null
+  },
+  "MEAS2000": {
+    "rating": null
+  },
+  "MEAS2001": {
+    "rating": null
+  },
+  "MEAS2003": {
+    "rating": null
+  },
+  "MEAS2004": {
+    "rating": null
+  },
+  "MEAS2005": {
+    "rating": null
+  },
+  "MEAS2006": {
+    "rating": null
+  },
+  "MEAS2008": {
+    "rating": null
+  },
+  "MEAS2105": {
+    "rating": null
+  },
+  "MEAS3003": {
+    "rating": null
+  },
+  "MEAS3004": {
+    "rating": null
+  },
+  "MEAS3005": {
+    "rating": null
+  },
+  "MEAS3007": {
+    "rating": null
+  },
+  "MEAS3008": {
+    "rating": null
+  },
+  "MEAS3009": {
+    "rating": null
+  },
+  "MEAS4002": {
+    "rating": null
+  },
+  "MEAS4102": {
+    "rating": null
+  },
+  "MEAS4113": {
+    "rating": null
+  },
+  "MEAS4117": {
+    "rating": null
+  },
+  "MEAS6003": {
+    "rating": null
+  },
+  "MEAS6004": {
+    "rating": null
+  },
+  "MEAS6005": {
+    "rating": null
+  },
+  "MEAS6007": {
+    "rating": null
+  },
+  "MEAS6008": {
+    "rating": null
+  },
+  "MEAS6503": {
+    "rating": null
+  },
+  "MEAS6504": {
+    "rating": null
+  },
+  "MEAS6508": {
+    "rating": null
+  },
+  "MEAS8001": {
+    "rating": null
+  },
+  "MEAS8102": {
+    "rating": null
+  },
+  "MEAS8105": {
+    "rating": null
+  },
+  "MEAS8108": {
+    "rating": null
+  },
+  "MEAS8109": {
+    "rating": null
+  },
+  "MEAS8111": {
+    "rating": null
+  },
+  "MEAS8112": {
+    "rating": null
+  },
+  "MEAS8113": {
+    "rating": null
+  },
+  "MEAS8114": {
+    "rating": null
+  },
+  "MEAS8115": {
+    "rating": null
+  },
+  "MEAS8116": {
+    "rating": null
+  },
+  "MEAS8117": {
+    "rating": null
+  },
+  "MEAS9001": {
+    "rating": null
+  },
+  "MEDI8000": {
+    "rating": null
+  },
+  "MEDI8011": {
+    "rating": null
+  },
+  "MEDI8012": {
+    "rating": null
+  },
+  "MEDI8015": {
+    "rating": null
+  },
+  "MEDI8020": {
+    "rating": null
+  },
+  "MEDI8022": {
+    "rating": null
+  },
+  "MEDI8023": {
+    "rating": null
+  },
+  "MEDI8025": {
+    "rating": null
+  },
+  "MEDI8030": {
+    "rating": null
+  },
+  "MEDI8035": {
+    "rating": null
+  },
+  "MEDI8040": {
+    "rating": null
+  },
+  "MEDI8045": {
+    "rating": null
+  },
+  "MEDI8301": {
+    "rating": null
+  },
+  "MEDI8302": {
+    "rating": null
+  },
+  "MEDI8303": {
+    "rating": null
+  },
+  "MEDI8304": {
+    "rating": null
+  },
+  "MEDN1101": {
+    "rating": null
+  },
+  "MEDN2001": {
+    "rating": null
+  },
+  "MEDN2002": {
+    "rating": null
+  },
+  "MEDN2201": {
+    "rating": null
+  },
+  "MEDN2222": {
+    "rating": null
+  },
+  "MEDN3007": {
+    "rating": null
+  },
+  "MEDN3186": {
+    "rating": null
+  },
+  "MEDN3820": {
+    "rating": null
+  },
+  "MEDN4001": {
+    "rating": null
+  },
+  "MEDN6001": {
+    "rating": null
+  },
+  "MEDN6002": {
+    "rating": null
+  },
+  "MEDN6820": {
+    "rating": null
+  },
+  "MEDN8007": {
+    "rating": null
+  },
+  "MEDN8701": {
+    "rating": null
+  },
+  "MGMT1003": {
+    "rating": null
+  },
+  "MGMT2001": {
+    "rating": null
+  },
+  "MGMT2003": {
+    "rating": null
+  },
+  "MGMT2004": {
+    "rating": null
+  },
+  "MGMT2005": {
+    "rating": null
+  },
+  "MGMT2007": {
+    "rating": null
+  },
+  "MGMT2008": {
+    "rating": null
+  },
+  "MGMT2009": {
+    "rating": null
+  },
+  "MGMT2030": {
+    "rating": null
+  },
+  "MGMT2035": {
+    "rating": null
+  },
+  "MGMT3002": {
+    "rating": null
+  },
+  "MGMT3015": {
+    "rating": null
+  },
+  "MGMT3016": {
+    "rating": null
+  },
+  "MGMT3021": {
+    "rating": null
+  },
+  "MGMT3025": {
+    "rating": null
+  },
+  "MGMT3027": {
+    "rating": null
+  },
+  "MGMT3102": {
+    "rating": null
+  },
+  "MGMT4006": {
+    "rating": null
+  },
+  "MGMT4018": {
+    "rating": null
+  },
+  "MGMT4019": {
+    "rating": null
+  },
+  "MGMT4500": {
+    "rating": null
+  },
+  "MGMT7008": {
+    "rating": null
+  },
+  "MGMT7020": {
+    "rating": null
+  },
+  "MGMT7024": {
+    "rating": null
+  },
+  "MGMT7060": {
+    "rating": null
+  },
+  "MGMT7067": {
+    "rating": null
+  },
+  "MGMT7153": {
+    "rating": null
+  },
+  "MGMT7161": {
+    "rating": null
+  },
+  "MGMT7165": {
+    "rating": null
+  },
+  "MGMT7169": {
+    "rating": null
+  },
+  "MGMT7170": {
+    "rating": null
+  },
+  "MGMT7250": {
+    "rating": null
+  },
+  "MGMT7251": {
+    "rating": null
+  },
+  "MGMT8003": {
+    "rating": null
+  },
+  "MGMT8005": {
+    "rating": null
+  },
+  "MGMT8006": {
+    "rating": null
+  },
+  "MGMT8007": {
+    "rating": null
+  },
+  "MGMT8008": {
+    "rating": null
+  },
+  "MGMT8009": {
+    "rating": null
+  },
+  "MGMT8010": {
+    "rating": null
+  },
+  "MGMT8015": {
+    "rating": null
+  },
+  "MGMT8018": {
+    "rating": null
+  },
+  "MGMT8019": {
+    "rating": null
+  },
+  "MGMT8022": {
+    "rating": null
+  },
+  "MGMT8061": {
+    "rating": null
+  },
+  "MGMT8062": {
+    "rating": null
+  },
+  "MGMT8063": {
+    "rating": null
+  },
+  "MGMT8101": {
+    "rating": null
+  },
+  "MGMT8102": {
+    "rating": null
+  },
+  "MGMT8103": {
+    "rating": null
+  },
+  "MGMT8104": {
+    "rating": null
+  },
+  "MGMT8105": {
+    "rating": null
+  },
+  "MGMT8106": {
+    "rating": null
+  },
+  "MGMT8107": {
+    "rating": null
+  },
+  "MGMT8108": {
+    "rating": null
+  },
+  "MGMT8109": {
+    "rating": null
+  },
+  "MGMT8110": {
+    "rating": null
+  },
+  "MGMT8111": {
+    "rating": null
+  },
+  "MGMT8112": {
+    "rating": null
+  },
+  "MGMT8113": {
+    "rating": null
+  },
+  "MGMT8114": {
+    "rating": null
+  },
+  "MGMT8170": {
+    "rating": null
+  },
+  "MGMT8207": {
+    "rating": null
+  },
+  "MGMT8270": {
+    "rating": null
+  },
+  "MKTG2002": {
+    "rating": null
+  },
+  "MKTG2004": {
+    "rating": null
+  },
+  "MKTG2023": {
+    "rating": null
+  },
+  "MKTG2031": {
+    "rating": null
+  },
+  "MKTG2032": {
+    "rating": null
+  },
+  "MKTG3001": {
+    "rating": null
+  },
+  "MKTG3023": {
+    "rating": null
+  },
+  "MKTG3033": {
+    "rating": null
+  },
+  "MKTG4500": {
+    "rating": null
+  },
+  "MKTG7001": {
+    "rating": null
+  },
+  "MKTG7023": {
+    "rating": null
+  },
+  "MKTG7028": {
+    "rating": null
+  },
+  "MKTG7029": {
+    "rating": null
+  },
+  "MKTG7030": {
+    "rating": null
+  },
+  "MKTG7050": {
+    "rating": null
+  },
+  "MKTG7260": {
+    "rating": null
+  },
+  "MKTG8027": {
+    "rating": null
+  },
+  "MKTG8035": {
+    "rating": null
+  },
+  "MKTG8060": {
+    "rating": null
+  },
+  "MMIB4001": {
+    "rating": null
+  },
+  "MMIB8001": {
+    "rating": null
+  },
+  "MMIB8003": {
+    "rating": null
+  },
+  "MMIB8004": {
+    "rating": null
+  },
+  "MMIB8006": {
+    "rating": null
+  },
+  "MMIB8008": {
+    "rating": null
+  },
+  "MNGL1002": {
+    "rating": null
+  },
+  "MNGL1003": {
+    "rating": null
+  },
+  "MNGL2002": {
+    "rating": null
+  },
+  "MNGL2003": {
+    "rating": null
+  },
+  "MUSC8004": {
+    "rating": null
+  },
+  "MUSC8005": {
+    "rating": null
+  },
+  "MUSC8006": {
+    "rating": null
+  },
+  "MUSC8009": {
+    "rating": null
+  },
+  "MUSC8012": {
+    "rating": null
+  },
+  "MUSC8017": {
+    "rating": null
+  },
+  "MUSC8018": {
+    "rating": null
+  },
+  "MUSC8019": {
+    "rating": null
+  },
+  "MUSC8021": {
+    "rating": null
+  },
+  "MUSC8022": {
+    "rating": null
+  },
+  "MUSI1101": {
+    "rating": null
+  },
+  "MUSI1102": {
+    "rating": null
+  },
+  "MUSI1110": {
+    "rating": null
+  },
+  "MUSI1111": {
+    "rating": null
+  },
+  "MUSI1114": {
+    "rating": null
+  },
+  "MUSI1115": {
+    "rating": null
+  },
+  "MUSI1116": {
+    "rating": null
+  },
+  "MUSI1117": {
+    "rating": null
+  },
+  "MUSI2201": {
+    "rating": null
+  },
+  "MUSI2202": {
+    "rating": null
+  },
+  "MUSI2209": {
+    "rating": null
+  },
+  "MUSI2227": {
+    "rating": null
+  },
+  "MUSI2229": {
+    "rating": null
+  },
+  "MUSI2230": {
+    "rating": null
+  },
+  "MUSI2231": {
+    "rating": null
+  },
+  "MUSI2232": {
+    "rating": null
+  },
+  "MUSI2234": {
+    "rating": null
+  },
+  "MUSI2236": {
+    "rating": null
+  },
+  "MUSI2237": {
+    "rating": null
+  },
+  "MUSI2238": {
+    "rating": null
+  },
+  "MUSI2239": {
+    "rating": null
+  },
+  "MUSI2240": {
+    "rating": null
+  },
+  "MUSI3301": {
+    "rating": null
+  },
+  "MUSI3302": {
+    "rating": null
+  },
+  "MUSI3309": {
+    "rating": null
+  },
+  "MUSI3317": {
+    "rating": null
+  },
+  "MUSI3325": {
+    "rating": null
+  },
+  "MUSI3326": {
+    "rating": null
+  },
+  "MUSI3327": {
+    "rating": null
+  },
+  "MUSI3328": {
+    "rating": null
+  },
+  "MUSI3329": {
+    "rating": null
+  },
+  "MUSI3330": {
+    "rating": null
+  },
+  "MUSI3331": {
+    "rating": null
+  },
+  "MUSI3332": {
+    "rating": null
+  },
+  "MUSI4401": {
+    "rating": null
+  },
+  "MUSI4402": {
+    "rating": null
+  },
+  "MUSI6006": {
+    "rating": null
+  },
+  "MUSI6007": {
+    "rating": null
+  },
+  "MUSI6009": {
+    "rating": null
+  },
+  "MUSI6110": {
+    "rating": null
+  },
+  "MUSI6209": {
+    "rating": null
+  },
+  "MUSI8006": {
+    "rating": null
+  },
+  "NEUR3101": {
+    "rating": null
+  },
+  "NEUR3112": {
+    "rating": null
+  },
+  "NEUR6101": {
+    "rating": null
+  },
+  "NEUR6102": {
+    "rating": null
+  },
+  "NEUR8010": {
+    "rating": null
+  },
+  "NEUR8700": {
+    "rating": null
+  },
+  "NEUR8701": {
+    "rating": null
+  },
+  "NEUR8704": {
+    "rating": null
+  },
+  "NSPO8006": {
+    "rating": null
+  },
+  "NSPO8007": {
+    "rating": null
+  },
+  "NSPO8008": {
+    "rating": null
+  },
+  "NSPO8009": {
+    "rating": null
+  },
+  "NSPO8012": {
+    "rating": null
+  },
+  "NSPO8018": {
+    "rating": null
+  },
+  "NSPO8028": {
+    "rating": null
+  },
+  "NSPO8030": {
+    "rating": null
+  },
+  "NSPO8031": {
+    "rating": null
+  },
+  "NSPO8032": {
+    "rating": null
+  },
+  "NSPO8033": {
+    "rating": null
+  },
+  "NSPO8034": {
+    "rating": null
+  },
+  "NSPO8035": {
+    "rating": null
+  },
+  "NSPO8036": {
+    "rating": null
+  },
+  "NSPO8037": {
+    "rating": null
+  },
+  "NSPO8038": {
+    "rating": null
+  },
+  "NSPO8040": {
+    "rating": null
+  },
+  "NSPO8041": {
+    "rating": null
+  },
+  "NSPO8042": {
+    "rating": null
+  },
+  "NSPO8043": {
+    "rating": null
+  },
+  "NSPO8044": {
+    "rating": null
+  },
+  "NSPO8045": {
+    "rating": null
+  },
+  "NSPO8046": {
+    "rating": null
+  },
+  "NSPO8047": {
+    "rating": null
+  },
+  "NSPO8048": {
+    "rating": null
+  },
+  "NSPO8049": {
+    "rating": null
+  },
+  "NSPO8050": {
+    "rating": null
+  },
+  "PAAS8905": {
+    "rating": null
+  },
+  "PAAS9805": {
+    "rating": null
+  },
+  "PASI1011": {
+    "rating": null
+  },
+  "PASI1012": {
+    "rating": null
+  },
+  "PASI2001": {
+    "rating": null
+  },
+  "PASI2002": {
+    "rating": null
+  },
+  "PASI2007": {
+    "rating": null
+  },
+  "PASI2030": {
+    "rating": null
+  },
+  "PASI3001": {
+    "rating": null
+  },
+  "PASI3002": {
+    "rating": null
+  },
+  "PASI3005": {
+    "rating": null
+  },
+  "PASI3012": {
+    "rating": null
+  },
+  "PASI3013": {
+    "rating": null
+  },
+  "PASI6001": {
+    "rating": null
+  },
+  "PASI6002": {
+    "rating": null
+  },
+  "PASI6007": {
+    "rating": null
+  },
+  "PASI6008": {
+    "rating": null
+  },
+  "PASI6030": {
+    "rating": null
+  },
+  "PASI8002": {
+    "rating": null
+  },
+  "PASI8004": {
+    "rating": null
+  },
+  "PASI8005": {
+    "rating": null
+  },
+  "PASI8011": {
+    "rating": null
+  },
+  "PASI9001": {
+    "rating": null
+  },
+  "PERS1001": {
+    "rating": null
+  },
+  "PERS1002": {
+    "rating": null
+  },
+  "PERS2003": {
+    "rating": null
+  },
+  "PERS2004": {
+    "rating": null
+  },
+  "PERS3002": {
+    "rating": null
+  },
+  "PERS3005": {
+    "rating": null
+  },
+  "PERS3006": {
+    "rating": null
+  },
+  "PHIL1004": {
+    "rating": null
+  },
+  "PHIL1005": {
+    "rating": null
+  },
+  "PHIL2012": {
+    "rating": null
+  },
+  "PHIL2014": {
+    "rating": null
+  },
+  "PHIL2020": {
+    "rating": null
+  },
+  "PHIL2057": {
+    "rating": null
+  },
+  "PHIL2061": {
+    "rating": null
+  },
+  "PHIL2074": {
+    "rating": null
+  },
+  "PHIL2082": {
+    "rating": null
+  },
+  "PHIL2087": {
+    "rating": null
+  },
+  "PHIL2122": {
+    "rating": null
+  },
+  "PHIL2125": {
+    "rating": null
+  },
+  "PHIL2126": {
+    "rating": null
+  },
+  "PHIL2127": {
+    "rating": null
+  },
+  "PHIL2128": {
+    "rating": null
+  },
+  "PHIL2129": {
+    "rating": null
+  },
+  "PHIL2150": {
+    "rating": null
+  },
+  "PHIL2289": {
+    "rating": null
+  },
+  "PHIL2290": {
+    "rating": null
+  },
+  "PHIL3073": {
+    "rating": null
+  },
+  "PHIL3074": {
+    "rating": null
+  },
+  "PHIL3075": {
+    "rating": null
+  },
+  "PHIL3076": {
+    "rating": null
+  },
+  "PHIL3077": {
+    "rating": null
+  },
+  "PHIL3078": {
+    "rating": null
+  },
+  "PHIL3079": {
+    "rating": null
+  },
+  "PHIL4009": {
+    "rating": null
+  },
+  "PHIL4010": {
+    "rating": null
+  },
+  "PHIL4011": {
+    "rating": null
+  },
+  "PHIL4012": {
+    "rating": null
+  },
+  "PHIL9011": {
+    "rating": null
+  },
+  "PHYS1001": {
+    "rating": null
+  },
+  "PHYS1004": {
+    "rating": null
+  },
+  "PHYS1101": {
+    "rating": null
+  },
+  "PHYS1201": {
+    "rating": null
+  },
+  "PHYS2013": {
+    "rating": null
+  },
+  "PHYS2016": {
+    "rating": null
+  },
+  "PHYS2101": {
+    "rating": null
+  },
+  "PHYS2201": {
+    "rating": null
+  },
+  "PHYS2205": {
+    "rating": null
+  },
+  "PHYS3032": {
+    "rating": null
+  },
+  "PHYS3039": {
+    "rating": null
+  },
+  "PHYS3042": {
+    "rating": null
+  },
+  "PHYS3051": {
+    "rating": null
+  },
+  "PHYS3057": {
+    "rating": null
+  },
+  "PHYS3070": {
+    "rating": null
+  },
+  "PHYS3101": {
+    "rating": null
+  },
+  "PHYS3102": {
+    "rating": null
+  },
+  "PHYS3103": {
+    "rating": null
+  },
+  "PHYS3104": {
+    "rating": null
+  },
+  "PHYS3105": {
+    "rating": null
+  },
+  "PHYS3106": {
+    "rating": null
+  },
+  "PHYS3201": {
+    "rating": null
+  },
+  "PHYS3203": {
+    "rating": null
+  },
+  "PHYS3711": {
+    "rating": null
+  },
+  "PHYS4110": {
+    "rating": null
+  },
+  "PHYS4301": {
+    "rating": null
+  },
+  "PHYS4303": {
+    "rating": null
+  },
+  "PHYS4304": {
+    "rating": null
+  },
+  "PHYS6013": {
+    "rating": null
+  },
+  "PHYS6020": {
+    "rating": null
+  },
+  "PHYS6032": {
+    "rating": null
+  },
+  "PHYS6101": {
+    "rating": null
+  },
+  "PHYS6102": {
+    "rating": null
+  },
+  "PHYS6103": {
+    "rating": null
+  },
+  "PHYS6105": {
+    "rating": null
+  },
+  "PHYS6201": {
+    "rating": null
+  },
+  "PHYS6203": {
+    "rating": null
+  },
+  "PHYS6205": {
+    "rating": null
+  },
+  "PHYS6500": {
+    "rating": null
+  },
+  "PHYS6502": {
+    "rating": null
+  },
+  "PHYS6601": {
+    "rating": null
+  },
+  "PHYS6701": {
+    "rating": null
+  },
+  "PHYS6711": {
+    "rating": null
+  },
+  "PHYS8000": {
+    "rating": null
+  },
+  "PHYS8013": {
+    "rating": null
+  },
+  "PHYS8017": {
+    "rating": null
+  },
+  "PHYS8201": {
+    "rating": null
+  },
+  "PHYS8202": {
+    "rating": null
+  },
+  "PHYS8203": {
+    "rating": null
+  },
+  "PHYS8204": {
+    "rating": null
+  },
+  "PHYS8205": {
+    "rating": null
+  },
+  "PHYS8206": {
+    "rating": null
+  },
+  "PHYS8207": {
+    "rating": null
+  },
+  "PHYS8212": {
+    "rating": null
+  },
+  "PHYS8301": {
+    "rating": null
+  },
+  "PHYS8302": {
+    "rating": null
+  },
+  "PHYS8303": {
+    "rating": null
+  },
+  "PHYS8304": {
+    "rating": null
+  },
+  "PHYS8702": {
+    "rating": null
+  },
+  "PHYS8721": {
+    "rating": null
+  },
+  "PHYS8750": {
+    "rating": null
+  },
+  "PHYS8751": {
+    "rating": null
+  },
+  "PHYS8752": {
+    "rating": null
+  },
+  "PNPI1001": {
+    "rating": null
+  },
+  "PNPI2001": {
+    "rating": null
+  },
+  "PNPI3001": {
+    "rating": null
+  },
+  "POGO7901": {
+    "rating": null
+  },
+  "POGO8004": {
+    "rating": null
+  },
+  "POGO8015": {
+    "rating": null
+  },
+  "POGO8016": {
+    "rating": null
+  },
+  "POGO8021": {
+    "rating": null
+  },
+  "POGO8025": {
+    "rating": null
+  },
+  "POGO8035": {
+    "rating": null
+  },
+  "POGO8044": {
+    "rating": null
+  },
+  "POGO8045": {
+    "rating": null
+  },
+  "POGO8048": {
+    "rating": null
+  },
+  "POGO8057": {
+    "rating": null
+  },
+  "POGO8062": {
+    "rating": null
+  },
+  "POGO8063": {
+    "rating": null
+  },
+  "POGO8064": {
+    "rating": null
+  },
+  "POGO8065": {
+    "rating": null
+  },
+  "POGO8066": {
+    "rating": null
+  },
+  "POGO8067": {
+    "rating": null
+  },
+  "POGO8068": {
+    "rating": null
+  },
+  "POGO8072": {
+    "rating": null
+  },
+  "POGO8076": {
+    "rating": null
+  },
+  "POGO8078": {
+    "rating": null
+  },
+  "POGO8081": {
+    "rating": null
+  },
+  "POGO8083": {
+    "rating": null
+  },
+  "POGO8084": {
+    "rating": null
+  },
+  "POGO8096": {
+    "rating": null
+  },
+  "POGO8097": {
+    "rating": null
+  },
+  "POGO8098": {
+    "rating": null
+  },
+  "POGO8123": {
+    "rating": null
+  },
+  "POGO8132": {
+    "rating": null
+  },
+  "POGO8134": {
+    "rating": null
+  },
+  "POGO8135": {
+    "rating": null
+  },
+  "POGO8136": {
+    "rating": null
+  },
+  "POGO8137": {
+    "rating": null
+  },
+  "POGO8138": {
+    "rating": null
+  },
+  "POGO8212": {
+    "rating": null
+  },
+  "POGO8213": {
+    "rating": null
+  },
+  "POGO8220": {
+    "rating": null
+  },
+  "POGO8230": {
+    "rating": null
+  },
+  "POGO8232": {
+    "rating": null
+  },
+  "POGO8233": {
+    "rating": null
+  },
+  "POGO8234": {
+    "rating": null
+  },
+  "POGO8235": {
+    "rating": null
+  },
+  "POGO8236": {
+    "rating": null
+  },
+  "POGO8237": {
+    "rating": null
+  },
+  "POGO8238": {
+    "rating": null
+  },
+  "POGO8239": {
+    "rating": null
+  },
+  "POGO8240": {
+    "rating": null
+  },
+  "POGO8241": {
+    "rating": null
+  },
+  "POGO8242": {
+    "rating": null
+  },
+  "POGO8243": {
+    "rating": null
+  },
+  "POGO8300": {
+    "rating": null
+  },
+  "POGO8301": {
+    "rating": null
+  },
+  "POGO8401": {
+    "rating": null
+  },
+  "POGO8402": {
+    "rating": null
+  },
+  "POGO8403": {
+    "rating": null
+  },
+  "POGO8500": {
+    "rating": null
+  },
+  "POGO8504": {
+    "rating": null
+  },
+  "POGO8900": {
+    "rating": null
+  },
+  "POGO8997": {
+    "rating": null
+  },
+  "POGO9097": {
+    "rating": null
+  },
+  "POGO9098": {
+    "rating": null
+  },
+  "POLS1002": {
+    "rating": null
+  },
+  "POLS1005": {
+    "rating": null
+  },
+  "POLS2002": {
+    "rating": null
+  },
+  "POLS2010": {
+    "rating": null
+  },
+  "POLS2017": {
+    "rating": null
+  },
+  "POLS2031": {
+    "rating": null
+  },
+  "POLS2044": {
+    "rating": null
+  },
+  "POLS2045": {
+    "rating": null
+  },
+  "POLS2055": {
+    "rating": null
+  },
+  "POLS2069": {
+    "rating": null
+  },
+  "POLS2094": {
+    "rating": null
+  },
+  "POLS2100": {
+    "rating": null
+  },
+  "POLS2102": {
+    "rating": null
+  },
+  "POLS2114": {
+    "rating": null
+  },
+  "POLS2119": {
+    "rating": null
+  },
+  "POLS2133": {
+    "rating": null
+  },
+  "POLS2137": {
+    "rating": null
+  },
+  "POLS3001": {
+    "rating": null
+  },
+  "POLS3002": {
+    "rating": null
+  },
+  "POLS3004": {
+    "rating": null
+  },
+  "POLS3009": {
+    "rating": null
+  },
+  "POLS3029": {
+    "rating": null
+  },
+  "POLS3032": {
+    "rating": null
+  },
+  "POLS3035": {
+    "rating": null
+  },
+  "POLS3036": {
+    "rating": null
+  },
+  "POLS3043": {
+    "rating": null
+  },
+  "POLS3070": {
+    "rating": null
+  },
+  "POLS3095": {
+    "rating": null
+  },
+  "POLS3111": {
+    "rating": null
+  },
+  "POLS3113": {
+    "rating": null
+  },
+  "POLS3125": {
+    "rating": null
+  },
+  "POLS3126": {
+    "rating": null
+  },
+  "POLS3127": {
+    "rating": null
+  },
+  "POLS3134": {
+    "rating": null
+  },
+  "POLS3136": {
+    "rating": null
+  },
+  "POLS4011": {
+    "rating": null
+  },
+  "POLS4013": {
+    "rating": null
+  },
+  "POLS4019": {
+    "rating": null
+  },
+  "POLS4021": {
+    "rating": null
+  },
+  "POLS4027": {
+    "rating": null
+  },
+  "POLS4032": {
+    "rating": null
+  },
+  "POLS4038": {
+    "rating": null
+  },
+  "POLS4039": {
+    "rating": null
+  },
+  "POLS4041": {
+    "rating": null
+  },
+  "POLS4043": {
+    "rating": null
+  },
+  "POLS4044": {
+    "rating": null
+  },
+  "POLS4047": {
+    "rating": null
+  },
+  "POLS6100": {
+    "rating": null
+  },
+  "POLS8019": {
+    "rating": null
+  },
+  "POLS8027": {
+    "rating": null
+  },
+  "POLS8038": {
+    "rating": null
+  },
+  "POLS8039": {
+    "rating": null
+  },
+  "POLS8041": {
+    "rating": null
+  },
+  "POLS8042": {
+    "rating": null
+  },
+  "POLS8043": {
+    "rating": null
+  },
+  "POLS8044": {
+    "rating": null
+  },
+  "POLS8046": {
+    "rating": null
+  },
+  "POLS8047": {
+    "rating": null
+  },
+  "POLS8049": {
+    "rating": null
+  },
+  "POLS8051": {
+    "rating": null
+  },
+  "POLS8053": {
+    "rating": null
+  },
+  "POLS8054": {
+    "rating": null
+  },
+  "POLS8058": {
+    "rating": null
+  },
+  "POLS9001": {
+    "rating": null
+  },
+  "POPH3000": {
+    "rating": null
+  },
+  "POPH4005": {
+    "rating": null
+  },
+  "POPH4100": {
+    "rating": null
+  },
+  "POPH4101": {
+    "rating": null
+  },
+  "POPH4315": {
+    "rating": null
+  },
+  "POPH6115": {
+    "rating": null
+  },
+  "POPH8021": {
+    "rating": null
+  },
+  "POPH8100": {
+    "rating": null
+  },
+  "POPH8101": {
+    "rating": null
+  },
+  "POPH8102": {
+    "rating": null
+  },
+  "POPH8103": {
+    "rating": null
+  },
+  "POPH8106": {
+    "rating": null
+  },
+  "POPH8108": {
+    "rating": null
+  },
+  "POPH8313": {
+    "rating": null
+  },
+  "POPH8315": {
+    "rating": null
+  },
+  "POPH8316": {
+    "rating": null
+  },
+  "POPH8317": {
+    "rating": null
+  },
+  "POPH8318": {
+    "rating": null
+  },
+  "POPH8400": {
+    "rating": null
+  },
+  "POPH8913": {
+    "rating": null
+  },
+  "POPH8914": {
+    "rating": null
+  },
+  "POPH8915": {
+    "rating": null
+  },
+  "POPH8916": {
+    "rating": null
+  },
+  "POPH8917": {
+    "rating": null
+  },
+  "POPM8001": {
+    "rating": null
+  },
+  "PORT1001": {
+    "rating": null
+  },
+  "PORT1002": {
+    "rating": null
+  },
+  "PPEI1001": {
+    "rating": null
+  },
+  "PPEI2001": {
+    "rating": null
+  },
+  "PPEI3001": {
+    "rating": null
+  },
+  "PPEI4000": {
+    "rating": null
+  },
+  "PSYC1003": {
+    "rating": null
+  },
+  "PSYC1004": {
+    "rating": null
+  },
+  "PSYC1005": {
+    "rating": null
+  },
+  "PSYC2001": {
+    "rating": null
+  },
+  "PSYC2002": {
+    "rating": null
+  },
+  "PSYC2009": {
+    "rating": null
+  },
+  "PSYC2011": {
+    "rating": null
+  },
+  "PSYC2012": {
+    "rating": null
+  },
+  "PSYC3002": {
+    "rating": null
+  },
+  "PSYC3015": {
+    "rating": null
+  },
+  "PSYC3016": {
+    "rating": null
+  },
+  "PSYC3023": {
+    "rating": null
+  },
+  "PSYC3025": {
+    "rating": null
+  },
+  "PSYC3026": {
+    "rating": null
+  },
+  "PSYC3028": {
+    "rating": null
+  },
+  "PSYC3030": {
+    "rating": null
+  },
+  "PSYC3202": {
+    "rating": null
+  },
+  "PSYC4011": {
+    "rating": null
+  },
+  "PSYC4200": {
+    "rating": null
+  },
+  "PSYC4201": {
+    "rating": null
+  },
+  "PSYC4202": {
+    "rating": null
+  },
+  "PSYC4203": {
+    "rating": null
+  },
+  "PSYC6010": {
+    "rating": null
+  },
+  "PSYC6016": {
+    "rating": null
+  },
+  "PSYC8101": {
+    "rating": null
+  },
+  "PSYC8102": {
+    "rating": null
+  },
+  "PSYC8103": {
+    "rating": null
+  },
+  "PSYC8104": {
+    "rating": null
+  },
+  "PSYC8201": {
+    "rating": null
+  },
+  "PSYC8202": {
+    "rating": null
+  },
+  "PSYC8203": {
+    "rating": null
+  },
+  "PSYC8204": {
+    "rating": null
+  },
+  "PSYC8301": {
+    "rating": null
+  },
+  "PSYC8410": {
+    "rating": null
+  },
+  "PSYC8411": {
+    "rating": null
+  },
+  "PSYC8412": {
+    "rating": null
+  },
+  "PSYC8413": {
+    "rating": null
+  },
+  "PSYC8414": {
+    "rating": null
+  },
+  "PSYC8415": {
+    "rating": null
+  },
+  "PSYC8416": {
+    "rating": null
+  },
+  "PSYC8417": {
+    "rating": null
+  },
+  "PSYC8421": {
+    "rating": null
+  },
+  "PSYC8422": {
+    "rating": null
+  },
+  "PSYC8510": {
+    "rating": null
+  },
+  "PSYC8511": {
+    "rating": null
+  },
+  "PSYC8512": {
+    "rating": null
+  },
+  "PSYC8513": {
+    "rating": null
+  },
+  "PSYC8520": {
+    "rating": null
+  },
+  "PSYC8521": {
+    "rating": null
+  },
+  "PSYC8522": {
+    "rating": null
+  },
+  "PSYC9411": {
+    "rating": null
+  },
+  "PSYC9412": {
+    "rating": null
+  },
+  "PSYC9413": {
+    "rating": null
+  },
+  "PSYC9414": {
+    "rating": null
+  },
+  "PSYC9421": {
+    "rating": null
+  },
+  "PSYC9422": {
+    "rating": null
+  },
+  "PSYC9423": {
+    "rating": null
+  },
+  "PSYC9424": {
+    "rating": null
+  },
+  "REGN8001": {
+    "rating": null
+  },
+  "REGN8002": {
+    "rating": null
+  },
+  "REGN8005": {
+    "rating": null
+  },
+  "REGN8008": {
+    "rating": null
+  },
+  "REGN8009": {
+    "rating": null
+  },
+  "REGN8012": {
+    "rating": null
+  },
+  "REGN8014": {
+    "rating": null
+  },
+  "REGN8021": {
+    "rating": null
+  },
+  "REGN8022": {
+    "rating": null
+  },
+  "REGN8023": {
+    "rating": null
+  },
+  "REGN8024": {
+    "rating": null
+  },
+  "REGN8025": {
+    "rating": null
+  },
+  "REGN8026": {
+    "rating": null
+  },
+  "REGN8027": {
+    "rating": null
+  },
+  "REGN8049": {
+    "rating": null
+  },
+  "REGN8050": {
+    "rating": null
+  },
+  "REGN8052": {
+    "rating": null
+  },
+  "REGN8054": {
+    "rating": null
+  },
+  "REGN8055": {
+    "rating": null
+  },
+  "REGN9021": {
+    "rating": null
+  },
+  "REGN9052": {
+    "rating": null
+  },
+  "REGN9053": {
+    "rating": null
+  },
+  "REGN9076": {
+    "rating": null
+  },
+  "RSCH8905": {
+    "rating": null
+  },
+  "RSCH9805": {
+    "rating": null
+  },
+  "RUSS1101": {
+    "rating": null
+  },
+  "RUSS1102": {
+    "rating": null
+  },
+  "SCNC1002": {
+    "rating": null
+  },
+  "SCNC1022": {
+    "rating": null
+  },
+  "SCNC2000": {
+    "rating": null
+  },
+  "SCNC2021": {
+    "rating": null
+  },
+  "SCNC2022": {
+    "rating": null
+  },
+  "SCNC2101": {
+    "rating": null
+  },
+  "SCNC2201": {
+    "rating": null
+  },
+  "SCNC3000": {
+    "rating": null
+  },
+  "SCNC3021": {
+    "rating": null
+  },
+  "SCNC3022": {
+    "rating": null
+  },
+  "SCNC3101": {
+    "rating": null
+  },
+  "SCNC4000": {
+    "rating": null
+  },
+  "SCNC5920": {
+    "rating": null
+  },
+  "SCNC8000": {
+    "rating": null
+  },
+  "SCNC8001": {
+    "rating": null
+  },
+  "SCNC8021": {
+    "rating": null
+  },
+  "SCNC8022": {
+    "rating": null
+  },
+  "SCNC8820": {
+    "rating": null
+  },
+  "SCNC9820": {
+    "rating": null
+  },
+  "SCOM1001": {
+    "rating": null
+  },
+  "SCOM1002": {
+    "rating": null
+  },
+  "SCOM2003": {
+    "rating": null
+  },
+  "SCOM2006": {
+    "rating": null
+  },
+  "SCOM2015": {
+    "rating": null
+  },
+  "SCOM2016": {
+    "rating": null
+  },
+  "SCOM2031": {
+    "rating": null
+  },
+  "SCOM3003": {
+    "rating": null
+  },
+  "SCOM3004": {
+    "rating": null
+  },
+  "SCOM3005": {
+    "rating": null
+  },
+  "SCOM3007": {
+    "rating": null
+  },
+  "SCOM3012": {
+    "rating": null
+  },
+  "SCOM3027": {
+    "rating": null
+  },
+  "SCOM3029": {
+    "rating": null
+  },
+  "SCOM3032": {
+    "rating": null
+  },
+  "SCOM3033": {
+    "rating": null
+  },
+  "SCOM3088": {
+    "rating": null
+  },
+  "SCOM3501": {
+    "rating": null
+  },
+  "SCOM4005": {
+    "rating": null
+  },
+  "SCOM4014": {
+    "rating": null
+  },
+  "SCOM4019": {
+    "rating": null
+  },
+  "SCOM6001": {
+    "rating": null
+  },
+  "SCOM6003": {
+    "rating": null
+  },
+  "SCOM6004": {
+    "rating": null
+  },
+  "SCOM6005": {
+    "rating": null
+  },
+  "SCOM6006": {
+    "rating": null
+  },
+  "SCOM6007": {
+    "rating": null
+  },
+  "SCOM6012": {
+    "rating": null
+  },
+  "SCOM6015": {
+    "rating": null
+  },
+  "SCOM6016": {
+    "rating": null
+  },
+  "SCOM6027": {
+    "rating": null
+  },
+  "SCOM6029": {
+    "rating": null
+  },
+  "SCOM6031": {
+    "rating": null
+  },
+  "SCOM6032": {
+    "rating": null
+  },
+  "SCOM6088": {
+    "rating": null
+  },
+  "SCOM6501": {
+    "rating": null
+  },
+  "SCOM8000": {
+    "rating": null
+  },
+  "SCOM8004": {
+    "rating": null
+  },
+  "SCOM8014": {
+    "rating": null
+  },
+  "SCOM8019": {
+    "rating": null
+  },
+  "SCOM8088": {
+    "rating": null
+  },
+  "SCRN2003": {
+    "rating": null
+  },
+  "SCRN2005": {
+    "rating": null
+  },
+  "SCRN2107": {
+    "rating": null
+  },
+  "SCRN3001": {
+    "rating": null
+  },
+  "SCRN3003": {
+    "rating": null
+  },
+  "SKRT1002": {
+    "rating": null
+  },
+  "SKRT1003": {
+    "rating": null
+  },
+  "SKRT2103": {
+    "rating": null
+  },
+  "SKRT2104": {
+    "rating": null
+  },
+  "SKRT3004": {
+    "rating": null
+  },
+  "SKRT3005": {
+    "rating": null
+  },
+  "SOCR1001": {
+    "rating": null
+  },
+  "SOCR3001": {
+    "rating": null
+  },
+  "SOCR4001": {
+    "rating": null
+  },
+  "SOCR4002": {
+    "rating": null
+  },
+  "SOCR4006": {
+    "rating": null
+  },
+  "SOCR4008": {
+    "rating": null
+  },
+  "SOCR8001": {
+    "rating": null
+  },
+  "SOCR8002": {
+    "rating": null
+  },
+  "SOCR8004": {
+    "rating": null
+  },
+  "SOCR8006": {
+    "rating": null
+  },
+  "SOCR8008": {
+    "rating": null
+  },
+  "SOCR8010": {
+    "rating": null
+  },
+  "SOCR8011": {
+    "rating": null
+  },
+  "SOCR8015": {
+    "rating": null
+  },
+  "SOCR8082": {
+    "rating": null
+  },
+  "SOCR8201": {
+    "rating": null
+  },
+  "SOCR8202": {
+    "rating": null
+  },
+  "SOCR8203": {
+    "rating": null
+  },
+  "SOCR8204": {
+    "rating": null
+  },
+  "SOCR9005": {
+    "rating": null
+  },
+  "SOCS9011": {
+    "rating": null
+  },
+  "SOCS9015": {
+    "rating": null
+  },
+  "SOCS9082": {
+    "rating": null
+  },
+  "SOCS9101": {
+    "rating": null
+  },
+  "SOCY1002": {
+    "rating": null
+  },
+  "SOCY1004": {
+    "rating": null
+  },
+  "SOCY2022": {
+    "rating": null
+  },
+  "SOCY2026": {
+    "rating": null
+  },
+  "SOCY2030": {
+    "rating": null
+  },
+  "SOCY2035": {
+    "rating": null
+  },
+  "SOCY2038": {
+    "rating": null
+  },
+  "SOCY2040": {
+    "rating": null
+  },
+  "SOCY2043": {
+    "rating": null
+  },
+  "SOCY2157": {
+    "rating": null
+  },
+  "SOCY2161": {
+    "rating": null
+  },
+  "SOCY2166": {
+    "rating": null
+  },
+  "SOCY2170": {
+    "rating": null
+  },
+  "SOCY3001": {
+    "rating": null
+  },
+  "SOCY3005": {
+    "rating": null
+  },
+  "SOCY3007": {
+    "rating": null
+  },
+  "SOCY3010": {
+    "rating": null
+  },
+  "SOCY3050": {
+    "rating": null
+  },
+  "SOCY3057": {
+    "rating": null
+  },
+  "SOCY3124": {
+    "rating": null
+  },
+  "SOCY3167": {
+    "rating": null
+  },
+  "SOCY3169": {
+    "rating": null
+  },
+  "SOCY4009": {
+    "rating": null
+  },
+  "SOCY4010": {
+    "rating": null
+  },
+  "SOCY4020": {
+    "rating": null
+  },
+  "SOCY6045": {
+    "rating": null
+  },
+  "SOCY6062": {
+    "rating": null
+  },
+  "SOCY6064": {
+    "rating": null
+  },
+  "SOCY6066": {
+    "rating": null
+  },
+  "SOCY6710": {
+    "rating": null
+  },
+  "SOCY8006": {
+    "rating": null
+  },
+  "SOCY8020": {
+    "rating": null
+  },
+  "SPAN1001": {
+    "rating": null
+  },
+  "SPAN1002": {
+    "rating": null
+  },
+  "SPAN2001": {
+    "rating": null
+  },
+  "SPAN2002": {
+    "rating": null
+  },
+  "SPAN2102": {
+    "rating": null
+  },
+  "SPAN2107": {
+    "rating": null
+  },
+  "SPAN3001": {
+    "rating": null
+  },
+  "SPAN3012": {
+    "rating": null
+  },
+  "SPAN3030": {
+    "rating": null
+  },
+  "SPAN3100": {
+    "rating": null
+  },
+  "SPAN3603": {
+    "rating": null
+  },
+  "STAT1003": {
+    "rating": null
+  },
+  "STAT1008": {
+    "rating": null
+  },
+  "STAT2001": {
+    "rating": null
+  },
+  "STAT2005": {
+    "rating": null
+  },
+  "STAT2008": {
+    "rating": null
+  },
+  "STAT2013": {
+    "rating": null
+  },
+  "STAT2014": {
+    "rating": null
+  },
+  "STAT2032": {
+    "rating": null
+  },
+  "STAT3004": {
+    "rating": null
+  },
+  "STAT3006": {
+    "rating": null
+  },
+  "STAT3012": {
+    "rating": null
+  },
+  "STAT3013": {
+    "rating": null
+  },
+  "STAT3015": {
+    "rating": null
+  },
+  "STAT3016": {
+    "rating": null
+  },
+  "STAT3017": {
+    "rating": null
+  },
+  "STAT3032": {
+    "rating": null
+  },
+  "STAT3037": {
+    "rating": null
+  },
+  "STAT3038": {
+    "rating": null
+  },
+  "STAT3040": {
+    "rating": null
+  },
+  "STAT3050": {
+    "rating": null
+  },
+  "STAT3056": {
+    "rating": null
+  },
+  "STAT3057": {
+    "rating": null
+  },
+  "STAT3058": {
+    "rating": null
+  },
+  "STAT3065": {
+    "rating": null
+  },
+  "STAT4018": {
+    "rating": null
+  },
+  "STAT4026": {
+    "rating": null
+  },
+  "STAT4027": {
+    "rating": null
+  },
+  "STAT4029": {
+    "rating": null
+  },
+  "STAT4030": {
+    "rating": null
+  },
+  "STAT4040": {
+    "rating": null
+  },
+  "STAT4050": {
+    "rating": null
+  },
+  "STAT4072": {
+    "rating": null
+  },
+  "STAT4102": {
+    "rating": null
+  },
+  "STAT4116": {
+    "rating": null
+  },
+  "STAT4500": {
+    "rating": null
+  },
+  "STAT6013": {
+    "rating": null
+  },
+  "STAT6014": {
+    "rating": null
+  },
+  "STAT6016": {
+    "rating": null
+  },
+  "STAT6017": {
+    "rating": null
+  },
+  "STAT6018": {
+    "rating": null
+  },
+  "STAT6026": {
+    "rating": null
+  },
+  "STAT6027": {
+    "rating": null
+  },
+  "STAT6029": {
+    "rating": null
+  },
+  "STAT6042": {
+    "rating": null
+  },
+  "STAT6043": {
+    "rating": null
+  },
+  "STAT6045": {
+    "rating": null
+  },
+  "STAT6046": {
+    "rating": null
+  },
+  "STAT6050": {
+    "rating": null
+  },
+  "STAT6056": {
+    "rating": null
+  },
+  "STAT6057": {
+    "rating": null
+  },
+  "STAT6058": {
+    "rating": null
+  },
+  "STAT6060": {
+    "rating": null
+  },
+  "STAT6065": {
+    "rating": null
+  },
+  "STAT7004": {
+    "rating": null
+  },
+  "STAT7038": {
+    "rating": null
+  },
+  "STAT7039": {
+    "rating": null
+  },
+  "STAT7055": {
+    "rating": null
+  },
+  "STAT8002": {
+    "rating": null
+  },
+  "STAT8016": {
+    "rating": null
+  },
+  "STAT8024": {
+    "rating": null
+  },
+  "STAT8053": {
+    "rating": null
+  },
+  "STAT8130": {
+    "rating": null
+  },
+  "STAT8140": {
+    "rating": null
+  },
+  "STAT8500": {
+    "rating": null
+  },
+  "STST1001": {
+    "rating": null
+  },
+  "STST1004": {
+    "rating": null
+  },
+  "STST2001": {
+    "rating": null
+  },
+  "STST2003": {
+    "rating": null
+  },
+  "STST2005": {
+    "rating": null
+  },
+  "STST2020": {
+    "rating": null
+  },
+  "STST3002": {
+    "rating": null
+  },
+  "STST3003": {
+    "rating": null
+  },
+  "STST3005": {
+    "rating": null
+  },
+  "STST4001": {
+    "rating": null
+  },
+  "STST8001": {
+    "rating": null
+  },
+  "STST8004": {
+    "rating": null
+  },
+  "STST8017": {
+    "rating": null
+  },
+  "STST8026": {
+    "rating": null
+  },
+  "STST8052": {
+    "rating": null
+  },
+  "STST8057": {
+    "rating": null
+  },
+  "STST8058": {
+    "rating": null
+  },
+  "STST8066": {
+    "rating": null
+  },
+  "STST8068": {
+    "rating": null
+  },
+  "STST8071": {
+    "rating": null
+  },
+  "STST9068": {
+    "rating": null
+  },
+  "TETM1002": {
+    "rating": null
+  },
+  "TETM1003": {
+    "rating": null
+  },
+  "TETM2004": {
+    "rating": null
+  },
+  "TETM2005": {
+    "rating": null
+  },
+  "THAI1002": {
+    "rating": null
+  },
+  "THAI1003": {
+    "rating": null
+  },
+  "THAI2002": {
+    "rating": null
+  },
+  "THAI2003": {
+    "rating": null
+  },
+  "THAI3002": {
+    "rating": null
+  },
+  "THAI3008": {
+    "rating": null
+  },
+  "THES4102": {
+    "rating": null
+  },
+  "THES4103": {
+    "rating": null
+  },
+  "THES4105": {
+    "rating": null
+  },
+  "THES4501": {
+    "rating": null
+  },
+  "THES4502": {
+    "rating": null
+  },
+  "THES8100": {
+    "rating": null
+  },
+  "THES8102": {
+    "rating": null
+  },
+  "THES8103": {
+    "rating": null
+  },
+  "THES8105": {
+    "rating": null
+  },
+  "THES8113": {
+    "rating": null
+  },
+  "THES8901": {
+    "rating": null
+  },
+  "TIBN1002": {
+    "rating": null
+  },
+  "TIBN1003": {
+    "rating": null
+  },
+  "TIBN2004": {
+    "rating": null
+  },
+  "TIBN2005": {
+    "rating": null
+  },
+  "TOKP1002": {
+    "rating": null
+  },
+  "TOKP1003": {
+    "rating": null
+  },
+  "TOKP2001": {
+    "rating": null
+  },
+  "TOKP2002": {
+    "rating": null
+  },
+  "TURK1001": {
+    "rating": null
+  },
+  "TURK1002": {
+    "rating": null
+  },
+  "TURK2001": {
+    "rating": null
+  },
+  "TURK2002": {
+    "rating": null
+  },
+  "VIET1002": {
+    "rating": null
+  },
+  "VIET1003": {
+    "rating": null
+  },
+  "VIET2002": {
+    "rating": null
+  },
+  "VIET2003": {
+    "rating": null
+  },
+  "VIET3002": {
+    "rating": null
+  },
+  "VIET3003": {
+    "rating": null
+  },
+  "WILC6001": {
+    "rating": null
+  },
+  "ASTR1001": {
+    "rating": 1.0
+  },
+  "CHEM2203": {
+    "rating": 3.0
+  },
+  "COMP2300": {
+    "rating": 5.0
+  },
+  "COMP3600": {
+    "rating": 4.0
+  },
+  "COMP3670": {
+    "rating": 1.0
+  },
+  "EMSC2021": {
+    "rating": 5.0
+  },
+  "EMSC2024": {
+    "rating": 2.0
+  },
+  "HLTH1001": {
+    "rating": 3.0
+  },
+  "INTR2018": {
+    "rating": 3.0
+  },
+  "MGMT2100": {
+    "rating": 4.0
+  },
+  "PHYS2020": {
+    "rating": 3.0
+  },
+  "POLS1009": {
+    "rating": 2.5
+  },
+  "POLS2130": {
+    "rating": 2.5
+  },
+  "POLS2132": {
+    "rating": 1.5
+  },
+  "PSYC2007": {
+    "rating": 3.5
+  },
+  "PSYC2008": {
+    "rating": 4.5
+  },
+  "PSYC3018": {
+    "rating": 5.0
+  },
+  "PSYC3020": {
+    "rating": 4.5
+  },
+  "SOCY2101": {
+    "rating": 5.0
+  },
+  "STAT3011": {
+    "rating": 3.0
+  }
+}
