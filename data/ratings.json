@@ -552,16 +552,16 @@
     "rating": null
   },
   "ASIA1025": {
-    "rating": null
+    "rating": 1.0
   },
   "ASIA1030": {
-    "rating": null
+    "rating": 5.0
   },
   "ASIA1035": {
     "rating": null
   },
   "ASIA1999": {
-    "rating": null
+    "rating": 4.0
   },
   "ASIA2001": {
     "rating": null
@@ -621,7 +621,7 @@
     "rating": null
   },
   "ASIA2065": {
-    "rating": null
+    "rating": 1.0
   },
   "ASIA2067": {
     "rating": null
@@ -687,7 +687,7 @@
     "rating": null
   },
   "ASIA2304": {
-    "rating": null
+    "rating": 1.0
   },
   "ASIA2307": {
     "rating": null
@@ -878,8 +878,11 @@
   "ASIA9075": {
     "rating": null
   },
+  "ASTR1001": {
+    "rating": 1.0
+  },
   "ASTR1003": {
-    "rating": null
+    "rating": 5.0
   },
   "ASTR2013": {
     "rating": null
@@ -1059,10 +1062,10 @@
     "rating": null
   },
   "BIOL1008": {
-    "rating": null
+    "rating": 4.75
   },
   "BIOL1009": {
-    "rating": null
+    "rating": 5.0
   },
   "BIOL1020": {
     "rating": null
@@ -1080,13 +1083,13 @@
     "rating": null
   },
   "BIOL2117": {
-    "rating": null
+    "rating": 5.0
   },
   "BIOL2131": {
-    "rating": null
+    "rating": 5.0
   },
   "BIOL2142": {
-    "rating": null
+    "rating": 4.0
   },
   "BIOL2151": {
     "rating": null
@@ -1101,7 +1104,7 @@
     "rating": null
   },
   "BIOL2174": {
-    "rating": null
+    "rating": 2.5
   },
   "BIOL2202": {
     "rating": null
@@ -1137,7 +1140,7 @@
     "rating": null
   },
   "BIOL3141": {
-    "rating": null
+    "rating": 5.0
   },
   "BIOL3142": {
     "rating": null
@@ -1383,7 +1386,7 @@
     "rating": null
   },
   "BUSI3020": {
-    "rating": null
+    "rating": 5.0
   },
   "BUSI3024": {
     "rating": null
@@ -1395,7 +1398,7 @@
     "rating": null
   },
   "BUSI3030": {
-    "rating": null
+    "rating": 3.0
   },
   "BUSI4500": {
     "rating": null
@@ -1413,10 +1416,10 @@
     "rating": null
   },
   "BUSN1001": {
-    "rating": null
+    "rating": 4.5
   },
   "BUSN1002": {
-    "rating": null
+    "rating": 5.0
   },
   "BUSN1101": {
     "rating": null
@@ -1425,7 +1428,7 @@
     "rating": null
   },
   "BUSN2015": {
-    "rating": null
+    "rating": 4.0
   },
   "BUSN2036": {
     "rating": null
@@ -1491,7 +1494,7 @@
     "rating": null
   },
   "BUSN7008": {
-    "rating": null
+    "rating": 5.0
   },
   "BUSN7017": {
     "rating": null
@@ -1515,7 +1518,7 @@
     "rating": null
   },
   "BUSN7052": {
-    "rating": null
+    "rating": 5.0
   },
   "BUSN7054": {
     "rating": null
@@ -1602,19 +1605,22 @@
     "rating": null
   },
   "CHEM1101": {
-    "rating": null
+    "rating": 4.67
   },
   "CHEM1201": {
-    "rating": null
+    "rating": 4.75
   },
   "CHEM2202": {
-    "rating": null
+    "rating": 4.0
+  },
+  "CHEM2203": {
+    "rating": 3.0
   },
   "CHEM2208": {
     "rating": null
   },
   "CHEM2210": {
-    "rating": null
+    "rating": 5.0
   },
   "CHEM2211": {
     "rating": null
@@ -1779,7 +1785,7 @@
     "rating": null
   },
   "CHIN3216": {
-    "rating": null
+    "rating": 5.0
   },
   "CHMD2005": {
     "rating": null
@@ -1854,37 +1860,40 @@
     "rating": null
   },
   "COMP1100": {
-    "rating": null
+    "rating": 4.5
   },
   "COMP1110": {
     "rating": null
   },
   "COMP1130": {
-    "rating": null
+    "rating": 3.0
   },
   "COMP1140": {
     "rating": null
   },
   "COMP1600": {
-    "rating": null
+    "rating": 2.0
   },
   "COMP1710": {
-    "rating": null
+    "rating": 1.0
   },
   "COMP1720": {
     "rating": null
   },
   "COMP1730": {
-    "rating": null
+    "rating": 1.0
   },
   "COMP2100": {
-    "rating": null
+    "rating": 1.0
   },
   "COMP2120": {
     "rating": null
   },
+  "COMP2300": {
+    "rating": 5.0
+  },
   "COMP2310": {
-    "rating": null
+    "rating": 1.0
   },
   "COMP2400": {
     "rating": null
@@ -1928,14 +1937,20 @@
   "COMP3540": {
     "rating": null
   },
+  "COMP3600": {
+    "rating": 2.5
+  },
   "COMP3610": {
     "rating": null
   },
   "COMP3620": {
-    "rating": null
+    "rating": 3.0
   },
   "COMP3630": {
     "rating": null
+  },
+  "COMP3670": {
+    "rating": 1.0
   },
   "COMP3703": {
     "rating": null
@@ -2214,7 +2229,7 @@
     "rating": null
   },
   "CRIM1001": {
-    "rating": null
+    "rating": 1.0
   },
   "CRIM1002": {
     "rating": null
@@ -2499,10 +2514,10 @@
     "rating": null
   },
   "ECON1101": {
-    "rating": null
+    "rating": 3.0
   },
   "ECON1102": {
-    "rating": null
+    "rating": 2.5
   },
   "ECON2009": {
     "rating": null
@@ -2511,7 +2526,7 @@
     "rating": null
   },
   "ECON2014": {
-    "rating": null
+    "rating": 5.0
   },
   "ECON2016": {
     "rating": null
@@ -2520,7 +2535,7 @@
     "rating": null
   },
   "ECON2101": {
-    "rating": null
+    "rating": 5.0
   },
   "ECON2102": {
     "rating": null
@@ -2685,7 +2700,7 @@
     "rating": null
   },
   "ECON7073": {
-    "rating": null
+    "rating": 4.5
   },
   "ECON7074": {
     "rating": null
@@ -2706,7 +2721,7 @@
     "rating": null
   },
   "ECON8015": {
-    "rating": null
+    "rating": 4.0
   },
   "ECON8021": {
     "rating": null
@@ -2802,7 +2817,7 @@
     "rating": null
   },
   "EMDV8078": {
-    "rating": null
+    "rating": 4.0
   },
   "EMDV8079": {
     "rating": null
@@ -2916,10 +2931,10 @@
     "rating": null
   },
   "EMSC1006": {
-    "rating": null
+    "rating": 4.5
   },
   "EMSC1008": {
-    "rating": null
+    "rating": 5.0
   },
   "EMSC1017": {
     "rating": null
@@ -2927,11 +2942,17 @@
   "EMSC2010": {
     "rating": null
   },
+  "EMSC2021": {
+    "rating": 5.0
+  },
   "EMSC2022": {
-    "rating": null
+    "rating": 3.0
   },
   "EMSC2023": {
-    "rating": null
+    "rating": 5.0
+  },
+  "EMSC2024": {
+    "rating": 2.0
   },
   "EMSC3002": {
     "rating": null
@@ -3132,7 +3153,7 @@
     "rating": null
   },
   "ENGL3037": {
-    "rating": null
+    "rating": 5.0
   },
   "ENGL3078": {
     "rating": null
@@ -3150,28 +3171,28 @@
     "rating": null
   },
   "ENGN1211": {
-    "rating": null
+    "rating": 2.0
   },
   "ENGN1217": {
-    "rating": null
+    "rating": 5.0
   },
   "ENGN1218": {
     "rating": null
   },
   "ENGN2217": {
-    "rating": null
+    "rating": 4.0
   },
   "ENGN2218": {
-    "rating": null
+    "rating": 5.0
   },
   "ENGN2219": {
-    "rating": null
+    "rating": 3.0
   },
   "ENGN2222": {
     "rating": null
   },
   "ENGN2228": {
-    "rating": null
+    "rating": 5.0
   },
   "ENGN2300": {
     "rating": null
@@ -3180,7 +3201,7 @@
     "rating": null
   },
   "ENGN2706": {
-    "rating": null
+    "rating": 1.5
   },
   "ENGN2707": {
     "rating": null
@@ -3195,7 +3216,7 @@
     "rating": null
   },
   "ENGN3223": {
-    "rating": null
+    "rating": 1.0
   },
   "ENGN3224": {
     "rating": null
@@ -3255,7 +3276,7 @@
     "rating": null
   },
   "ENGN4200": {
-    "rating": null
+    "rating": 1.0
   },
   "ENGN4204": {
     "rating": null
@@ -3300,13 +3321,13 @@
     "rating": null
   },
   "ENGN4528": {
-    "rating": null
+    "rating": 1.0
   },
   "ENGN4536": {
-    "rating": null
+    "rating": 5.0
   },
   "ENGN4537": {
-    "rating": null
+    "rating": 3.0
   },
   "ENGN4547": {
     "rating": null
@@ -3486,7 +3507,7 @@
     "rating": null
   },
   "ENVS1004": {
-    "rating": null
+    "rating": 4.0
   },
   "ENVS1008": {
     "rating": null
@@ -3516,7 +3537,7 @@
     "rating": null
   },
   "ENVS2015": {
-    "rating": null
+    "rating": 5.0
   },
   "ENVS2017": {
     "rating": null
@@ -3726,10 +3747,10 @@
     "rating": null
   },
   "FINM1001": {
-    "rating": null
+    "rating": 4.5
   },
   "FINM2001": {
-    "rating": null
+    "rating": 2.5
   },
   "FINM2002": {
     "rating": null
@@ -3741,7 +3762,7 @@
     "rating": null
   },
   "FINM3006": {
-    "rating": null
+    "rating": 1.0
   },
   "FINM3007": {
     "rating": null
@@ -3807,13 +3828,13 @@
     "rating": null
   },
   "FINM7006": {
-    "rating": null
+    "rating": 4.0
   },
   "FINM7007": {
-    "rating": null
+    "rating": 4.0
   },
   "FINM7008": {
-    "rating": null
+    "rating": 4.0
   },
   "FINM8004": {
     "rating": null
@@ -3873,7 +3894,7 @@
     "rating": null
   },
   "FREN3107": {
-    "rating": null
+    "rating": 4.0
   },
   "FREN3108": {
     "rating": null
@@ -3885,7 +3906,7 @@
     "rating": null
   },
   "FREN3515": {
-    "rating": null
+    "rating": 3.0
   },
   "GEND1001": {
     "rating": null
@@ -4008,7 +4029,7 @@
     "rating": null
   },
   "HIST1209": {
-    "rating": null
+    "rating": 5.0
   },
   "HIST1214": {
     "rating": null
@@ -4160,6 +4181,9 @@
   "HLMD9001": {
     "rating": null
   },
+  "HLTH1001": {
+    "rating": 3.0
+  },
   "HLTH1002": {
     "rating": null
   },
@@ -4284,7 +4308,7 @@
     "rating": null
   },
   "IDEC8016": {
-    "rating": null
+    "rating": 5.0
   },
   "IDEC8017": {
     "rating": null
@@ -4443,7 +4467,7 @@
     "rating": null
   },
   "INFS1001": {
-    "rating": null
+    "rating": 3.5
   },
   "INFS2005": {
     "rating": null
@@ -4498,6 +4522,9 @@
   },
   "INTR2012": {
     "rating": null
+  },
+  "INTR2018": {
+    "rating": 3.0
   },
   "INTR2024": {
     "rating": null
@@ -4608,13 +4635,13 @@
     "rating": null
   },
   "JPNS1012": {
-    "rating": null
+    "rating": 5.0
   },
   "JPNS1014": {
     "rating": null
   },
   "JPNS2003": {
-    "rating": null
+    "rating": 4.0
   },
   "JPNS2005": {
     "rating": null
@@ -4665,7 +4692,7 @@
     "rating": null
   },
   "KORE3013": {
-    "rating": null
+    "rating": 5.0
   },
   "KORE3015": {
     "rating": null
@@ -4701,34 +4728,34 @@
     "rating": null
   },
   "LAWS1201": {
-    "rating": null
+    "rating": 4.33
   },
   "LAWS1202": {
-    "rating": null
+    "rating": 5.0
   },
   "LAWS1203": {
-    "rating": null
+    "rating": 4.33
   },
   "LAWS1204": {
-    "rating": null
+    "rating": 4.67
   },
   "LAWS1205": {
-    "rating": null
+    "rating": 3.5
   },
   "LAWS1206": {
-    "rating": null
+    "rating": 4.0
   },
   "LAWS2201": {
-    "rating": null
+    "rating": 3.0
   },
   "LAWS2202": {
-    "rating": null
+    "rating": 5.0
   },
   "LAWS2203": {
-    "rating": null
+    "rating": 4.67
   },
   "LAWS2204": {
-    "rating": null
+    "rating": 4.0
   },
   "LAWS2205": {
     "rating": null
@@ -4743,10 +4770,10 @@
     "rating": null
   },
   "LAWS2249": {
-    "rating": null
+    "rating": 5.0
   },
   "LAWS2250": {
-    "rating": null
+    "rating": 3.67
   },
   "LAWS4001": {
     "rating": null
@@ -4809,7 +4836,7 @@
     "rating": null
   },
   "LAWS4228": {
-    "rating": null
+    "rating": 5.0
   },
   "LAWS4229": {
     "rating": null
@@ -4860,7 +4887,7 @@
     "rating": null
   },
   "LAWS4264": {
-    "rating": null
+    "rating": 5.0
   },
   "LAWS4266": {
     "rating": null
@@ -5178,7 +5205,7 @@
     "rating": null
   },
   "LAWS8252": {
-    "rating": null
+    "rating": 5.0
   },
   "LAWS8253": {
     "rating": null
@@ -5373,7 +5400,7 @@
     "rating": null
   },
   "LING1001": {
-    "rating": null
+    "rating": 5.0
   },
   "LING1002": {
     "rating": null
@@ -5589,25 +5616,25 @@
     "rating": null
   },
   "MATH1003": {
-    "rating": null
+    "rating": 5.0
   },
   "MATH1005": {
-    "rating": null
+    "rating": 3.0
   },
   "MATH1013": {
-    "rating": null
+    "rating": 3.75
   },
   "MATH1014": {
-    "rating": null
+    "rating": 5.0
   },
   "MATH1113": {
-    "rating": null
+    "rating": 1.0
   },
   "MATH1115": {
-    "rating": null
+    "rating": 5.0
   },
   "MATH1116": {
-    "rating": null
+    "rating": 5.0
   },
   "MATH2222": {
     "rating": null
@@ -5616,7 +5643,7 @@
     "rating": null
   },
   "MATH2305": {
-    "rating": null
+    "rating": 2.0
   },
   "MATH2306": {
     "rating": null
@@ -5625,7 +5652,7 @@
     "rating": null
   },
   "MATH2320": {
-    "rating": null
+    "rating": 5.0
   },
   "MATH2322": {
     "rating": null
@@ -5655,7 +5682,7 @@
     "rating": null
   },
   "MATH3342": {
-    "rating": null
+    "rating": 3.0
   },
   "MATH3345": {
     "rating": null
@@ -5802,7 +5829,7 @@
     "rating": null
   },
   "MEAS1002": {
-    "rating": null
+    "rating": 5.0
   },
   "MEAS2000": {
     "rating": null
@@ -6012,7 +6039,7 @@
     "rating": null
   },
   "MGMT1003": {
-    "rating": null
+    "rating": 3.5
   },
   "MGMT2001": {
     "rating": null
@@ -6027,7 +6054,7 @@
     "rating": null
   },
   "MGMT2007": {
-    "rating": null
+    "rating": 3.0
   },
   "MGMT2008": {
     "rating": null
@@ -6041,11 +6068,14 @@
   "MGMT2035": {
     "rating": null
   },
+  "MGMT2100": {
+    "rating": 4.33
+  },
   "MGMT3002": {
     "rating": null
   },
   "MGMT3015": {
-    "rating": null
+    "rating": 1.0
   },
   "MGMT3016": {
     "rating": null
@@ -6213,7 +6243,7 @@
     "rating": null
   },
   "MKTG2031": {
-    "rating": null
+    "rating": 5.0
   },
   "MKTG2032": {
     "rating": null
@@ -6222,7 +6252,7 @@
     "rating": null
   },
   "MKTG3023": {
-    "rating": null
+    "rating": 4.0
   },
   "MKTG3033": {
     "rating": null
@@ -6642,10 +6672,10 @@
     "rating": null
   },
   "PHIL1004": {
-    "rating": null
+    "rating": 4.2
   },
   "PHIL1005": {
-    "rating": null
+    "rating": 5.0
   },
   "PHIL2012": {
     "rating": null
@@ -6735,22 +6765,25 @@
     "rating": null
   },
   "PHYS1001": {
-    "rating": null
+    "rating": 3.0
   },
   "PHYS1004": {
-    "rating": null
+    "rating": 4.0
   },
   "PHYS1101": {
-    "rating": null
+    "rating": 5.0
   },
   "PHYS1201": {
     "rating": null
   },
   "PHYS2013": {
-    "rating": null
+    "rating": 3.5
   },
   "PHYS2016": {
     "rating": null
+  },
+  "PHYS2020": {
+    "rating": 3.0
   },
   "PHYS2101": {
     "rating": null
@@ -7116,10 +7149,13 @@
     "rating": null
   },
   "POLS1002": {
-    "rating": null
+    "rating": 2.67
   },
   "POLS1005": {
-    "rating": null
+    "rating": 4.0
+  },
+  "POLS1009": {
+    "rating": 2.33
   },
   "POLS2002": {
     "rating": null
@@ -7134,7 +7170,7 @@
     "rating": null
   },
   "POLS2044": {
-    "rating": null
+    "rating": 3.0
   },
   "POLS2045": {
     "rating": null
@@ -7152,16 +7188,22 @@
     "rating": null
   },
   "POLS2102": {
-    "rating": null
+    "rating": 5.0
   },
   "POLS2114": {
     "rating": null
   },
   "POLS2119": {
-    "rating": null
+    "rating": 2.0
+  },
+  "POLS2130": {
+    "rating": 3.0
+  },
+  "POLS2132": {
+    "rating": 1.0
   },
   "POLS2133": {
-    "rating": null
+    "rating": 5.0
   },
   "POLS2137": {
     "rating": null
@@ -7185,10 +7227,10 @@
     "rating": null
   },
   "POLS3035": {
-    "rating": null
+    "rating": 5.0
   },
   "POLS3036": {
-    "rating": null
+    "rating": 5.0
   },
   "POLS3043": {
     "rating": null
@@ -7401,25 +7443,31 @@
     "rating": null
   },
   "PSYC1003": {
-    "rating": null
+    "rating": 5.0
   },
   "PSYC1004": {
-    "rating": null
+    "rating": 4.5
   },
   "PSYC1005": {
-    "rating": null
+    "rating": 5.0
   },
   "PSYC2001": {
-    "rating": null
+    "rating": 4.0
   },
   "PSYC2002": {
-    "rating": null
+    "rating": 4.0
+  },
+  "PSYC2007": {
+    "rating": 2.0
+  },
+  "PSYC2008": {
+    "rating": 5.0
   },
   "PSYC2009": {
-    "rating": null
+    "rating": 5.0
   },
   "PSYC2011": {
-    "rating": null
+    "rating": 3.0
   },
   "PSYC2012": {
     "rating": null
@@ -7433,17 +7481,23 @@
   "PSYC3016": {
     "rating": null
   },
+  "PSYC3018": {
+    "rating": 5.0
+  },
+  "PSYC3020": {
+    "rating": 4.0
+  },
   "PSYC3023": {
     "rating": null
   },
   "PSYC3025": {
-    "rating": null
+    "rating": 5.0
   },
   "PSYC3026": {
-    "rating": null
+    "rating": 3.0
   },
   "PSYC3028": {
-    "rating": null
+    "rating": 3.0
   },
   "PSYC3030": {
     "rating": null
@@ -7967,6 +8021,9 @@
   "SOCY2043": {
     "rating": null
   },
+  "SOCY2101": {
+    "rating": 5.0
+  },
   "SOCY2157": {
     "rating": null
   },
@@ -8070,19 +8127,19 @@
     "rating": null
   },
   "STAT1003": {
-    "rating": null
+    "rating": 3.0
   },
   "STAT1008": {
     "rating": null
   },
   "STAT2001": {
-    "rating": null
+    "rating": 4.5
   },
   "STAT2005": {
     "rating": null
   },
   "STAT2008": {
-    "rating": null
+    "rating": 5.0
   },
   "STAT2013": {
     "rating": null
@@ -8091,13 +8148,16 @@
     "rating": null
   },
   "STAT2032": {
-    "rating": null
+    "rating": 5.0
   },
   "STAT3004": {
     "rating": null
   },
   "STAT3006": {
     "rating": null
+  },
+  "STAT3011": {
+    "rating": 1.0
   },
   "STAT3012": {
     "rating": null
@@ -8208,7 +8268,7 @@
     "rating": null
   },
   "STAT6046": {
-    "rating": null
+    "rating": 5.0
   },
   "STAT6050": {
     "rating": null
@@ -8238,7 +8298,7 @@
     "rating": null
   },
   "STAT7055": {
-    "rating": null
+    "rating": 3.0
   },
   "STAT8002": {
     "rating": null
@@ -8262,7 +8322,7 @@
     "rating": null
   },
   "STST1001": {
-    "rating": null
+    "rating": 5.0
   },
   "STST1004": {
     "rating": null
@@ -8280,7 +8340,7 @@
     "rating": null
   },
   "STST3002": {
-    "rating": null
+    "rating": 5.0
   },
   "STST3003": {
     "rating": null
@@ -8443,65 +8503,5 @@
   },
   "WILC6001": {
     "rating": null
-  },
-  "ASTR1001": {
-    "rating": 1.0
-  },
-  "CHEM2203": {
-    "rating": 3.0
-  },
-  "COMP2300": {
-    "rating": 5.0
-  },
-  "COMP3600": {
-    "rating": 4.0
-  },
-  "COMP3670": {
-    "rating": 1.0
-  },
-  "EMSC2021": {
-    "rating": 5.0
-  },
-  "EMSC2024": {
-    "rating": 2.0
-  },
-  "HLTH1001": {
-    "rating": 3.0
-  },
-  "INTR2018": {
-    "rating": 3.0
-  },
-  "MGMT2100": {
-    "rating": 4.0
-  },
-  "PHYS2020": {
-    "rating": 3.0
-  },
-  "POLS1009": {
-    "rating": 2.5
-  },
-  "POLS2130": {
-    "rating": 2.5
-  },
-  "POLS2132": {
-    "rating": 1.5
-  },
-  "PSYC2007": {
-    "rating": 3.5
-  },
-  "PSYC2008": {
-    "rating": 4.5
-  },
-  "PSYC3018": {
-    "rating": 5.0
-  },
-  "PSYC3020": {
-    "rating": 4.5
-  },
-  "SOCY2101": {
-    "rating": 5.0
-  },
-  "STAT3011": {
-    "rating": 3.0
   }
 }
