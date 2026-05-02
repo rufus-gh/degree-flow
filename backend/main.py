@@ -12,6 +12,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 
 from models.schemas import StudentProfile, PlanRequest
+from services.ai_service import optimise_plan, suggest_electives, suggest_interests
 from services.rules_engine import RulesEngine
 
 app = FastAPI(
@@ -249,6 +250,26 @@ def recommend_courses(student: StudentProfile, limit: int = 10):
     )
 
     return {"recommendations": result}
+
+
+# ── Gemini AI planning helpers ───────────────────────────────────────
+
+@app.post("/api/ai/interests")
+def ai_suggest_interests(payload: dict):
+    """Suggest interest tags after the student chooses a degree."""
+    return suggest_interests(payload, engine)
+
+
+@app.post("/api/ai/electives")
+def ai_suggest_electives(payload: dict):
+    """Suggest electives that fit interests and prerequisite chains."""
+    return suggest_electives(payload, engine)
+
+
+@app.post("/api/ai/optimise-plan")
+def ai_optimise_plan(payload: dict):
+    """Return smart plan repair actions and course recommendations."""
+    return optimise_plan(payload, engine)
 
 
 # ── What-if analysis ─────────────────────────────────────────────────

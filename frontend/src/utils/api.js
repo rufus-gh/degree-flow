@@ -56,3 +56,12 @@ export const whatIfChangeMajor = (student, newMajor) =>
 
 export const assessRisks = (planRequest) =>
   request('/assess-risks', { method: 'POST', body: JSON.stringify(planRequest) });
+
+export const suggestInterestsAI = (payload) =>
+  request('/ai/interests', { method: 'POST', body: JSON.stringify(payload) });
+
+export const suggestElectivesAI = (payload) =>
+  request('/ai/electives', { method: 'POST', body: JSON.stringify(payload) });
+
+export const optimisePlanAI = (payload) =>
+  request('/ai/optimise-plan', { method: 'POST', body: JSON.stringify(payload) });

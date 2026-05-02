@@ -1,904 +1,704 @@
-import React, { useState, useEffect, createContext, useContext, useCallback } from 'react';
-import { BrowserRouter, Routes, Route, Link, useLocation, useNavigate } from 'react-router-dom';
+import React, { useEffect, useMemo, useState } from 'react';
+import {
+  AlertCircle,
+  ArrowLeft,
+  ArrowRight,
+  CalendarDays,
+  CheckCircle2,
+  GraduationCap,
+  Moon,
+  Pencil,
+  Plus,
+  Sparkles,
+  Sun,
+  Wand2,
+  X,
+} from 'lucide-react';
 
-// ── Context ──────────────────────────────────────────────────────────
-const AppContext = createContext();
-
-function useApp() {
-  return useContext(AppContext);
-}
-
-// ── Inline data (used when API not available) ────────────────────────
-// In production, these would come from the backend API
 import coursesData from './data/courses.json';
 import programsData from './data/programs.json';
 import majorsData from './data/majors.json';
 import minorsData from './data/minors.json';
+import { optimisePlanAI, suggestInterestsAI } from './utils/api';
+import {
+  DEFAULT_INTERESTS,
+  buildDegreePlan,
+  getAssessmentFocus,
+  getExpectedProgress,
+  getRequiredCourses,
+  normaliseCode,
+  parseWorkloadHours,
+  sumUnits,
+  uniqueCodes,
+  validateTimeline,
+} from './utils/planner';
 
-// ── Provider ─────────────────────────────────────────────────────────
-function AppProvider({ children }) {
-  const [student, setStudent] = useState({
-    degree_code: '',
-    major_code: '',
-    minor_code: '',
-    handbook_year: 2026,
-    completed_courses: [],
-    current_courses: [],
-    interests: [],
-    study_mode: 'Full-time',
-  });
+const initialStudent = {
+  degree_code: '',
+  major_code: '',
+  minor_code: '',
+  handbook_year: 2026,
+  completed_courses: [],
+  current_courses: [],
+  planned_courses: [],
+  interests: [],
+  study_mode: 'Full-time',
+  current_year: 1,
+  current_semester: 'S1',
+  target_semesters: 6,
+  preferred_workload: 'balanced',
+  challenge_preference: 'balanced',
+  assessment_preference: 'mixed',
+  free_text_preferences: '',
+};
 
-  const [courses] = useState(coursesData);
-  const [programs] = useState(programsData);
-  const [majors] = useState(majorsData);
-  const [minors] = useState(minorsData);
-
-  // ── Rules Engine (client-side fallback) ─────────────────────────
-  const checkEligibility = useCallback((courseCode) => {
-    const course = courses[courseCode];
-    if (!course) return { eligible: false, reasons: ['Course not found'], missing_prerequisites: [] };
-
-    const completed = new Set(student.completed_courses.map(c => c.toUpperCase()));
-    if (completed.has(courseCode.toUpperCase())) {
-      return { eligible: false, reasons: ['Already completed'], missing_prerequisites: [] };
-    }
-
-    const missing = (course.prerequisites || []).filter(p => !completed.has(p.toUpperCase()));
-    const incompatDone = (course.incompatible || []).filter(i => completed.has(i.toUpperCase()));
-
-    const reasons = [];
-    if (missing.length) reasons.push(`Missing prerequisites: ${missing.join(', ')}`);
-    incompatDone.forEach(i => reasons.push(`Incompatible with completed course ${i}`));
-
-    return {
-      eligible: missing.length === 0 && incompatDone.length === 0,
-      reasons: reasons.length ? reasons : ['You are eligible to take this course'],
-      missing_prerequisites: missing,
-      incompatible_completed: incompatDone,
-    };
-  }, [courses, student.completed_courses]);
-
-  const graduationAudit = useCallback(() => {
-    const program = programs[student.degree_code];
-    if (!program) return null;
-
-    const completed = new Set(student.completed_courses.map(c => c.toUpperCase()));
-    const totalUnits = [...completed].reduce((sum, c) => sum + (courses[c]?.units || 0), 0);
-    const requiredUnits = program.total_units || 144;
-
-    const missing = [];
-    const done = [];
-
-    // Total units
-    if (totalUnits >= requiredUnits) {
-      done.push({ type: 'units', description: `${totalUnits}/${requiredUnits} units completed` });
-    } else {
-      missing.push({ type: 'units', description: `Need ${requiredUnits - totalUnits} more units (${totalUnits}/${requiredUnits})` });
-    }
-
-    // Core courses
-    (program.rules || []).forEach(rule => {
-      if (rule.type === 'course_requirement') {
-        (rule.courses || []).forEach(c => {
-          const name = courses[c]?.name || c;
-          if (completed.has(c.toUpperCase())) {
-            done.push({ type: 'core', description: `${c} — ${name}` });
-          } else {
-            missing.push({ type: 'core', description: `${c} — ${name}` });
-          }
-        });
-      }
+function uniqueLabels(labels = []) {
+  const seen = new Set();
+  return labels
+    .filter(Boolean)
+    .filter(label => {
+      const key = label.toLowerCase();
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
     });
-
-    // Level requirements
-    const level3000 = [...completed].reduce((sum, c) =>
-      sum + ((courses[c]?.level || 0) >= 3000 ? (courses[c]?.units || 0) : 0), 0
-    );
-    (program.rules || []).forEach(rule => {
-      if (rule.type === 'level_requirement') {
-        const req = rule.minimum_units || 30;
-        if (level3000 >= req) {
-          done.push({ type: 'level', description: `${level3000}/${req} units at 3000+ level` });
-        } else {
-          missing.push({ type: 'level', description: `Need ${req - level3000} more 3000+ units (${level3000}/${req})` });
-        }
-      }
-    });
-
-    return {
-      can_graduate: missing.length === 0,
-      total_units_completed: totalUnits,
-      total_units_required: requiredUnits,
-      missing,
-      completed: done,
-    };
-  }, [programs, courses, student]);
-
-  const generatePlan = useCallback(() => {
-    const program = programs[student.degree_code];
-    if (!program) return null;
-
-    const completed = new Set(student.completed_courses.map(c => c.toUpperCase()));
-    const needed = new Set();
-
-    // Core courses
-    (program.rules || []).forEach(rule => {
-      if (rule.type === 'course_requirement') {
-        rule.courses.forEach(c => { if (!completed.has(c.toUpperCase())) needed.add(c.toUpperCase()); });
-      }
-    });
-
-    // Major courses
-    const major = majors[student.major_code];
-    if (major) {
-      major.required_courses.forEach(c => { if (!completed.has(c.toUpperCase())) needed.add(c.toUpperCase()); });
-      // Add electives to fill major
-      let majorUnits = [...completed].filter(c =>
-        [...major.required_courses, ...major.elective_courses].map(x => x.toUpperCase()).includes(c)
-      ).reduce((s, c) => s + (courses[c]?.units || 0), 0);
-      majorUnits += [...needed].filter(c =>
-        [...major.required_courses, ...major.elective_courses].map(x => x.toUpperCase()).includes(c)
-      ).reduce((s, c) => s + (courses[c]?.units || 0), 0);
-
-      if (majorUnits < (major.units || 48)) {
-        for (const c of major.elective_courses) {
-          if (!completed.has(c.toUpperCase()) && !needed.has(c.toUpperCase())) {
-            needed.add(c.toUpperCase());
-            majorUnits += courses[c]?.units || 6;
-            if (majorUnits >= (major.units || 48)) break;
-          }
-        }
-      }
-    }
-
-    // Topological sort
-    const sorted = [];
-    const visited = new Set();
-    function dfs(code) {
-      if (visited.has(code)) return;
-      visited.add(code);
-      const course = courses[code];
-      if (course) {
-        (course.prerequisites || []).forEach(p => {
-          if (needed.has(p.toUpperCase())) dfs(p.toUpperCase());
-        });
-      }
-      sorted.push(code);
-    }
-    [...needed].forEach(c => dfs(c));
-
-    // Assign to semesters
-    const semesters = [];
-    const assigned = new Set(completed);
-    const remaining = [...sorted];
-    const semNames = ['S1', 'S2'];
-
-    for (let i = 0; i < 8 && remaining.length; i++) {
-      const semName = semNames[i % 2];
-      const year = Math.floor(i / 2) + 1;
-      const semCourses = [];
-
-      for (const code of [...remaining]) {
-        if (semCourses.length >= 4) break;
-        const course = courses[code];
-        if (!course) continue;
-        const prereqsMet = (course.prerequisites || []).every(p => assigned.has(p.toUpperCase()));
-        const availableThisSem = !course.terms_offered?.length || course.terms_offered.includes(semName);
-        if (prereqsMet && availableThisSem) {
-          semCourses.push(code);
-          remaining.splice(remaining.indexOf(code), 1);
-        }
-      }
-
-      semCourses.forEach(c => assigned.add(c));
-      if (semCourses.length) {
-        semesters.push({
-          year,
-          semester: `Year ${year} ${semName}`,
-          courses: semCourses,
-          total_units: semCourses.reduce((s, c) => s + (courses[c]?.units || 6), 0),
-        });
-      }
-    }
-
-    return { semesters, unscheduled: remaining };
-  }, [programs, courses, majors, student]);
-
-  const value = {
-    student, setStudent,
-    courses, programs, majors, minors,
-    checkEligibility, graduationAudit, generatePlan,
-  };
-
-  return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
 }
 
-// ── Navigation ───────────────────────────────────────────────────────
-function Nav() {
-  const location = useLocation();
-  const links = [
-    { to: '/', label: 'Home' },
-    { to: '/setup', label: 'Setup' },
-    { to: '/dashboard', label: 'Dashboard' },
-    { to: '/courses', label: 'Courses' },
-    { to: '/planner', label: 'Planner' },
-    { to: '/audit', label: 'Audit' },
-  ];
+function fallbackInterests(program, major) {
+  const relevant = new Set([
+    ...(program?.rules || []).flatMap(rule => rule.courses || []),
+    ...(major?.required_courses || []),
+    ...(major?.elective_courses || []),
+  ].map(normaliseCode));
+
+  const counts = new Map();
+  Object.values(coursesData).forEach(course => {
+    if (relevant.size && !relevant.has(course.code) && course.subject_area !== 'COMP') return;
+    (course.areas_of_interest || []).forEach(area => counts.set(area, (counts.get(area) || 0) + 1));
+  });
+
+  const ranked = [...counts.entries()].sort((a, b) => b[1] - a[1]).map(([label]) => label);
+  return uniqueLabels([...ranked, ...DEFAULT_INTERESTS]).slice(0, 8);
+}
+
+function Field({ label, children }) {
   return (
-    <nav className="nav">
-      <div className="nav-inner">
-        <Link to="/" className="nav-logo">Degree<span>Flow</span></Link>
-        <div className="nav-links">
-          {links.map(l => (
-            <Link key={l.to} to={l.to}
-              className={`nav-link${location.pathname === l.to ? ' active' : ''}`}>
-              {l.label}
-            </Link>
-          ))}
-        </div>
-      </div>
-    </nav>
+    <label className="simple-field">
+      <span>{label}</span>
+      {children}
+    </label>
   );
 }
 
-// ── Home Page ────────────────────────────────────────────────────────
-function HomePage() {
-  const { courses, programs, majors } = useApp();
-  const navigate = useNavigate();
+function PreferenceButton({ active, children, onClick }) {
   return (
-    <div>
-      <div className="hero">
-        <h1>Navigate your <span>ANU degree</span> with confidence</h1>
-        <p>
-          Understand your degree requirements, choose the right courses,
-          generate valid study plans, and check if you're on track to graduate.
-        </p>
-        <button className="btn btn-primary" style={{ fontSize: '1rem', padding: '0.8rem 2rem' }}
-          onClick={() => navigate('/setup')}>
-          Start Planning →
-        </button>
-      </div>
+    <button type="button" className={`simple-choice ${active ? 'active' : ''}`} onClick={onClick}>
+      {children}
+    </button>
+  );
+}
 
-      <div className="grid grid-4" style={{ marginTop: '2rem' }}>
-        {[
-          { value: Object.keys(courses).length, label: 'Courses' },
-          { value: Object.keys(programs).length, label: 'Programs' },
-          { value: Object.keys(majors).length, label: 'Majors' },
-          { value: '2026', label: 'Handbook Year' },
-        ].map((s, i) => (
-          <div key={i} className="card stat">
-            <div className="stat-value">{s.value}</div>
-            <div className="stat-label">{s.label}</div>
-          </div>
-        ))}
-      </div>
+function CoursePill({ code, course, onRemove }) {
+  return (
+    <span className="simple-course-pill">
+      <strong>{code}</strong>
+      <small>{course?.name || 'Unknown course'}</small>
+      <button type="button" onClick={() => onRemove(code)} aria-label={`Remove ${code}`}>
+        <X size={13} />
+      </button>
+    </span>
+  );
+}
 
-      <div className="grid grid-3" style={{ marginTop: '2rem' }}>
-        {[
-          { title: 'Degree Setup', desc: 'Select your degree, major, minor, and enter completed courses.', to: '/setup' },
-          { title: 'Course Explorer', desc: 'Search and filter courses. See prerequisites and eligibility.', to: '/courses' },
-          { title: 'Smart Planner', desc: 'Generate a valid semester-by-semester plan that follows all rules.', to: '/planner' },
-          { title: 'Graduation Audit', desc: 'Check if you have met all requirements to graduate.', to: '/audit' },
-          { title: 'Risk Warnings', desc: 'See warnings about risky choices that could delay graduation.', to: '/planner' },
-          { title: 'What-If Simulator', desc: 'Test what happens if you change your major or minor.', to: '/planner' },
-        ].map((f, i) => (
-          <Link key={i} to={f.to} className="card" style={{ textDecoration: 'none' }}>
-            <div className="card-title">{f.title}</div>
-            <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', marginTop: '0.5rem' }}>{f.desc}</p>
-          </Link>
-        ))}
+function ProgressBar({ current, planned, expected }) {
+  return (
+    <div className="simple-progress">
+      <div className="simple-progress-labels">
+        <span>Done {current}%</span>
+        <span>Planned {planned}%</span>
+        <span>Expected {expected}%</span>
+      </div>
+      <div className="simple-progress-track">
+        <div className="simple-progress-fill planned" style={{ width: `${planned}%` }} />
+        <div className="simple-progress-fill done" style={{ width: `${current}%` }} />
+        <i style={{ left: `${expected}%` }} />
       </div>
     </div>
   );
 }
 
-// ── Setup Page ───────────────────────────────────────────────────────
-function SetupPage() {
-  const { student, setStudent, programs, majors, minors, courses } = useApp();
-  const navigate = useNavigate();
-  const [courseInput, setCourseInput] = useState('');
-
-  const program = programs[student.degree_code];
-  const availableMajors = program?.available_majors || [];
-  const availableMinors = program?.available_minors || [];
-
-  const addCourse = () => {
-    const code = courseInput.toUpperCase().trim();
-    if (code && courses[code] && !student.completed_courses.includes(code)) {
-      setStudent(s => ({ ...s, completed_courses: [...s.completed_courses, code] }));
-      setCourseInput('');
-    }
-  };
-
-  const removeCourse = (code) => {
-    setStudent(s => ({ ...s, completed_courses: s.completed_courses.filter(c => c !== code) }));
-  };
-
-  const completedUnits = student.completed_courses.reduce((s, c) => s + (courses[c]?.units || 0), 0);
+function CalendarCourse({ code, status, courses }) {
+  const course = courses[code];
+  const focus = getAssessmentFocus(course);
+  const invalid = status?.invalid;
+  const current = status?.state === 'in-progress';
 
   return (
-    <div>
-      <h1 style={{ fontFamily: 'var(--font-display)', marginBottom: '1.5rem' }}>Degree Setup</h1>
-
-      <div className="grid grid-2">
-        <div className="card">
-          <div className="card-title">Program Details</div>
-          <div className="form-group" style={{ marginTop: '1rem' }}>
-            <label className="label">Degree Program</label>
-            <select className="select" value={student.degree_code}
-              onChange={e => setStudent(s => ({ ...s, degree_code: e.target.value, major_code: '', minor_code: '' }))}>
-              <option value="">Select a degree...</option>
-              {Object.values(programs).map(p => (
-                <option key={p.code} value={p.code}>{p.name} ({p.code})</option>
-              ))}
-            </select>
-          </div>
-
-          {availableMajors.length > 0 && (
-            <div className="form-group">
-              <label className="label">Major</label>
-              <select className="select" value={student.major_code}
-                onChange={e => setStudent(s => ({ ...s, major_code: e.target.value }))}>
-                <option value="">Select a major...</option>
-                {availableMajors.map(m => (
-                  <option key={m.code} value={m.code}>{m.name}</option>
-                ))}
-              </select>
-            </div>
-          )}
-
-          {availableMinors.length > 0 && (
-            <div className="form-group">
-              <label className="label">Minor (optional)</label>
-              <select className="select" value={student.minor_code}
-                onChange={e => setStudent(s => ({ ...s, minor_code: e.target.value }))}>
-                <option value="">None</option>
-                {availableMinors.map(m => (
-                  <option key={m.code} value={m.code}>{m.name}</option>
-                ))}
-              </select>
-            </div>
-          )}
-
-          <div className="form-group">
-            <label className="label">Study Mode</label>
-            <select className="select" value={student.study_mode}
-              onChange={e => setStudent(s => ({ ...s, study_mode: e.target.value }))}>
-              <option value="Full-time">Full-time</option>
-              <option value="Part-time">Part-time</option>
-            </select>
-          </div>
-
-          <div className="form-group">
-            <label className="label">Interests (for recommendations)</label>
-            <select className="select" multiple style={{ height: '120px' }}
-              value={student.interests}
-              onChange={e => setStudent(s => ({
-                ...s, interests: Array.from(e.target.selectedOptions, o => o.value)
-              }))}>
-              {['Computer Science', 'Artificial Intelligence', 'Machine Learning',
-                'Cybersecurity', 'Software Engineering', 'Data Science',
-                'Mathematics', 'Networks', 'Systems'].map(i => (
-                <option key={i} value={i}>{i}</option>
-              ))}
-            </select>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="card-title">Completed Courses</div>
-          <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', margin: '0.5rem 0 1rem' }}>
-            {student.completed_courses.length} courses · {completedUnits} units
-          </p>
-
-          <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem' }}>
-            <input className="input" placeholder="Course code (e.g. COMP1100)"
-              value={courseInput} onChange={e => setCourseInput(e.target.value)}
-              onKeyDown={e => e.key === 'Enter' && addCourse()} />
-            <button className="btn btn-primary" onClick={addCourse}>Add</button>
-          </div>
-
-          <div style={{ maxHeight: '400px', overflow: 'auto' }}>
-            {student.completed_courses.map(code => {
-              const course = courses[code];
-              return (
-                <div key={code} className="course-chip">
-                  <span className="code">{code}</span>
-                  <span className="name">{course?.name || 'Unknown'}</span>
-                  <span className="units">{course?.units || 6}u</span>
-                  <button className="btn btn-sm btn-outline" onClick={() => removeCourse(code)}
-                    style={{ marginLeft: '0.5rem', padding: '0.2rem 0.5rem' }}>✕</button>
-                </div>
-              );
-            })}
-          </div>
-        </div>
+    <article className={`calendar-course ${invalid ? 'invalid' : ''} ${current ? 'current' : ''}`}>
+      <div>
+        <strong>{code}</strong>
+        <span>{course?.name || 'Unknown course'}</span>
       </div>
+      <small>{course?.units || 6}u · {focus} · {parseWorkloadHours(course?.workload)}h</small>
+      {invalid && <em>{status.reasons[0]}</em>}
+    </article>
+  );
+}
 
-      {student.degree_code && (
-        <div style={{ marginTop: '1.5rem', textAlign: 'center' }}>
-          <button className="btn btn-primary" style={{ fontSize: '1rem', padding: '0.8rem 2rem' }}
-            onClick={() => navigate('/dashboard')}>
-            Continue to Dashboard →
-          </button>
+function DegreeCalendar({ plan, validation, courses }) {
+  if (!plan) {
+    return (
+      <div className="calendar-empty">
+        <CalendarDays size={28} />
+        <strong>Choose your degree to see the calendar.</strong>
+        <span>Your plan will appear here automatically.</span>
+      </div>
+    );
+  }
+
+  const years = plan.semesters.reduce((groups, semester) => {
+    const key = `Year ${semester.year}`;
+    groups[key] = groups[key] || [];
+    groups[key].push(semester);
+    return groups;
+  }, {});
+
+  return (
+    <div className="degree-calendar">
+      {Object.entries(years).map(([year, semesters]) => (
+        <section key={year} className="calendar-year">
+          <div className="calendar-year-label">{year}</div>
+          <div className="calendar-semesters">
+            {semesters.map(semester => (
+              <article key={semester.id} className="calendar-semester">
+                <header>
+                  <span>{semester.term === 'S1' ? 'Semester 1' : 'Semester 2'}</span>
+                  <strong>{sumUnits(courses, semester.courses)} units</strong>
+                </header>
+                <div className="calendar-courses">
+                  {semester.courses.length ? (
+                    semester.courses.map(code => (
+                      <CalendarCourse key={`${semester.id}-${code}`} code={code} status={validation?.statusByCourse[code]} courses={courses} />
+                    ))
+                  ) : (
+                    <div className="calendar-gap">No courses planned</div>
+                  )}
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+      ))}
+      {plan.unscheduled?.length > 0 && (
+        <div className="calendar-warning">
+          <AlertCircle size={16} />
+          <span>Could not place: {plan.unscheduled.join(', ')}</span>
         </div>
       )}
     </div>
   );
 }
 
-// ── Dashboard Page ───────────────────────────────────────────────────
-function DashboardPage() {
-  const { student, courses, programs, majors, graduationAudit, checkEligibility } = useApp();
-  const navigate = useNavigate();
-
-  if (!student.degree_code) {
-    return (
-      <div className="card" style={{ textAlign: 'center', padding: '3rem' }}>
-        <h2 style={{ fontFamily: 'var(--font-display)', marginBottom: '1rem' }}>No degree selected</h2>
-        <p style={{ color: 'var(--text-muted)', marginBottom: '1.5rem' }}>Set up your degree first to see your dashboard.</p>
-        <button className="btn btn-primary" onClick={() => navigate('/setup')}>Go to Setup</button>
-      </div>
-    );
-  }
-
-  const program = programs[student.degree_code];
-  const major = majors[student.major_code];
-  const audit = graduationAudit();
-  const completedUnits = student.completed_courses.reduce((s, c) => s + (courses[c]?.units || 0), 0);
-  const progress = Math.min(100, Math.round((completedUnits / (program?.total_units || 144)) * 100));
-
-  // Next available courses
-  const availableCourses = Object.keys(courses).filter(code => {
-    if (student.completed_courses.includes(code)) return false;
-    const elig = checkEligibility(code);
-    return elig.eligible;
-  }).slice(0, 6);
+function ThemeToggle({ theme, onToggle }) {
+  const isDark = theme === 'dark';
 
   return (
-    <div>
-      <h1 style={{ fontFamily: 'var(--font-display)', marginBottom: '0.5rem' }}>
-        {program?.name || student.degree_code}
-      </h1>
-      {major && <p style={{ color: 'var(--text-muted)', marginBottom: '1.5rem' }}>Major: {major.name}</p>}
-
-      <div className="grid grid-4" style={{ marginBottom: '1.5rem' }}>
-        <div className="card stat">
-          <div className="stat-value">{progress}%</div>
-          <div className="stat-label">Progress</div>
-        </div>
-        <div className="card stat">
-          <div className="stat-value">{completedUnits}/{program?.total_units || 144}</div>
-          <div className="stat-label">Units</div>
-        </div>
-        <div className="card stat">
-          <div className="stat-value">{student.completed_courses.length}</div>
-          <div className="stat-label">Courses Done</div>
-        </div>
-        <div className="card stat">
-          <div className="stat-value" style={{ color: audit?.can_graduate ? 'var(--green)' : 'var(--amber)' }}>
-            {audit?.can_graduate ? 'Ready' : 'Not Yet'}
-          </div>
-          <div className="stat-label">Graduation</div>
-        </div>
-      </div>
-
-      <div className="card" style={{ marginBottom: '1.5rem' }}>
-        <div className="card-title">Degree Progress</div>
-        <div className="progress-bar" style={{ marginTop: '1rem' }}>
-          <div className="progress-fill" style={{ width: `${progress}%` }} />
-        </div>
-        <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', marginTop: '0.5rem' }}>
-          {completedUnits} of {program?.total_units || 144} units completed
-        </p>
-      </div>
-
-      <div className="grid grid-2">
-        <div className="card">
-          <div className="card-header">
-            <div className="card-title">Requirements</div>
-            <button className="btn btn-sm btn-outline" onClick={() => navigate('/audit')}>Full Audit</button>
-          </div>
-          {audit?.completed?.map((r, i) => (
-            <div key={i} className="check-item">
-              <span className="check-icon done">✓</span>
-              <span className="check-text">{r.description}</span>
-            </div>
-          ))}
-          {audit?.missing?.map((r, i) => (
-            <div key={i} className="check-item">
-              <span className="check-icon missing">✗</span>
-              <span className="check-text">{r.description}</span>
-            </div>
-          ))}
-        </div>
-
-        <div className="card">
-          <div className="card-header">
-            <div className="card-title">Available Courses</div>
-            <button className="btn btn-sm btn-outline" onClick={() => navigate('/courses')}>Browse All</button>
-          </div>
-          {availableCourses.map(code => (
-            <div key={code} className="course-chip" onClick={() => navigate(`/courses?selected=${code}`)}>
-              <span className="code">{code}</span>
-              <span className="name">{courses[code]?.name}</span>
-              <span className="badge badge-green">Eligible</span>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
+    <button className="theme-toggle" type="button" onClick={onToggle} aria-label="Toggle light and dark mode">
+      {isDark ? <Sun size={16} /> : <Moon size={16} />}
+      <span>{isDark ? 'Light' : 'Dark'}</span>
+    </button>
   );
 }
 
-// ── Courses Page ─────────────────────────────────────────────────────
-function CoursesPage() {
-  const { courses, student, checkEligibility } = useApp();
-  const [search, setSearch] = useState('');
-  const [levelFilter, setLevelFilter] = useState('');
-  const [semFilter, setSemFilter] = useState('');
-  const [selectedCourse, setSelectedCourse] = useState(null);
+function OnboardingSetup({
+  student,
+  programs,
+  majors,
+  minors,
+  courses,
+  program,
+  availableMajors,
+  availableMinors,
+  interestOptions,
+  selectedCompleted,
+  courseInput,
+  setCourseInput,
+  updateStudent,
+  toggleInterest,
+  addCompletedCourse,
+  removeCompletedCourse,
+  onComplete,
+}) {
+  const [stepIndex, setStepIndex] = useState(0);
+  const steps = [
+    { id: 'degree', eyebrow: 'Step 1 of 10', title: 'What degree are you planning?' },
+    { id: 'major', eyebrow: 'Step 2 of 10', title: 'Which major should we build around?' },
+    { id: 'minor', eyebrow: 'Step 3 of 10', title: 'Do you want to include a minor?' },
+    { id: 'timeline', eyebrow: 'Step 4 of 10', title: 'How quickly do you want to finish?' },
+    { id: 'workload', eyebrow: 'Step 5 of 10', title: 'What workload feels right?' },
+    { id: 'mode', eyebrow: 'Step 6 of 10', title: 'Will you study full-time or part-time?' },
+    { id: 'current', eyebrow: 'Step 7 of 10', title: 'Where are you in the degree right now?' },
+    { id: 'assessment', eyebrow: 'Step 8 of 10', title: 'What assessment style do you prefer?' },
+    { id: 'interests', eyebrow: 'Step 9 of 10', title: 'What topics are you interested in?' },
+    { id: 'completed', eyebrow: 'Step 10 of 10', title: 'What courses have you already completed?' },
+  ];
+  const step = steps[stepIndex];
+  const progress = Math.round(((stepIndex + 1) / steps.length) * 100);
+  const canContinue =
+    (step.id !== 'degree' || Boolean(student.degree_code)) &&
+    (step.id !== 'major' || !availableMajors.length || Boolean(student.major_code));
 
-  const filtered = Object.values(courses).filter(c => {
-    if (search) {
-      const q = search.toLowerCase();
-      if (!c.code.toLowerCase().includes(q) && !c.name.toLowerCase().includes(q) && !(c.description || '').toLowerCase().includes(q)) return false;
-    }
-    if (levelFilter && c.level !== parseInt(levelFilter)) return false;
-    if (semFilter && !(c.terms_offered || []).includes(semFilter)) return false;
-    return true;
-  });
+  const nextStep = () => {
+    if (!canContinue) return;
+    if (stepIndex === steps.length - 1) onComplete();
+    else setStepIndex(current => Math.min(steps.length - 1, current + 1));
+  };
 
-  const selected = selectedCourse ? courses[selectedCourse] : null;
-  const eligibility = selectedCourse ? checkEligibility(selectedCourse) : null;
+  const previousStep = () => {
+    setStepIndex(current => Math.max(0, current - 1));
+  };
 
-  return (
-    <div>
-      <h1 style={{ fontFamily: 'var(--font-display)', marginBottom: '1.5rem' }}>Course Explorer</h1>
+  const handleEnter = event => {
+    if (event.key === 'Enter' && step.id !== 'completed') nextStep();
+  };
 
-      <div style={{ display: 'flex', gap: '0.75rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
-        <input className="input" style={{ maxWidth: '320px' }} placeholder="Search courses..."
-          value={search} onChange={e => setSearch(e.target.value)} />
-        <select className="select" style={{ maxWidth: '160px' }} value={levelFilter}
-          onChange={e => setLevelFilter(e.target.value)}>
-          <option value="">All Levels</option>
-          <option value="1000">1000-level</option>
-          <option value="2000">2000-level</option>
-          <option value="3000">3000-level</option>
-          <option value="4000">4000-level</option>
+  const stepContent = {
+    degree: (
+      <Field label="Degree">
+        <select
+          className="select question-control"
+          value={student.degree_code}
+          onChange={event => updateStudent({ degree_code: event.target.value, major_code: '', minor_code: '', planned_courses: [] })}
+          onKeyDown={handleEnter}
+        >
+          <option value="">Choose a degree</option>
+          {Object.values(programs).map(item => (
+            <option key={item.code} value={item.code}>{item.name}</option>
+          ))}
         </select>
-        <select className="select" style={{ maxWidth: '160px' }} value={semFilter}
-          onChange={e => setSemFilter(e.target.value)}>
-          <option value="">All Semesters</option>
+      </Field>
+    ),
+    major: (
+      <Field label="Major">
+        <select
+          className="select question-control"
+          value={student.major_code}
+          onChange={event => updateStudent({ major_code: event.target.value, planned_courses: [] })}
+          disabled={!availableMajors.length}
+          onKeyDown={handleEnter}
+        >
+          <option value="">{availableMajors.length ? 'Choose a major' : 'No majors available for this degree'}</option>
+          {availableMajors.map(item => (
+            <option key={item.code} value={item.code}>{majors[item.code]?.name || item.name}</option>
+          ))}
+        </select>
+      </Field>
+    ),
+    minor: (
+      <Field label="Minor">
+        <select
+          className="select question-control"
+          value={student.minor_code}
+          onChange={event => updateStudent({ minor_code: event.target.value, planned_courses: [] })}
+          disabled={!availableMinors.length}
+          onKeyDown={handleEnter}
+        >
+          <option value="">{availableMinors.length ? 'No minor' : 'No minors available for this degree'}</option>
+          {availableMinors.map(item => (
+            <option key={item.code} value={item.code}>{minors[item.code]?.name || item.name}</option>
+          ))}
+        </select>
+      </Field>
+    ),
+    timeline: (
+      <div className="question-options">
+        {[4, 5, 6, 7, 8].map(count => (
+          <PreferenceButton key={count} active={student.target_semesters === count} onClick={() => updateStudent({ target_semesters: count })}>
+            {count} semesters
+          </PreferenceButton>
+        ))}
+      </div>
+    ),
+    workload: (
+      <div className="question-options">
+        <PreferenceButton active={student.preferred_workload === 'light'} onClick={() => updateStudent({ preferred_workload: 'light' })}>Light</PreferenceButton>
+        <PreferenceButton active={student.preferred_workload === 'balanced'} onClick={() => updateStudent({ preferred_workload: 'balanced' })}>Balanced</PreferenceButton>
+        <PreferenceButton active={student.preferred_workload === 'challenging'} onClick={() => updateStudent({ preferred_workload: 'challenging' })}>Challenging</PreferenceButton>
+      </div>
+    ),
+    mode: (
+      <div className="question-options">
+        <PreferenceButton active={student.study_mode === 'Full-time'} onClick={() => updateStudent({ study_mode: 'Full-time' })}>Full-time</PreferenceButton>
+        <PreferenceButton active={student.study_mode === 'Part-time'} onClick={() => updateStudent({ study_mode: 'Part-time' })}>Part-time</PreferenceButton>
+      </div>
+    ),
+    current: (
+      <div className="question-options">
+        <select className="select question-select" value={student.current_year} onChange={event => updateStudent({ current_year: Number(event.target.value) })}>
+          {[1, 2, 3, 4].map(year => <option key={year} value={year}>Year {year}</option>)}
+        </select>
+        <select className="select question-select" value={student.current_semester} onChange={event => updateStudent({ current_semester: event.target.value })}>
           <option value="S1">Semester 1</option>
           <option value="S2">Semester 2</option>
         </select>
       </div>
-
-      <div style={{ display: 'flex', gap: '1.25rem' }}>
-        <div style={{ flex: 1 }}>
-          <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', marginBottom: '0.75rem' }}>
-            {filtered.length} courses found
-          </p>
-          <div className="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Code</th>
-                  <th>Name</th>
-                  <th>Units</th>
-                  <th>Level</th>
-                  <th>Offered</th>
-                  <th>Status</th>
-                </tr>
-              </thead>
-              <tbody>
-                {filtered.map(c => {
-                  const elig = checkEligibility(c.code);
-                  const isCompleted = student.completed_courses.includes(c.code);
-                  return (
-                    <tr key={c.code} onClick={() => setSelectedCourse(c.code)} style={{ cursor: 'pointer' }}>
-                      <td><strong style={{ color: 'var(--accent)' }}>{c.code}</strong></td>
-                      <td>{c.name}</td>
-                      <td>{c.units}</td>
-                      <td>{c.level}</td>
-                      <td>{(c.terms_offered || []).join(', ') || '—'}</td>
-                      <td>
-                        {isCompleted ? <span className="badge badge-green">Done</span> :
-                         elig.eligible ? <span className="badge badge-blue">Eligible</span> :
-                         <span className="badge badge-red">Locked</span>}
-                      </td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
+    ),
+    assessment: (
+      <div className="question-options">
+        <PreferenceButton active={student.assessment_preference === 'mixed'} onClick={() => updateStudent({ assessment_preference: 'mixed' })}>Mixed</PreferenceButton>
+        <PreferenceButton active={student.assessment_preference === 'assignment'} onClick={() => updateStudent({ assessment_preference: 'assignment' })}>Assignments</PreferenceButton>
+        <PreferenceButton active={student.assessment_preference === 'exam'} onClick={() => updateStudent({ assessment_preference: 'exam' })}>Exams</PreferenceButton>
+      </div>
+    ),
+    interests: (
+      <div className="question-interest-grid">
+        {interestOptions.map(interest => (
+          <PreferenceButton key={interest} active={student.interests.includes(interest)} onClick={() => toggleInterest(interest)}>
+            {interest}
+          </PreferenceButton>
+        ))}
+      </div>
+    ),
+    completed: (
+      <div className="question-stack">
+        <div className="simple-add-row">
+          <input
+            className="input question-control"
+            placeholder="Add a course code, e.g. COMP1100"
+            value={courseInput}
+            onChange={event => setCourseInput(event.target.value)}
+            onKeyDown={event => event.key === 'Enter' && addCompletedCourse()}
+          />
+          <button className="btn btn-primary" type="button" onClick={addCompletedCourse}>
+            <Plus size={16} /> Add
+          </button>
         </div>
-
-        {selected && (
-          <div className="card" style={{ width: '380px', flexShrink: 0, alignSelf: 'flex-start', position: 'sticky', top: '80px' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-              <div>
-                <div style={{ fontSize: '0.8rem', color: 'var(--accent)', fontWeight: 700 }}>{selected.code}</div>
-                <div className="card-title">{selected.name}</div>
-              </div>
-              <button className="btn btn-sm btn-outline" onClick={() => setSelectedCourse(null)}>✕</button>
-            </div>
-
-            <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', margin: '0.75rem 0' }}>
-              {selected.description}
-            </p>
-
-            <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem' }}>
-              <span className="badge badge-blue">{selected.units} units</span>
-              <span className="badge badge-purple">Level {selected.level}</span>
-              {(selected.terms_offered || []).map(t => (
-                <span key={t} className="badge badge-green">{t}</span>
-              ))}
-              {selected.is_stem && <span className="badge badge-amber">STEM</span>}
-            </div>
-
-            <div style={{ marginBottom: '1rem' }}>
-              <div className="label">Eligibility</div>
-              <div className={`alert ${eligibility?.eligible ? 'alert-success' : 'alert-danger'}`}>
-                {eligibility?.reasons?.map((r, i) => <div key={i}>{r}</div>)}
-              </div>
-            </div>
-
-            {selected.prerequisites?.length > 0 && (
-              <div style={{ marginBottom: '0.75rem' }}>
-                <div className="label">Prerequisites</div>
-                <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
-                  {selected.prerequisites.map(p => (
-                    <span key={p} className={`badge ${student.completed_courses.includes(p) ? 'badge-green' : 'badge-red'}`}>
-                      {p}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {selected.incompatible?.length > 0 && (
-              <div style={{ marginBottom: '0.75rem' }}>
-                <div className="label">Incompatible With</div>
-                <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
-                  {selected.incompatible.map(p => (
-                    <span key={p} className="badge badge-amber">{p}</span>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {selected.school && (
-              <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
-                <strong>School:</strong> {selected.school}
-              </div>
-            )}
-
-            {selected.url && (
-              <a href={selected.url} target="_blank" rel="noopener noreferrer"
-                className="btn btn-outline btn-sm" style={{ marginTop: '1rem', width: '100%', justifyContent: 'center' }}>
-                View on ANU Website →
-              </a>
-            )}
-          </div>
-        )}
+        <div className="simple-course-list setup-course-list">
+          {selectedCompleted.map(code => (
+            <CoursePill key={code} code={code} course={courses[code]} onRemove={removeCompletedCourse} />
+          ))}
+          {!selectedCompleted.length && <span className="simple-empty-text">You can skip this and add courses later.</span>}
+        </div>
       </div>
-    </div>
-  );
-}
-
-// ── Planner Page ─────────────────────────────────────────────────────
-function PlannerPage() {
-  const { student, courses, programs, majors, generatePlan } = useApp();
-  const [plan, setPlan] = useState(null);
-  const navigate = useNavigate();
-
-  if (!student.degree_code) {
-    return (
-      <div className="card" style={{ textAlign: 'center', padding: '3rem' }}>
-        <h2 style={{ fontFamily: 'var(--font-display)', marginBottom: '1rem' }}>No degree selected</h2>
-        <button className="btn btn-primary" onClick={() => navigate('/setup')}>Go to Setup</button>
-      </div>
-    );
-  }
-
-  const program = programs[student.degree_code];
-
-  const handleGenerate = () => {
-    const result = generatePlan();
-    setPlan(result);
+    ),
   };
 
   return (
-    <div>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
-        <h1 style={{ fontFamily: 'var(--font-display)' }}>Study Planner</h1>
-        <button className="btn btn-primary" onClick={handleGenerate}>Generate Plan</button>
+    <section className="wizard-screen">
+      <div className="wizard-intro">
+        <div className="simple-brand">
+          <GraduationCap size={28} />
+          <span>DegreeFlow</span>
+        </div>
+        <h1>Let’s set up your degree calendar.</h1>
+        <p>
+          One question at a time. We’ll use your answers to build a first-pass plan, then you can edit it from the calendar.
+        </p>
+        <div className="wizard-mini-summary">
+          <span>{program?.name || 'Degree not selected'}</span>
+          <span>{student.major_code ? majors[student.major_code]?.name : 'Major next'}</span>
+          <span>{selectedCompleted.length} completed</span>
+        </div>
       </div>
 
-      {!plan && (
-        <div className="card" style={{ textAlign: 'center', padding: '3rem' }}>
-          <h3 style={{ color: 'var(--text-muted)', marginBottom: '1rem' }}>
-            Click "Generate Plan" to create your semester-by-semester study plan
-          </h3>
-          <p style={{ color: 'var(--text-dim)', fontSize: '0.9rem' }}>
-            {program?.name} · {student.completed_courses.length} courses completed
-            {student.major_code && ` · Major: ${majors[student.major_code]?.name}`}
-          </p>
+      <div className="wizard-card">
+        <div className="wizard-progress">
+          <span style={{ width: `${progress}%` }} />
         </div>
-      )}
+        <div className="wizard-question" key={step.id}>
+          <div className="wizard-eyebrow">{step.eyebrow}</div>
+          <h2>{step.title}</h2>
+          {stepContent[step.id]}
+        </div>
+        <div className="wizard-footer">
+          <div>
+            <strong>{program?.name || 'Choose a degree to begin'}</strong>
+            <span>{canContinue ? 'Looks good. Continue when you are ready.' : 'This answer is required before moving on.'}</span>
+          </div>
+          <div className="wizard-actions">
+            <button className="btn btn-outline" type="button" disabled={stepIndex === 0} onClick={previousStep}>
+              <ArrowLeft size={16} /> Back
+            </button>
+            <button className="btn btn-primary" type="button" disabled={!canContinue} onClick={nextStep}>
+              {stepIndex === steps.length - 1 ? 'Build plan' : 'Continue'} <ArrowRight size={16} />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
 
-      {plan && (
-        <>
-          {plan.unscheduled?.length > 0 && (
-            <div className="alert alert-warning" style={{ marginBottom: '1rem' }}>
-              ⚠ {plan.unscheduled.length} course(s) could not be scheduled: {plan.unscheduled.join(', ')}
+function BuildingPlan() {
+  return (
+    <section className="building-screen">
+      <div className="building-card">
+        <div className="simple-brand compact-brand">
+          <GraduationCap size={24} />
+          <span>DegreeFlow</span>
+        </div>
+        <Sparkles className="building-spark" size={34} />
+        <h1>Making your degree plan</h1>
+        <p>Checking prerequisites, filling requirements, balancing workload, and placing courses into semesters.</p>
+        <div className="build-progress">
+          <span />
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function CalendarView({
+  student,
+  program,
+  plan,
+  validation,
+  courses,
+  requiredCourses,
+  currentProgress,
+  plannedProgress,
+  expectedProgress,
+  hasIssues,
+  aiNote,
+  aiBusy,
+  improvePlan,
+  onEditSetup,
+}) {
+  return (
+    <section className="calendar-screen">
+      <header className="app-header">
+        <div>
+          <div className="simple-brand compact-brand">
+            <GraduationCap size={24} />
+            <span>DegreeFlow</span>
+          </div>
+          <h1>{program?.name || 'Your degree calendar'}</h1>
+          <p>{student.target_semesters} semester plan · {student.preferred_workload} workload</p>
+        </div>
+        <div className="app-header-actions">
+          <button className="btn btn-outline" type="button" onClick={onEditSetup}>
+            <Pencil size={16} /> Edit setup
+          </button>
+          <button className="btn btn-outline" type="button" onClick={improvePlan} disabled={!plan || aiBusy}>
+            <Wand2 size={16} /> {aiBusy ? 'Improving...' : 'Improve plan'}
+          </button>
+        </div>
+      </header>
+
+      <section className="simple-plan full-plan">
+        {validation && (
+          <div className={`simple-status ${hasIssues ? 'warning' : 'success'}`}>
+            <div>
+              {hasIssues ? <AlertCircle size={20} /> : <CheckCircle2 size={20} />}
+              <strong>{hasIssues ? `${validation.issues.length} things to fix` : 'Looks on track'}</strong>
             </div>
-          )}
+            <span>
+              {validation.plannedUnits}/{validation.requiredUnits} units planned
+              {requiredCourses.length ? ` · ${requiredCourses.length} required courses tracked` : ''}
+            </span>
+          </div>
+        )}
 
-          <div className="semester-grid">
-            {plan.semesters?.map((sem, i) => (
-              <div key={i} className="card semester-card">
-                <div className="semester-label">{sem.semester}</div>
-                {sem.courses.map(code => (
-                  <div key={code} className="course-chip">
-                    <span className="code">{code}</span>
-                    <span className="name">{courses[code]?.name || code}</span>
-                    <span className="units">{courses[code]?.units || 6}u</span>
-                  </div>
-                ))}
-                <div style={{ fontSize: '0.8rem', color: 'var(--text-dim)', marginTop: '0.5rem', textAlign: 'right' }}>
-                  {sem.total_units} units
-                </div>
-              </div>
+        {validation && (
+          <ProgressBar current={currentProgress} planned={plannedProgress} expected={expectedProgress} />
+        )}
+
+        {aiNote && (
+          <div className="simple-ai-note">
+            <Sparkles size={16} />
+            <span>{aiNote}</span>
+          </div>
+        )}
+
+        <DegreeCalendar plan={plan} validation={validation} courses={courses} />
+
+        {validation?.issues?.length > 0 && (
+          <div className="simple-issues">
+            {validation.issues.slice(0, 4).map(issue => (
+              <span key={issue}>{issue}</span>
             ))}
           </div>
-        </>
-      )}
-    </div>
+        )}
+      </section>
+    </section>
   );
 }
 
-// ── Audit Page ───────────────────────────────────────────────────────
-function AuditPage() {
-  const { student, courses, programs, majors, graduationAudit } = useApp();
-  const navigate = useNavigate();
+export default function App() {
+  const [student, setStudent] = useState(initialStudent);
+  const [courseInput, setCourseInput] = useState('');
+  const [interestOptions, setInterestOptions] = useState(DEFAULT_INTERESTS.slice(0, 8));
+  const [aiNote, setAiNote] = useState('');
+  const [aiBusy, setAiBusy] = useState(false);
+  const [screen, setScreen] = useState('onboarding');
+  const [theme, setTheme] = useState('light');
 
-  if (!student.degree_code) {
-    return (
-      <div className="card" style={{ textAlign: 'center', padding: '3rem' }}>
-        <h2 style={{ fontFamily: 'var(--font-display)', marginBottom: '1rem' }}>No degree selected</h2>
-        <button className="btn btn-primary" onClick={() => navigate('/setup')}>Go to Setup</button>
-      </div>
-    );
-  }
-
-  const audit = graduationAudit();
+  const courses = coursesData;
+  const programs = programsData;
+  const majors = majorsData;
+  const minors = minorsData;
   const program = programs[student.degree_code];
-  const progress = Math.min(100, Math.round(((audit?.total_units_completed || 0) / (audit?.total_units_required || 144)) * 100));
+  const major = majors[student.major_code];
+  const minor = minors[student.minor_code];
+  const availableMajors = program?.available_majors || [];
+  const availableMinors = program?.available_minors || [];
 
-  // Course mapping: show how each completed course is used
-  const courseUsage = student.completed_courses.map(code => {
-    const course = courses[code];
-    const uses = [];
-    // Check if it's a core course
-    const isCore = (program?.rules || []).some(r =>
-      r.type === 'course_requirement' && (r.courses || []).includes(code)
-    );
-    if (isCore) uses.push('Core requirement');
+  const context = useMemo(() => ({ student, courses, programs, majors, minors }), [student, courses, programs, majors, minors]);
+  const plan = useMemo(() => (student.degree_code ? buildDegreePlan(context) : null), [student.degree_code, context]);
+  const validation = useMemo(() => (plan ? validateTimeline(plan, context) : null), [plan, context]);
+  const expectedProgress = getExpectedProgress(student, program || {});
+  const requiredCourses = getRequiredCourses(program, major, minor);
 
-    const major = majors[student.major_code];
-    if (major) {
-      if (major.required_courses.includes(code)) uses.push(`Major required (${major.name})`);
-      else if (major.elective_courses.includes(code)) uses.push(`Major elective (${major.name})`);
+  useEffect(() => {
+    let cancelled = false;
+
+    async function loadInterests() {
+      if (!student.degree_code) {
+        setInterestOptions(DEFAULT_INTERESTS.slice(0, 8));
+        return;
+      }
+
+      const local = fallbackInterests(program, major);
+      setInterestOptions(local);
+
+      try {
+        const response = await suggestInterestsAI({
+          student,
+          program,
+          major,
+          catalogue_interests: DEFAULT_INTERESTS,
+        });
+        if (!cancelled && response.suggestions?.length) {
+          setInterestOptions(uniqueLabels(response.suggestions.map(item => item.label)).slice(0, 8));
+        }
+      } catch {
+        if (!cancelled) setInterestOptions(local);
+      }
     }
 
-    if (uses.length === 0) uses.push('Elective');
+    loadInterests();
+    return () => {
+      cancelled = true;
+    };
+  }, [student.degree_code, student.major_code, program, major]);
 
-    return { code, name: course?.name || code, units: course?.units || 6, usage: uses.join(', ') };
-  });
+  useEffect(() => {
+    if (screen !== 'building') return undefined;
+
+    const timeout = window.setTimeout(() => {
+      setScreen('calendar');
+    }, 2500);
+
+    return () => window.clearTimeout(timeout);
+  }, [screen]);
+
+  function updateStudent(patch) {
+    setStudent(current => ({ ...current, ...patch }));
+  }
+
+  function toggleInterest(interest) {
+    setStudent(current => {
+      const interests = new Set(current.interests);
+      if (interests.has(interest)) interests.delete(interest);
+      else interests.add(interest);
+      return { ...current, interests: [...interests] };
+    });
+  }
+
+  function addCompletedCourse() {
+    const code = normaliseCode(courseInput);
+    if (!courses[code]) return;
+    setStudent(current => ({
+      ...current,
+      completed_courses: uniqueCodes([...current.completed_courses, code]),
+      current_courses: current.current_courses.filter(existing => existing !== code),
+    }));
+    setCourseInput('');
+  }
+
+  function removeCompletedCourse(code) {
+    setStudent(current => ({
+      ...current,
+      completed_courses: current.completed_courses.filter(existing => existing !== code),
+    }));
+  }
+
+  async function improvePlan() {
+    if (!plan || !validation) return;
+    setAiBusy(true);
+    setAiNote('');
+
+    try {
+      const response = await optimisePlanAI({
+        student,
+        plan,
+        validation,
+        preferences: {
+          workload: student.preferred_workload,
+          assessment: student.assessment_preference,
+          free_text: student.free_text_preferences,
+        },
+      });
+      setStudent(current => ({
+        ...current,
+        planned_courses: uniqueCodes([...current.planned_courses, ...(response.recommended_courses || [])]),
+      }));
+      setAiNote(response.plan_strategy || 'I added a few elective options that fit the plan.');
+    } catch {
+      setAiNote('The plan is already built locally. Gemini suggestions are unavailable right now.');
+    } finally {
+      setAiBusy(false);
+    }
+  }
+
+  const currentProgress = validation?.currentProgress || 0;
+  const plannedProgress = validation?.plannedProgress || 0;
+  const hasIssues = Boolean(validation?.issues?.length);
+  const selectedCompleted = uniqueCodes(student.completed_courses);
 
   return (
-    <div>
-      <h1 style={{ fontFamily: 'var(--font-display)', marginBottom: '1.5rem' }}>Graduation Audit</h1>
-
-      <div className={`alert ${audit?.can_graduate ? 'alert-success' : 'alert-warning'}`} style={{ marginBottom: '1.5rem' }}>
-        <span style={{ fontSize: '1.5rem' }}>{audit?.can_graduate ? '🎓' : '📋'}</span>
-        <div>
-          <strong>{audit?.can_graduate ? 'You are eligible to graduate!' : 'You are not yet eligible to graduate.'}</strong>
-          <div style={{ fontSize: '0.85rem', marginTop: '0.25rem' }}>
-            {audit?.total_units_completed} / {audit?.total_units_required} units completed ({progress}%)
-          </div>
-        </div>
-      </div>
-
-      <div className="card" style={{ marginBottom: '1.5rem' }}>
-        <div className="card-title">Progress</div>
-        <div className="progress-bar" style={{ marginTop: '1rem', height: '12px' }}>
-          <div className="progress-fill" style={{ width: `${progress}%` }} />
-        </div>
-      </div>
-
-      <div className="grid grid-2">
-        <div className="card">
-          <div className="card-title" style={{ color: 'var(--green)' }}>✓ Completed Requirements</div>
-          {audit?.completed?.map((r, i) => (
-            <div key={i} className="check-item">
-              <span className="check-icon done">✓</span>
-              <span className="check-text">{r.description}</span>
-            </div>
-          ))}
-          {!audit?.completed?.length && (
-            <p style={{ color: 'var(--text-dim)', fontSize: '0.9rem', padding: '1rem 0' }}>No requirements completed yet</p>
-          )}
-        </div>
-
-        <div className="card">
-          <div className="card-title" style={{ color: 'var(--red)' }}>✗ Missing Requirements</div>
-          {audit?.missing?.map((r, i) => (
-            <div key={i} className="check-item">
-              <span className="check-icon missing">✗</span>
-              <span className="check-text">{r.description}</span>
-            </div>
-          ))}
-          {!audit?.missing?.length && (
-            <p style={{ color: 'var(--text-dim)', fontSize: '0.9rem', padding: '1rem 0' }}>All requirements met!</p>
-          )}
-        </div>
-      </div>
-
-      {courseUsage.length > 0 && (
-        <div className="card" style={{ marginTop: '1.5rem' }}>
-          <div className="card-title">Course Usage Map</div>
-          <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', marginBottom: '1rem' }}>
-            How each completed course counts toward your degree
-          </p>
-          <div className="table-wrap">
-            <table>
-              <thead>
-                <tr><th>Code</th><th>Name</th><th>Units</th><th>Counts Toward</th></tr>
-              </thead>
-              <tbody>
-                {courseUsage.map(c => (
-                  <tr key={c.code}>
-                    <td><strong style={{ color: 'var(--accent)' }}>{c.code}</strong></td>
-                    <td>{c.name}</td>
-                    <td>{c.units}</td>
-                    <td><span className="badge badge-blue">{c.usage}</span></td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
+    <main className={`simple-app ${theme}`}>
+      <ThemeToggle theme={theme} onToggle={() => setTheme(current => (current === 'dark' ? 'light' : 'dark'))} />
+      {screen === 'onboarding' ? (
+        <OnboardingSetup
+          student={student}
+          programs={programs}
+          majors={majors}
+          minors={minors}
+          courses={courses}
+          program={program}
+          availableMajors={availableMajors}
+          availableMinors={availableMinors}
+          interestOptions={interestOptions}
+          selectedCompleted={selectedCompleted}
+          courseInput={courseInput}
+          setCourseInput={setCourseInput}
+          updateStudent={updateStudent}
+          toggleInterest={toggleInterest}
+          addCompletedCourse={addCompletedCourse}
+          removeCompletedCourse={removeCompletedCourse}
+          onComplete={() => setScreen('building')}
+        />
+      ) : screen === 'building' ? (
+        <BuildingPlan />
+      ) : (
+        <CalendarView
+          student={student}
+          program={program}
+          plan={plan}
+          validation={validation}
+          courses={courses}
+          requiredCourses={requiredCourses}
+          currentProgress={currentProgress}
+          plannedProgress={plannedProgress}
+          expectedProgress={expectedProgress}
+          hasIssues={hasIssues}
+          aiNote={aiNote}
+          aiBusy={aiBusy}
+          improvePlan={improvePlan}
+          onEditSetup={() => setScreen('onboarding')}
+        />
       )}
-    </div>
+    </main>
   );
 }
-
-// ── App ──────────────────────────────────────────────────────────────
-function App() {
-  return (
-    <BrowserRouter>
-      <AppProvider>
-        <div className="app">
-          <Nav />
-          <div className="main">
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/setup" element={<SetupPage />} />
-              <Route path="/dashboard" element={<DashboardPage />} />
-              <Route path="/courses" element={<CoursesPage />} />
-              <Route path="/planner" element={<PlannerPage />} />
-              <Route path="/audit" element={<AuditPage />} />
-            </Routes>
-          </div>
-        </div>
-      </AppProvider>
-    </BrowserRouter>
-  );
-}
-
-export default App;
