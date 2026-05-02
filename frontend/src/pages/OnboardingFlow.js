@@ -60,16 +60,18 @@ function ChoicePill({ active, children, onClick }) {
 
 function CoursePicker({ title, field, student, courses, setStudent }) {
   const [search, setSearch] = useState('');
+  const [showResults, setShowResults] = useState(false);
   const selected = uniqueCodes(student[field]);
   const selectedSet = new Set(selected);
+
   const results = useMemo(() => {
     const query = search.trim().toLowerCase();
-    if (!query) return [];
+    if (!query || query.length < 2) return [];
 
     return Object.values(courses)
       .filter(course => !selectedSet.has(course.code))
       .filter(course => {
-        const haystack = `${course.code} ${course.name} ${course.description || ''}`.toLowerCase();
+        const haystack = `${course.code} ${course.name}`.toLowerCase();
         return haystack.includes(query);
       })
       .slice(0, 8);
@@ -80,10 +82,23 @@ function CoursePicker({ title, field, student, courses, setStudent }) {
     if (!courses[normalised] || selectedSet.has(normalised)) return;
     setStudent(current => ({ ...current, [field]: uniqueCodes([...current[field], normalised]) }));
     setSearch('');
+    setShowResults(false);
   };
 
   const removeCourse = code => {
     setStudent(current => ({ ...current, [field]: uniqueCodes(current[field]).filter(existing => existing !== code) }));
+  };
+
+  const handleKeyDown = event => {
+    if (event.key === 'Enter') {
+      if (results.length === 1) {
+        addCourse(results[0].code);
+      } else if (results.length > 0) {
+        // Just add the first one if multiple
+        addCourse(results[0].code);
+      }
+    }
+    if (event.key === 'Escape') setShowResults(false);
   };
 
   return (
@@ -94,26 +109,33 @@ function CoursePicker({ title, field, student, courses, setStudent }) {
           <p>{selected.length} courses · {sumUnits(courses, selected)} units</p>
         </div>
       </div>
-      <div className="search-input">
-        <Search size={16} />
-        <input
-          className="input"
-          placeholder="Search by code or name"
-          value={search}
-          onChange={event => setSearch(event.target.value)}
-          onKeyDown={event => event.key === 'Enter' && addCourse(search)}
-        />
-      </div>
-      {results.length > 0 && (
-        <div className="picker-results">
-          {results.map(course => (
-            <button key={course.code} type="button" onClick={() => addCourse(course.code)}>
-              <span><strong>{course.code}</strong> {course.name}</span>
-              <Plus size={16} />
-            </button>
-          ))}
+      <div className="search-container">
+        <div className="search-input">
+          <Search size={16} />
+          <input
+            className="input"
+            placeholder="Search by code or name..."
+            value={search}
+            onFocus={() => setShowResults(true)}
+            onChange={event => {
+              setSearch(event.target.value);
+              setShowResults(true);
+            }}
+            onKeyDown={handleKeyDown}
+          />
         </div>
-      )}
+        {showResults && results.length > 0 && (
+          <div className="picker-results-dropdown">
+            {results.map(course => (
+              <button key={course.code} type="button" onClick={() => addCourse(course.code)}>
+                <span className="result-code">{course.code}</span>
+                <span className="result-name">{course.name}</span>
+                <Plus size={14} />
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
       <div className="selected-course-grid">
         {selected.map(code => (
           <div key={code} className="selected-course">
